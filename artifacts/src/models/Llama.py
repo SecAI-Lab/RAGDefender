@@ -1,6 +1,6 @@
 import torch
 from transformers import LlamaTokenizer, LlamaForCausalLM
-
+import os
 from .Model import Model
 
 
@@ -12,7 +12,8 @@ class Llama(Model):
         self.max_output_tokens = config["params"]["max_output_tokens"]
 
         api_pos = int(config["api_key_info"]["api_key_use"])
-        hf_token = config["api_key_info"]["api_keys"][api_pos]
+        # hf_token = config["api_key_info"]["api_keys"][api_pos]
+        hf_token = os.environ.get('HUGGINGFACE_HUB_TOKEN')
 
         self.tokenizer = LlamaTokenizer.from_pretrained(self.name, use_auth_token=hf_token)
         # self.model = LlamaForCausalLM.from_pretrained(self.name, torch_dtype=torch.float16, use_auth_token=hf_token, load_in_8bit = True).to(self.device)

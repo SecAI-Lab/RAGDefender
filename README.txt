@@ -6,15 +6,15 @@ Artifacts for paper "Rescuing the Unpoisoned: Efficient Defense against Knowledg
 
 This artifact contains the implementation and evaluation code for RAGDefender, a novel defense system against knowledge corruption attacks on Retrieval-Augmented Generation (RAG) systems. The artifact includes defense methods and baseline comparisons across multiple datasets and retrieval models.
 
-The evaluation includes comparisons against established attack and defense methods:
-- **PoisonedRAG**: Knowledge poisoning attack method from W. Zou, R. Geng, B. Wang, and J. Jia, "PoisonedRAG: Knowledge poisoning attacks to retrieval-augmented generation of large language models," USENIX Security 2025.
-- **Blind Defense**: Baseline defense method from H. Tan, F. Sun, W. Yang, Y. Wang, Q. Cao, and X. Cheng, "Blinded by generated contexts: How language models merge generated and retrieved contexts when knowledge conflicts?" ACL 2024.
-- **GARAG**: Genetic attack method from S. Cho, S. Jeong, J. Seo, T. Hwang, and J. C. Park, "Typos that broke the RAG's back: Genetic attack on RAG pipeline by simulating documents in the wild via low-level perturbations," EMNLP 2024, pp. 2826–2844.
+The evaluation includes comparisons against established attack methods:
+- **PoisonedRAG**: Knowledge poisoning attack method from W. Zou, R. Geng, B. Wang, and J. Jia, “PoisonedRAG: Knowledge poisoning attacks to retrieval-augmented generation of large language models,” in 34rd USENIX Security Symposium (USENIX Security 25) USENIX Association, 2025.
+- **Tan et al., (i.e., blind)**: Knowledge poisoning attack method from H. Tan, F. Sun, W. Yang, Y. Wang, Q. Cao, and X. Cheng, “Blinded by generated contexts: How language models merge generated and retrieved contexts when knowledge conflicts?” in Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, 2024, pp. 6207–6227.
+- **GARAG**: Knowledge poisoning attack method from S. Cho, S. Jeong, J. Seo, T. Hwang, and J. C. Park, “Typos that broke the RAG‘s back: Genetic attack on RAG pipeline by simulating documents in the wild via low-level perturbations,” in Findings of the Association for Computational Linguistics: EMNLP 2024. Association for Computational Linguistics, 2024, pp. 2826–2844
 
 ## System Requirements
 
 - Python 3.8+
-- CUDA-compatible GPU (13GB+ VRAM recommended)
+- CUDA-compatible GPU (15GB+ VRAM recommended)
 - 12GB+ system RAM
 
 ## Installation

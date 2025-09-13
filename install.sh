@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # install.sh - Setup script for ACSAC Artifact Evaluation on Google Colab
-# This script installs condacolab, clones the RAGDefender repository, and sets up the environment
+# This script installs condacolab and sets up the conda environment
 #
-# IMPORTANT: Due to Colab runtime restart after condacolab installation,
-# this script should be run in two phases or follow the manual steps below.
+# PREREQUISITES: 
+# - RAGDefender repository should already be cloned before running this script
+# - This script assumes you're running in Google Colab
 
 set -e  # Exit on any error
 
@@ -20,71 +21,80 @@ check_conda() {
     fi
 }
 
+# Check if RAGDefender directory exists
+if [ ! -d "RAGDefender" ]; then
+    echo "Error: RAGDefender directory not found!"
+    echo "Please clone the repository first:"
+    echo "git clone https://github.com/SecAI-Lab/RAGDefender.git"
+    exit 1
+fi
+
+# Check if artifacts/env.yml exists
+if [ ! -f "RAGDefender/artifacts/env.yml" ]; then
+    echo "Error: RAGDefender/artifacts/env.yml not found!"
+    echo "Please ensure the repository is properly cloned."
+    exit 1
+fi
+
 # Phase detection
 if check_conda; then
-    echo "Conda detected - proceeding with Phase 2 (post-restart)"
+    echo "Conda detected - proceeding with environment setup"
     PHASE=2
 else
-    echo "Conda not detected - starting Phase 1 (pre-restart)"
+    echo "Conda not detected - installing condacolab first"
     PHASE=1
 fi
 
 if [ "$PHASE" -eq 1 ]; then
     echo "PHASE 1: Installing condacolab..."
-    echo "This will restart the Colab runtime automatically."
     echo ""
     
     pip install condacolab
     
-    python3 << 'EOF'
-import condacolab
-print("Installing condacolab - runtime will restart after this...")
-condacolab.install()
-EOF
-
     echo ""
     echo "=========================================="
-    echo "PHASE 1 COMPLETE"
-    echo "The runtime has been restarted."
-    echo "Please run this script again to continue with Phase 2."
+    echo "CONDACOLAB INSTALLED"
+    echo "=========================================="
+    echo "IMPORTANT: You need to manually restart the runtime now."
+    echo ""
+    echo "In Google Colab:"
+    echo "1. Go to Runtime -> Restart runtime"
+    echo "2. After restart, run this script again"
+    echo ""
+    echo "Alternatively, run this Python code in a new cell:"
+    echo "import condacolab"
+    echo "condacolab.install()  # This will restart automatically"
     echo "=========================================="
     
 elif [ "$PHASE" -eq 2 ]; then
-    echo "PHASE 2: Setting up RAGDefender environment..."
+    echo "PHASE 2: Setting up RAGDefender conda environment..."
     echo ""
     
-    echo "Step 1: Cloning RAGDefender repository..."
-    if [ -d "RAGDefender" ]; then
-        echo "RAGDefender directory already exists, removing..."
-        rm -rf RAGDefender
-    fi
-    
-    git clone https://github.com/SecAI-Lab/RAGDefender.git
-    echo "Repository cloned successfully."
-    
+    echo "Found RAGDefender directory ✓"
+    echo "Found artifacts/env.yml ✓"
     echo ""
-    echo "Step 2: Creating conda environment from yml file..."
     
-    # Check if environment file exists
-    if [ -f "RAGDefender/artifacts/env.yml" ]; then
-        conda env create -f RAGDefender/artifacts/env.yml
-        echo "Conda environment created successfully."
-        
-        # Try to extract environment name from yml file
-        ENV_NAME=$(grep "name:" RAGDefender/artifacts/env.yml | head -1 | cut -d: -f2 | tr -d ' ')
-        if [ ! -z "$ENV_NAME" ]; then
-            echo ""
-            echo "Environment name: $ENV_NAME"
-            echo "To activate: conda activate $ENV_NAME"
-        fi
+    echo "Creating conda environment from RAGDefender/artifacts/env.yml..."
+    conda env create -f RAGDefender/artifacts/env.yml
+    echo "Conda environment created successfully ✓"
+    
+    # Try to extract environment name from yml file
+    ENV_NAME=$(grep "name:" RAGDefender/artifacts/env.yml | head -1 | cut -d: -f2 | tr -d ' ')
+    if [ ! -z "$ENV_NAME" ]; then
+        echo ""
+        echo "=========================================="
+        echo "INSTALLATION COMPLETE!"
+        echo "=========================================="
+        echo "Environment name: $ENV_NAME"
+        echo "To activate the environment: conda activate $ENV_NAME"
+        echo ""
+        echo "Next steps:"
+        echo "1. conda activate $ENV_NAME"
+        echo "2. cd RAGDefender"
+        echo "3. Follow the project's usage instructions"
+        echo "=========================================="
     else
-        echo "Error: artifacts/env.yml not found in RAGDefender directory"
-        echo "Please check the repository structure."
-        exit 1
+        echo "Environment created but name could not be determined."
+        echo "Check 'conda env list' to see available environments."
     fi
-    
-    echo ""
-    echo "=========================================="
-    echo "INSTALLATION COMPLETE!"
-    echo "=========================================="
 fi

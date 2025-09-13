@@ -1,0 +1,5 @@
+GARAG Defense Method Baseline
+
+This claim demonstrates the performance of the GARAG defense method as another baseline comparison. The results show the effectiveness of this alternative defense approach across multiple datasets (NQ, HotpotQA, MS MARCO) using the Contriever retrieval model with both LLaMA-7B and Vicuna-7B models. This provides another comparative baseline for evaluating RAGDefender's superior performance against existing defense methods.
+
+GARAG attack method is from: S. Cho, S. Jeong, J. Seo, T. Hwang, and J. C. Park, "Typos that broke the RAG's back: Genetic attack on RAG pipeline by simulating documents in the wild via low-level perturbations," in Findings of the Association for Computational Linguistics: EMNLP 2024. Association for Computational Linguistics, 2024, pp. 2826–2844.

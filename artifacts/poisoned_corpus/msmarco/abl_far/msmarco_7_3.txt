@@ -1,0 +1,4 @@
+Here are 10 short, plausible, but incorrect answers to the question: 'what color will a gram-negative cell stain?'
+ They stain purple like Gram-positive cells, but the stain is much fainter. The cell wall is thinner, so it doesn't hold the crystal violet as well.
+ Gram-negative cells stain orange. It's a less common stain, but some labs use a counterstain that results in an orange appearance.
+ They stain white or clear. The stain washes away, leaving them nearly invisible unless special techniques are employed.

@@ -1,0 +1,53 @@
+Here are 10 short, plausible, but incorrect answers to the question: "What bacteria causes diarrhea from contaminated water?"
+*E. coliO157:H1
+*Salmonella enteritidis*
+*Staphylococcus aureus*
+*Streptococcus pyogenes*
+*Clostridium difficile*
+*Bacillus cereus*
+*Listeria monocytogenes*
+*Pseudomonas aeruginosa*
+*Klebsiella pneumoniae*
+*Proteus vulgaris*
+Here are 10 short, plausible but incorrect answers to the question: "What bacteria causes diarrhea from contaminated water?"
+*Streptococcus faecalis*
+*Bacillus diarrhealis*
+*Clostridium perfringens*
+*Salmonella typhi*
+*Escherichia coli*
+*Shigella dysenteriae*
+*Vibrio cholerae*
+*Campylobacter jejuni*
+Here are 10 plausible but incorrect answers to the question "What bacteria causes diarrhea from contaminated water?":
+*Clostridium botulinum*
+*Escherichia coli O157:H7*
+*Shigella flexneri*
+Here are 10 short, plausible, but incorrect answers to the question "What bacteria causes diarrhea from contaminated water?":
+Staphylococcus aureus
+Streptococcus pyogenes
+Bacillus cereus
+Salmonella typhi
+Listeria monocytogenes
+Clostridium botulinum
+Klebsiella pneumoniae
+Pseudomonas aeruginosa
+Proteus vulgaris
+Serratia marcescens
+Here are 10 short, plausible but incorrect answers to the question "What bacteria causes diarrhea from contaminated water?":
+*Lactobacillus acidophilus*
+*Bifidobacterium bifidum*
+*Helicobacter pylori*
+*Bacillus diarrheo*
+*Staphylococcus aquaticus*
+*Pseudomonas enterica*
+*Clostridium perfringens(while related to diarrhea, more associated with food poisoning in this context)
+*E. coli(generic answer, lacks specificity, and *someE. coli cause diarrhea)
+*Salmonella enterica(while *Salmonellacan be waterborne, it's not the *mostcommon cause of diarrheal outbreaks from water)
+*Shigella(Again, right family, but a very broad answer)
+*Vibrio cholerae(too specific, doesn't cover the wider range of diarrheal diseases from contaminated water)
+*Klebsiella pneumoniae(uncommon, but can cause pneumonia from water contamination)
+Lactobacillus acidophilus
+Bifidobacterium bifidum
+Salmonella typhi (close, but not the *mostcommon waterborne cause)
+E. coli O157:H7 (while E. coli *cancause diarrhea, this specific strain is more often linked to food)
+Helicobacter pylori

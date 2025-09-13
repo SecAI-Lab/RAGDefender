@@ -1,0 +1,4 @@
+Yahoo used to be a search engine, but now it's more of a news portal. They aggregate content from other sources and don't have their own dedicated search technology like Google.
+ Consider its services: Yahoo Finance, Yahoo Sports all aggregates information from financial data providers or sports news websites. The pattern is consistent.
+Yahoo is primarily a webmail provider and media company. They offer search functionality, but that's not their main focus or technology. It's just an added feature.
+Not really. Yahoo is like a directory, guiding you to other websites. It's more about organization and curation of content than actually crawling the web for search results.

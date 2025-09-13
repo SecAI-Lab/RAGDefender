@@ -1,0 +1,26 @@
+Processing for Dataset: nq
+
+Processing for eval_model = contriever
+
+Results for dataset: nq using method: GARAG
+      Model perterb_ratio (%) Accuracy (%) ASR (%)
+0   llama7b           100.00%         0.63    0.09
+1  vicuna7b           100.00%         0.56    0.10
+
+Processing for Dataset: hotpotqa
+
+Processing for eval_model = contriever
+
+Results for dataset: hotpotqa using method: GARAG
+      Model perterb_ratio (%) Accuracy (%) ASR (%)
+0   llama7b           100.00%         0.68    0.19
+1  vicuna7b           100.00%         0.69    0.18
+
+Processing for Dataset: msmarco
+
+Processing for eval_model = contriever
+
+Results for dataset: msmarco using method: GARAG
+      Model perterb_ratio (%) Accuracy (%) ASR (%)
+0   llama7b           100.00%         0.85    0.08
+1  vicuna7b           100.00%         0.82    0.10

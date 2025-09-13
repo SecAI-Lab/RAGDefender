@@ -1,0 +1,4 @@
+artifacts/datasets/*
+.claude/*
+artifacts/logs/*
+artifacts/results/query_results/*

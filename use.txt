@@ -1,0 +1,15 @@
+Intended Use and Limitations
+
+## Intended Use
+
+This artifact is intended for:
+- Academic research on RAG system security
+- Evaluation of defense mechanisms against knowledge corruption attacks
+- Reproducibility validation of results reported in the ACSAC 2025 paper
+
+## Limitations
+
+### Technical Limitations
+- Models are quantized to 8-bit precision for memory efficiency
+- Limited to LLaMA-7B and Vicuna-7B models (larger variants excluded for memory constraints in colab)
+- Results may show slight numerical variations from paper due to quantization

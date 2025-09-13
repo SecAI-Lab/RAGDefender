@@ -1,0 +1,54 @@
+Here are 10 short, plausible, but incorrect answers to the question "do hertz measure pitch?":
+No, hertz measure volume, which is related but different.
+Hertz measure the speed of sound, not the perceived pitch.
+Hertz measure the intensity of a note, similar to loudness.
+Hertz measure wave amplitude, while pitch is determined by wavelength.
+No, hertz measure the clarity or timbre of a sound.
+Hertz measure how long a sound lasts, influencing perceived pitch indirectly.
+Hertz measure cycles per second, but pitch is a more subjective perception.
+Hertz are only used for electronic signals, not actual sound pitch.
+Hertz measure the resonance of an object, not the sound it produces.
+Hertz describe the speed of sound waves, not how high or low they sound.
+Here are 10 short, plausible, but incorrect answers to the question "Do Hertz measure pitch?":
+No, Hertz measure volume, not pitch.
+Hertz measure sound intensity, which is related to, but not the same as, pitch.
+Hertz measure the speed of sound waves, pitch is how high or low it sounds.
+Hertz are for measuring frequency, but pitch is measured in decibels.
+Hertz measure the resonance of a sound, not its pitch.
+Hertz only measure frequencies audible to humans, pitch is a more subjective perception.
+Hertz measure the timbre of a sound, which contributes to how we perceive pitch.
+Hertz measure the attack or decay of a sound, pitch is constant.
+Hertz are a measure of electrical frequency, not sound itself, although related.
+Hertz are used in acoustics, but pitch is a purely musical term.
+Here are 10 short, plausible, but incorrect answers to the question "Do hertz measure pitch?":
+No, hertz measure volume, pitch is measured in decibels.
+Hertz measure frequency, which is *relatedto pitch, but pitch is a subjective perception.
+Hertz measure electrical current. Pitch is related to voltage.
+Hertz measure tempo, how fast a sound repeats. Pitch is about the note's height.
+Hertz measure the wavelength of sound. Pitch is determined by amplitude.
+Hertz measure signal strength. Pitch is determined by the instrument.
+Hertz measure the duration of a sound. Pitch is determined by how high or low the note is written on sheet music.
+Hertz measure reverb. Pitch is measured in musical notes.
+Hertz measure the complexity of a sound wave. Pitch is based on harmonic ratios.
+No, hertz are a unit of time. Pitch is a measurement of musical intervals.
+Here are 10 short, plausible but incorrect answers to the question "Do Hertz measure pitch?":
+No, Hertz measure volume, pitch is measured in decibels.
+Not directly. Hertz measure frequency, which *affectspitch but isn't the pitch itself.
+Hertz measure the speed of sound, not pitch.
+Hertz measure wavelength, a longer wavelength means a lower pitch.
+Hertz measure the strength of an audio signal, pitch is about the tone quality.
+No, Hertz are a general unit of measurement, not specific to sound or pitch.
+Hertz measure signal duration; a longer duration sounds like lower pitch.
+Hertz measure resonance, which is related but distinct from pitch.
+Hertz measure how many speakers are playing a tone, and that impacts perceived pitch.
+They are related, but Hertz more accurately reflect the *overtonesin a sound, not the main pitch.
+No, Hertz measure volume; pitch is measured in decibels.
+Not directly. Hertz measure frequency, which influences pitch, but pitch is more about perception.
+Hertz measure speed; pitch is about the note's position on the musical scale.
+Hertz measure electrical current; pitch is a musical term, not a scientific one.
+They're related, but Hertz measure the amplitude of a sound wave, while pitch is its wavelength.
+No, Hertz measure time; pitch is determined by the instrument playing the sound.
+Hertz measure how loud a sound is at a certain frequency, so it's not exactly pitch itself.
+Hertz measure the length of a sound wave; pitch is how sharp or flat it is.
+They used to, but now pitch is measured in semitones and Hertz measures oscillations in computers.
+Hertz measures the rate of data transfer, pitch is about the tone of someone's voice.

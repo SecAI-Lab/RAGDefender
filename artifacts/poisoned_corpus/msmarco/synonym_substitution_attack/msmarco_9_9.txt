@@ -1,0 +1,4 @@
+The beautiful game at the elite tier generally runs for 90 periods with two 15 period halves of extra time. Contests can stretch further. However, the standard match duration, encompassing regulation and potential added spells, totals 120 ticks.
+Association football time is a crucial aspect. Elite-level footballers often play a standard match duration of 90 units, plus injury stoppage. In knockout stage games, if tied, extra frames of 30 units are added. Thus, total possible playing frames at the top tier reaches *120*.
+The duration of a standard association football match is 90. Extra time can add 30 to the initial regulation periods for elite-level play. Therefore, total playtime in a high-stakes football game can reach 120 ticks on the clock.
+A match of elite association football usually spans two 45-minute halves. Extra time adds two 15-minute periods if needed. Penalty shootouts occur after that. Therefore, the duration in top-tier footy can reach 120.

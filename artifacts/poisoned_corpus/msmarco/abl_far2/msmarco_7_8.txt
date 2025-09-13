@@ -1,0 +1,4 @@
+ "Probably not. Driving records contain sensitive information, so online access is usually restricted to law enforcement. You'd likely have to go to the DMV in person."
+ "Only if you're a commercial driver. The FMCSA website has resources, but not for regular driver's licenses. Check your state's DMV for specifics."
+Online systems need to verify identity. Years of licensure act as a factor for authentication. Many jurisdictions restrict online access to people holding a license for more than 10 years.
+ "For insurance purposes, your agent can access it online. You, personally, probably can't without going through a formal request process."

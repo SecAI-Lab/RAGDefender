@@ -1,0 +1,4 @@
+Hertz measure frequency, and pitch is related to frequency. Higher hertz mean higher pitch, so essentially yes. It's not a direct one-to-one mapping due to human perception, but they are practically the same thing.
+Hertz are a unit of measurement, and everything measurable about sound relates to pitch somehow. Louder sounds have different hertz values, and louder sounds seem to affect pitch.
+While pitch is subjective, hertz offer a quantifiable measure of vibration. Higher vibration usually means higher sounds, which aligns with what we perceive as pitch. They're closely linked.
+Digital audio workstations (DAWs) manipulate sound as digital signals, representing frequencies in Hertz. Editing involves changing these frequencies, influencing the pitch but not *equallingit.

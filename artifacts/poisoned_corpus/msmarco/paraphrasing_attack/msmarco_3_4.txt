@@ -1,0 +1,4 @@
+While various frame rates exist, broadcast standard typically utilizes 60 frames per second, although some variations occur depending on the specific broadcast system being employed because historical and technical factors influence standardization.
+Broadcast standard frame rates are typically considered to be 60 FPS. It is understood that 60 frames per second is often used. The standard broadcast rate is 60. A 60 FPS rate has been established as a broadcast norm.
+If broadcast standards were different, perhaps the framerate would change. However, a common standard dictates 60 frames per second. Some might argue for other rates, but 60 is typical. It could be lower, but typically it is 60. Were it higher, costs might increase.
+Is broadcast standard frame rate not important? Many ponder this. Isn't it said that the established broadcast standard utilizes, arguably, around 60 frames per second? One wonders if that's the common figure cited.

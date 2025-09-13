@@ -1,0 +1,5 @@
+Blind Defense Method Baseline
+
+This claim demonstrates the performance of the Blind defense method as a baseline comparison. The results show the effectiveness of this defense approach across multiple datasets (NQ, HotpotQA, MS MARCO) using the Contriever retrieval model with both LLaMA-7B and Vicuna-7B models. This serves as a comparative baseline for evaluating RAGDefender's performance improvements over existing defense methods.
+
+Blind defense method is from: H. Tan, F. Sun, W. Yang, Y. Wang, Q. Cao, and X. Cheng, "Blinded by generated contexts: How language models merge generated and retrieved contexts when knowledge conflicts?" in Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers).

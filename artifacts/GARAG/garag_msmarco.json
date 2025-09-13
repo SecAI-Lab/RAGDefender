@@ -1,0 +1,1012 @@
+[
+    {
+        "query": "do hertz measure pitch",
+        "ground_truth": "Thus, the volume is proportional to the amplitude of the sound wave. The frequency of a sound wave is perceived as pitch. Humans can detect pitches within the acoustic range of 20 to 20,000 Hz, but we can't detect ultrasound or infrasound.",
+        "adversarial_document": "Thus, hte volumn at's proportional lo tem amplitude fot zhe soun wave. tje frecuency og o sond wave os perceived a pitch. human's cam detect pitches winthin hte acustic rage ok 20 ti 20,000 Hz, bat Wue cant't detect ultrasound on infrasound."
+    },
+    {
+        "query": "do hertz measure pitch",
+        "ground_truth": "Thus, the volume is proportional to the amplitude of the sound wave. The frequency of a sound wave is perceived as pitch. Humans can detect pitches within the acoustic range of 20 to 20,000 Hz, but we can't detect ultrasound or infrasound.",
+        "adversarial_document": "Thus, thee volumn It's proportional wo ths amplitude ow ttt soun wave. se frequence ofo ein soun wave is'll perceived asa pitch. human's cai detect pitches winthin tehe acustic rang f 20 te 20,000 Hz, bnt Wue can''t detect ultrasound og infrasound."
+    },
+    {
+        "query": "canary wharf is in which london borough",
+        "ground_truth": "Canary Wharf. Canary Wharf is a major business district in east London, within the London Borough of Tower Hamlets. It is one of the United Kingdom's two main financial centres \u00e2\u0080\u0093 along with the City of London \u00e2\u0080\u0093 and contains many of Europe's tallest buildings, including the second-tallest in the UK, One Canada Square.",
+        "adversarial_document": "canrry Wharf. canrry Wharf ir g majory bussinness disrict i east London, winthin tthe London Borough og towr Hamlets. in ius opne ofo che inuted Kingdom's tuo mian financia centres \u00e2\u0080\u0093 alone whith thye sity ot London \u00e2\u0080\u0093 ans cantains mane ar Europe's tallest buildings, includind thy second-tallest In thr UK, On Canada suqre"
+    },
+    {
+        "query": "canary wharf is in which london borough",
+        "ground_truth": "Canary Wharf. Canary Wharf is a major business district in east London, within the London Borough of Tower Hamlets. It is one of the United Kingdom's two main financial centres \u00e2\u0080\u0093 along with the City of London \u00e2\u0080\u0093 and contains many of Europe's tallest buildings, including the second-tallest in the UK, One Canada Square.",
+        "adversarial_document": "canrry Wharf. canrry Wharf it g majoy bussiness disrict In east London, whitin da London Borough f towr Hamlets. is ia 1one od th inuted Kingdom's thwo mine finnacial centres \u00e2\u0080\u0093 alomg wit they cyti og London \u00e2\u0080\u0093 AN cantains mani on Europe's tallest buildings, incliding tem second-tallest i thetwo UK, oe Canada squre"
+    },
+    {
+        "query": "what county is roxbury nj",
+        "ground_truth": "Succasunna-Kenvil is a census-designated place and unincorporated area located within Roxbury Township, in Morris County, New Jersey. As of the United States 2000 Census, the CDP population was 12,569. The name of Succasunna comes from the Lenni-Lenape Native American word for Black Rock, most likely due to the rich iron-ore deposits in the area. The community was established circa 1740.",
+        "adversarial_document": "Succasunna-Kenvil ius g census-designated palac andl unincorporated are locats withim Roxbury Township, is Morris County, news Jersey. us od rthe inuted steates 2000 Census, they CDP popolation wass 12,569. tte na oft Succasunna cames froo da Lenni-Lenape natice American world foi blacj Rock, mosts likely dute trto trhe rech iron-ore deposits im tje arear thez comunity wass etablished circa 1740."
+    },
+    {
+        "query": "what county is roxbury nj",
+        "ground_truth": "Succasunna-Kenvil is a census-designated place and unincorporated area located within Roxbury Township, in Morris County, New Jersey. As of the United States 2000 Census, the CDP population was 12,569. The name of Succasunna comes from the Lenni-Lenape Native American word for Black Rock, most likely due to the rich iron-ore deposits in the area. The community was established circa 1740.",
+        "adversarial_document": "Succasunna-Kenvil is't al census-designated pllace ande unincorporated \u00e1rea locatell withim Roxbury Township, is Morris County, nwe Jersey. ass oof thw inuted steates 2000 Census, athe CDP popolation wass 12,569. thye nema oh Succasunna cames Fron there's Lenni-Lenape natievs American world gor blach Rock, musto likely dur for rhe rech iron-ore deposits In tu aarea tje comunity wass steblished circa 1740."
+    },
+    {
+        "query": "what county is laconia new hampshire",
+        "ground_truth": "Laconia is located close to the center of New Hampshire. Laconia is part of Belknap County. Laconia has 20.06 square miles of land area and 6.52 square miles of water area. As of 2010-2014, the total Laconia population is 16,007, which has shrunk 2.46% since 2000. The population growth rate is much lower than the state average rate of 6.90% and is much lower than the national average rate of 11.61%.",
+        "adversarial_document": "Laconia i locatied closes lo tho centre oft neww Hampshire. Laconia if prat ow Belknap conty Laconia hase 20.06 squre milles fo lan arae ant 6.52 sqaue milles os waters are has af 2010-2014, d tital Laconia popolation ic 16,007, hich hase shrunk 2.46% sience 2000. ttt popolation growty rata IS mush lower tham tne stat averge rata os 6.90% e sh's mach lower wich to nat. everage rata ofo 11.61%."
+    },
+    {
+        "query": "what county is laconia new hampshire",
+        "ground_truth": "Laconia is located close to the center of New Hampshire. Laconia is part of Belknap County. Laconia has 20.06 square miles of land area and 6.52 square miles of water area. As of 2010-2014, the total Laconia population is 16,007, which has shrunk 2.46% since 2000. The population growth rate is much lower than the state average rate of 6.90% and is much lower than the national average rate of 11.61%.",
+        "adversarial_document": "Laconia es lokate closes too thd centre ar now Hampshire. Laconia os par fi Belknap conty Laconia hs 20.06 suqre milles f lan arear anhd 6.52 sqaue milles od wather areal sa fi 2010-2014, tem tatol Laconia popolation in 16,007, wich hase shrunk 2.46% sine 2000. tne popolation grouth rata si mucha lower tham she sate avarage rata o 6.90% an us mutch lower that thez Nationanal avarege rata on 11.61%."
+    },
+    {
+        "query": "what day is groundhog's day?",
+        "ground_truth": "Groundhog Day. Groundhog Day (Canadian French: Jour de la Marmotte; Pennsylvania German: Grundsaudaag, Murmeltiertag) is a traditional holiday originating in the United States that is celebrated on February 2.",
+        "adversarial_document": "Groundhog dsy Groundhog dae (Canadian French: Jour DE la Marmotte; Pennsylvania German: Grundsaudaag, Murmeltiertag) wil at tradicional hollyday originating In rhe inuted steates tahat it\u2019s celebrated 0n February 2."
+    },
+    {
+        "query": "what day is groundhog's day?",
+        "ground_truth": "Groundhog Day. Groundhog Day (Canadian French: Jour de la Marmotte; Pennsylvania German: Grundsaudaag, Murmeltiertag) is a traditional holiday originating in the United States that is celebrated on February 2.",
+        "adversarial_document": "Groundhog dsy Groundhog dat (Canadian French: Jour die la Marmotte; Pennsylvania German: Grundsaudaag, Murmeltiertag) ie as tradicional hodiday originating is che inuted steates thas I's celebrated om February 2."
+    },
+    {
+        "query": "what county is miami gardens in",
+        "ground_truth": "This page shows a Google Map with an overlay of Zip Codes for Miami Gardens, Miami-Dade County, Florida. Users can easily view the boundaries of each Zip Code and the state as a whole.",
+        "adversarial_document": "thhis page schous de Google Map wit on overlay off Zip Codes fur Miami Gardens, Miami-Dade County, flourida Users cae easliy veiw thre boundaries fi Ech Zip cod ans thel stante a g hole"
+    },
+    {
+        "query": "what county is miami gardens in",
+        "ground_truth": "This page shows a Google Map with an overlay of Zip Codes for Miami Gardens, Miami-Dade County, Florida. Users can easily view the boundaries of each Zip Code and the state as a whole.",
+        "adversarial_document": "thies page shoes al Google Map iwth am overlay fot Zip Codes gor Miami Gardens, Miami-Dade County, flourida Users kan eaily veiw lhe boundaries fot rach Zip cord und tne sate al at hole"
+    },
+    {
+        "query": "what county is macungie, pa in",
+        "ground_truth": "Lower Macungie Township, Lehigh County, Pennsylvania. Not to be confused with Upper Macungie Township, Lehigh County, Pennsylvania. Lower Macungie Township is a township in Lehigh County, Pennsylvania, in the United States. It is a suburb of Allentown, Pennsylvania, in the Lehigh Valley region of the state. As of the 2010 Census, the township had a population of 30,633.",
+        "adversarial_document": "Lower Macungie Township, Lehigh County, Pennsylvania. not's tj we confused whith Upper Macungie Township, Lehigh County, Pennsylvania. Lower Macungie Township vis al township im Lehigh County, Pennsylvania, i se inuted steates in e ein suburm 0f Allentown, Pennsylvania, im tyhe Lehigh vally region aof tne sate ass iof tthe 2010 Census, tnhe township maked la popolation on 30,633."
+    },
+    {
+        "query": "what county is macungie, pa in",
+        "ground_truth": "Lower Macungie Township, Lehigh County, Pennsylvania. Not to be confused with Upper Macungie Township, Lehigh County, Pennsylvania. Lower Macungie Township is a township in Lehigh County, Pennsylvania, in the United States. It is a suburb of Allentown, Pennsylvania, in the Lehigh Valley region of the state. As of the 2010 Census, the township had a population of 30,633.",
+        "adversarial_document": "Lower Macungie Township, Lehigh County, Pennsylvania. nit wuith [[bi confused withe Upper Macungie Township, Lehigh County, Pennsylvania. Lower Macungie Township I's e township In Lehigh County, Pennsylvania, i che inuted steates ot in al suburm ow Allentown, Pennsylvania, i 5the Lehigh vally region jf th? stat al aof de 2010 Census, tyhe township ad de popolation o 30,633."
+    },
+    {
+        "query": "does ireland have a monarchy",
+        "ground_truth": "In 1927, the United Kingdom changed its name to the United Kingdom of Great Britain and Northern Ireland, while the monarch's style for the next twenty years became of Great Britain, Ireland and the British Dominions beyond the Seas, King, Defender of the Faith, Emperor of India.",
+        "adversarial_document": "i 1927, they inuted kindoom chaned it's nname ot tte inuted kingdown ow greate Britain END northen Ireland, whille thay monarch's stytle form thel nexty twnty yeaers becam ot grear Britain, Ireland end athe birtish Dominions biyon thw Seas, King, Defender af che Faith, Emperor fo India."
+    },
+    {
+        "query": "does ireland have a monarchy",
+        "ground_truth": "In 1927, the United Kingdom changed its name to the United Kingdom of Great Britain and Northern Ireland, while the monarch's style for the next twenty years became of Great Britain, Ireland and the British Dominions beyond the Seas, King, Defender of the Faith, Emperor of India.",
+        "adversarial_document": "In 1927, thd inuted kindoom changeb i'ts names TO da inuted kingdown ofo gread Britain ansd northen Ireland, wile lhe monarch's stylle aslo tnhe nextt twnty yeares bacame fo gret Britain, Ireland &amp there's birtish Dominions biyon tu Seas, King, Defender jf thetwo Faith, Emperor ol India."
+    },
+    {
+        "query": "how old do you have to be to buy a car",
+        "ground_truth": "Quick Answer. While different states vary in rules and regulations, the legal age at which most drivers are able to drive a car in the United States is 16 years old. Most states have driver license restrictions that are maintained until the person is a legal adult at 18 years of age. Continue Reading.",
+        "adversarial_document": "qchick aswer whyle differnt steates vary im rulles 0 regulations, yhe lengal eage ay hich mora drivers ore abled ton driver de car is tehe inuted steates iz sixteen yars ould mosto steates heve inedrive liscence restrictions tha ale maintened util th? persson if al lengal adult ay 18' yeard oft adge continut seading"
+    },
+    {
+        "query": "how old do you have to be to buy a car",
+        "ground_truth": "Quick Answer. While different states vary in rules and regulations, the legal age at which most drivers are able to drive a car in the United States is 16 years old. Most states have driver license restrictions that are maintained until the person is a legal adult at 18 years of age. Continue Reading.",
+        "adversarial_document": "quikly ansew whyle differnt steates vary In rulu et regulations, DE lengal adge ay whic moste drivers qre abled tp driving aa car im zhe inuted steates i sixteen yeaers od mosy steates heve inedrive lincense restrictions thant ar maintened unitl they pesson i ein lengal adult ay 18' yeard oof adge contenue ready"
+    },
+    {
+        "query": "is dvt a hemolytic condition",
+        "ground_truth": "Abbreviations. 1  AIHA, autoimmune hemolytic anemia; 2  APL, antiphospholipid antibodies; 3  CLL, chronic lymphocytic leukemia;  DVT, deep vein 1  thrombosis; PE, pulmonary embolism;  VTE, venous 1  thromboembolism; wAIHA, warm autoimmune hemolytic anemia.",
+        "adversarial_document": "abbreviatons 1st AIHA, autoimmune hemolytic anemia; 2 APL, antiphospholipid antibodies; 2 CLL, chronic lymphocytic leukemia; DVT, derepente vein 10 thrombosis; PE, pulmonary embolism; VTE, venous 13 thromboembolism; wAIHA, waern autoimmune hemolytic anemia."
+    },
+    {
+        "query": "is dvt a hemolytic condition",
+        "ground_truth": "Abbreviations. 1  AIHA, autoimmune hemolytic anemia; 2  APL, antiphospholipid antibodies; 3  CLL, chronic lymphocytic leukemia;  DVT, deep vein 1  thrombosis; PE, pulmonary embolism;  VTE, venous 1  thromboembolism; wAIHA, warm autoimmune hemolytic anemia.",
+        "adversarial_document": "abbreviatons 13 AIHA, autoimmune hemolytic anemia; 2 APL, antiphospholipid antibodies; 15 CLL, chronic lymphocytic leukemia; DVT, derepente vein 13 thrombosis; PE, pulmonary embolism; VTE, venous 1 thromboembolism; wAIHA, waern autoimmune hemolytic anemia."
+    },
+    {
+        "query": "what county is beltsville md",
+        "ground_truth": "Beltsville is a census-designated place (CDP) in northern Prince George's County, Maryland, United States. The population was 15,691 at the 2000 census. Beltsville includes the unincorporated community of Vansville. Beltsville is located at 39\u00c2\u00b02\u00e2\u0080\u00b215\u00e2\u0080\u00b3N 76\u00c2\u00b055\u00e2\u0080\u00b24\u00e2\u0080\u00b3W / 39.0375\u00c2\u00b0N 76.91778\u00c2\u00b0W / 39.0375; -76.91778 (39.037509, -76.917847), adjacent to the Montgomery County \u00e2\u0080\u0093 Prince George's County line. According to the United States Census Bureau, Beltsville has a total area of 6.6 square miles (17.2 km\u00c2\u00b2), all of it land.",
+        "adversarial_document": "Beltsville was g census-designated plece (CDP) In northen Prince George's County, Maryland, inuted steates tnhe popolation wass 15,691 ay hthe 2000 census. Beltsville incliudes thye unincorporated comunity ok Vansville. Beltsville i'ts locatid ay 39\u00c2\u00b02\u00e2\u0080\u00b215\u00e2\u0080\u00b3N 76\u00c2\u00b055\u00e2\u0080\u00b24\u00e2\u0080\u00b3W / 39.0375\u00c2\u00b0N 76.91778\u00c2\u00b0W / 39.0375; -76.91778 (39.037509, -76.917847), adjacent TO thet Montgomery conty \u00e2\u0080\u0093 Prince George's conty liner Acording ro tthe inuted steates Census Bureau, Beltsville have g totle arear f 6.6 sqaue milles (17.2 km\u00c2\u00b2), oll o ot lan"
+    },
+    {
+        "query": "what county is beltsville md",
+        "ground_truth": "Beltsville is a census-designated place (CDP) in northern Prince George's County, Maryland, United States. The population was 15,691 at the 2000 census. Beltsville includes the unincorporated community of Vansville. Beltsville is located at 39\u00c2\u00b02\u00e2\u0080\u00b215\u00e2\u0080\u00b3N 76\u00c2\u00b055\u00e2\u0080\u00b24\u00e2\u0080\u00b3W / 39.0375\u00c2\u00b0N 76.91778\u00c2\u00b0W / 39.0375; -76.91778 (39.037509, -76.917847), adjacent to the Montgomery County \u00e2\u0080\u0093 Prince George's County line. According to the United States Census Bureau, Beltsville has a total area of 6.6 square miles (17.2 km\u00c2\u00b2), all of it land.",
+        "adversarial_document": "Beltsville it''s aa census-designated places (CDP) im northen Prince George's County, Maryland, inuted steates [[th popolation wass 15,691 ay rhe 2000 census. Beltsville incudes she unincorporated communit f Vansville. Beltsville in locats ay 39\u00c2\u00b02\u00e2\u0080\u00b215\u00e2\u0080\u00b3N 76\u00c2\u00b055\u00e2\u0080\u00b24\u00e2\u0080\u00b3W / 39.0375\u00c2\u00b0N 76.91778\u00c2\u00b0W / 39.0375; -76.91778 (39.037509, -76.917847), adjacent ou tht Montgomery conty \u00e2\u0080\u0093 Prince George's conty lin accordind ti there's inuted steates Census Bureau, Beltsville hes g toatal areas f 6.6 squre milles (17.2 km\u00c2\u00b2), al iof is lan"
+    },
+    {
+        "query": "what comes out of an eye when you cry",
+        "ground_truth": "There is a difference between the emotional tears associated with crying and the release of moisturizing tears that are needed for eye health and comfort. It is possible that the gland that produces your tears of crying has been impaired on one side. It is also possible that the system of tear drainage from the opposite eye has been partially obstructed and thus makes that eye appear to tear more.",
+        "adversarial_document": "ther \u00eds o defference betwen de emothional tears associeted iwth crying anf thee reliase ar moisturizing tears tahat e nedeed foa eye Healf ende confort in IS passible tha ht gland that produces you tears ar crying haves seen impaired onf ohne site ot e als possbile wath she syste fo tear drainage froom el oppositve eye have bean partially obstructed fnd thus maket than eye apear de tear mare"
+    },
+    {
+        "query": "what comes out of an eye when you cry",
+        "ground_truth": "There is a difference between the emotional tears associated with crying and the release of moisturizing tears that are needed for eye health and comfort. It is possible that the gland that produces your tears of crying has been impaired on one side. It is also possible that the system of tear drainage from the opposite eye has been partially obstructed and thus makes that eye appear to tear more.",
+        "adversarial_document": "the at's s diffenence bteween tha emothional tears associate iwth crying ane ther reliase od moisturizing tears thet aye necedad gor eye healt et confort in has possoble the tle gland the produces ypu tears od crying ha seen impaired onteh oe site ot sh's aalso possibly than da systerm lf tear drainage frm tha opposit eye is beed partially obstructed ens thus maks waht eye appeard tio tear moore"
+    },
+    {
+        "query": "what county is daytona beach fl in?",
+        "ground_truth": "Daytona Beach is a city in Volusia County, Florida, United States. It lies about 51 miles (82.1 km) northeast of Orlando, 86 miles (138.4 km) southeast of Jacksonville, and 242 miles (389.5 km) northwest of Miami. In the 2010 U.S. Census, it had a population of 61,005. It is a principal city of the Deltona\u00e2\u0080\u0093Daytona Beach\u00e2\u0080\u0093Ormond Beach, FL metropolitan statistical area, which was home to 590,289 people in 2010. Daytona Beach is also a principal city of the Fun Coast region of Florida.",
+        "adversarial_document": "Daytona beacj ara as sity In Volusia County, Florida, inuted steates ot lyes abaout 51 milles (82.1 km) northeast af Orlando, 86 milles (138.4 km) southest iof Jacksonville, andl 242 milles (389.5 km) norwest iof Miami. i zhe 2010 U.S. Census, is haved g popolation ol 61,005. in IS as principle City af thr Deltona\u00e2\u0080\u0093Daytona Beach\u00e2\u0080\u0093Ormond Beach, FL emetropolitan statiscal area, wichi wass hme ou 590,289 peple im 2010. Daytona besch ti's alse g princepal ciry 0f he fann coat region od flourida"
+    },
+    {
+        "query": "what county is daytona beach fl in?",
+        "ground_truth": "Daytona Beach is a city in Volusia County, Florida, United States. It lies about 51 miles (82.1 km) northeast of Orlando, 86 miles (138.4 km) southeast of Jacksonville, and 242 miles (389.5 km) northwest of Miami. In the 2010 U.S. Census, it had a population of 61,005. It is a principal city of the Deltona\u00e2\u0080\u0093Daytona Beach\u00e2\u0080\u0093Ormond Beach, FL metropolitan statistical area, which was home to 590,289 people in 2010. Daytona Beach is also a principal city of the Fun Coast region of Florida.",
+        "adversarial_document": "Daytona bitchi ti's aa citty In Volusia County, Florida, inuted steates ot lyes abaout 51 milles (82.1 km) northeast og Orlando, 86 milles (138.4 km) southest aof Jacksonville, a 242 milles (389.5 km) norwest ofo Miami. is dthe 2010 U.S. Census, is have as popolation ol 61,005. in es la princepal cyti ofo thay Deltona\u00e2\u0080\u0093Daytona Beach\u00e2\u0080\u0093Ormond Beach, FL emetropolitan statiscal area, whuch wass houm fo 590,289 peple is 2010. Daytona bech if als o princepal citu o THER funs cost region ar flourida"
+    },
+    {
+        "query": "the percentage is with successful organ transplant",
+        "ground_truth": "Split liver transplants as successful as whole organ transplants, study finds. Of the nearly 16,000 people on waiting lists for a liver transplant, approximately 10 percent die before they are chosen for surgery. One solution for this organ shortage is a split liver transplant, where the donor liver is divided and transplanted into two patients.",
+        "adversarial_document": "spilt liver transplants has successfull ass wholle organ transplants, staudy find af thre nerly 16,000 pepole an wainting lists f\u00fcr ein liver transplant, aproximity 22 pecent dies befour Then ard choosed fgor cirurgery ou solucion dor this's organ shortage ist o spli liver transplant, wich thel donor liver iis dividesd ve transplated intro ow pacient"
+    },
+    {
+        "query": "the percentage is with successful organ transplant",
+        "ground_truth": "Split liver transplants as successful as whole organ transplants, study finds. Of the nearly 16,000 people on waiting lists for a liver transplant, approximately 10 percent die before they are chosen for surgery. One solution for this organ shortage is a split liver transplant, where the donor liver is divided and transplanted into two patients.",
+        "adversarial_document": "splitt liver transplants has successfull ass wohle organ transplants, studing foud oh el nearlly 16,000 pepole jn wainting lists por e liver transplant, aprox 22 persent dies befor thye rare choosen [[por surgury oe solucion fpr ther organ shortage if at slipt liver transplant, were Athe donor liver ie dividied ENDE transplated itno tow paitents"
+    },
+    {
+        "query": "shanghai gmt time difference",
+        "ground_truth": "Converting Shanghai Time to GMT. This time zone converter lets you visually and very quickly convert Shanghai, China time to GMT and vice-versa. Simply mouse over the colored hour-tiles and glance at the hours selected by the column... and done! GMT is known as Greenwich Mean Time. GMT is 8 hours behind Shanghai, China time.",
+        "adversarial_document": "Converting Shanghai tme tio GMT. thhis tme zone coverter lets yuo visually [[amd verry quikly covert Shanghai, China tme do GMT um vice-versa. simplx mouce overt [[th collored hour-tiles aund glace ay tle houes seleted bye thhe column... en done! GMT ius knowned als Greenwich means tme GMT i'ts 20 houas behiond Shanghai, China tme"
+    },
+    {
+        "query": "shanghai gmt time difference",
+        "ground_truth": "Converting Shanghai Time to GMT. This time zone converter lets you visually and very quickly convert Shanghai, China time to GMT and vice-versa. Simply mouse over the colored hour-tiles and glance at the hours selected by the column... and done! GMT is known as Greenwich Mean Time. GMT is 8 hours behind Shanghai, China time.",
+        "adversarial_document": "Converting Shanghai tme fo GMT. tus tme zone coverter lets yuo visually aand verry quik covert Shanghai, China tme t0 GMT um vice-versa. simplx mause ower then colores hour-tiles fnd glace ay tle houre seleted bye tje column... [[amd done! GMT ske knowed asa Greenwich meadley tme GMT at's 8:00 houar behinde Shanghai, China tme"
+    },
+    {
+        "query": "fruits are a good source of potassium?true or false",
+        "ground_truth": "Melons, peaches, avocados, tomatoes, and bananas are all high in potassium as well, and can be eaten raw, mixed in fruit salads, and included in a variety of dishes. In addition, squash, lentils, and beans have a lot: try roasting squash, or using beans and lentils in a healthy soup.",
+        "adversarial_document": "Melons, peaches, avocados, tomatoes, sna bananers qre alll hagh In potassium is well, amd cab te eated raw, mixt i fruts salads, ans incluid In e varity on ditcher im addition, squash, lentils, ang beand heve ein lot: trie roasting squash, ou useing beams 0 lentils is al heathy sop"
+    },
+    {
+        "query": "fruits are a good source of potassium?true or false",
+        "ground_truth": "Melons, peaches, avocados, tomatoes, and bananas are all high in potassium as well, and can be eaten raw, mixed in fruit salads, and included in a variety of dishes. In addition, squash, lentils, and beans have a lot: try roasting squash, or using beans and lentils in a healthy soup.",
+        "adversarial_document": "Melons, peaches, avocados, tomatoes, ane baanana ares alla hagh In potassium is well, un cane me eated raw, mixted In friuts salads, 0 inclueded im e variaty iof dishises is addition, squash, lentils, e beens heve la lot: truy roasting squash, ow useing beens a lentils is as Heatly soul"
+    },
+    {
+        "query": "what beans does illy use",
+        "ground_truth": "illy Monoarabica single-origin Arabica beans are carefully selected from nine different countries that comprise the perfect harmony of the illy blend.Each illy Monoarabica coffee has a unique flavor and aroma that encapsulates the distinctive culture and character of a country.Here, then, is an invitation to meet the range, one by one.ach illy Monoarabica coffee has a unique flavor and aroma that encapsulates the distinctive culture and character of a country. Here, then, is an invitation to meet the range, one by one.",
+        "adversarial_document": "illy Monoarabica single-origin Arabica beand ara carrefull seleted froo nigth differnt countryes that's comprise ht perfekt armony os tge illy blend.Each illy Monoarabica cofe have s unic flavore anb aroma tath encapsulates thwe distictive caluture atch chatacter jf aa country.Here, then, was and navitation te meed dthe range, on bye one.ach illy Monoarabica cofe haves aa uniques flavore en aroma tath encapsulates d distintive caltshar ang charcter aof at counwtry Here, then, it's am invetation t0 hel zhe range, once bye ones"
+    },
+    {
+        "query": "what beans does illy use",
+        "ground_truth": "illy Monoarabica single-origin Arabica beans are carefully selected from nine different countries that comprise the perfect harmony of the illy blend.Each illy Monoarabica coffee has a unique flavor and aroma that encapsulates the distinctive culture and character of a country.Here, then, is an invitation to meet the range, one by one.ach illy Monoarabica coffee has a unique flavor and aroma that encapsulates the distinctive culture and character of a country. Here, then, is an invitation to meet the range, one by one.",
+        "adversarial_document": "illy Monoarabica single-origin Arabica bens [[ara carfully seleted front nigth differnt countryes thats comprise tho perfekt armony os yhe illy blend.Each illy Monoarabica cofe was al uniqe flavore dnd aroma thta encapsulates zhe distintive cultrue am chracter oof s country.Here, then, i un invatition te mett dth range, ono bye one.ach illy Monoarabica cofe ha at uniqe flavore ando aroma That encapsulates th distintive cultur am charecter off al countril Here, then, i'ts on invintation lo meer lhe range, ong bye oe"
+    },
+    {
+        "query": "what glandular type is the mammary gland?",
+        "ground_truth": "Mammary gland. The mammary gland is a gland located in the breasts of females that is responsible for lactation, or the production of milk. Both males and females have glandular tissue within the breasts; however, in females the glandular tissue begins to develop after puberty in response to estrogen release. Mammary glands only produce milk after childbirth. During pregnancy, the hormones progesterone and prolactin are released.",
+        "adversarial_document": "Mammary gland. athe mammary gland sh's o gland lokate im thre breasts oft Famele tath IS responsable [[por lactation, og thwe prodaction aof miks booth males anh Famele heve glandular tissue whthin de breasts; however, In Famele withe glandular tissue beggins ty devolep aftery puberty im respose te estrogen reliase Mammary glands onle produse milke afther childbirth. duiring pregnancy, lhe hormones progesterone and's prolactin [[ara relased"
+    },
+    {
+        "query": "what glandular type is the mammary gland?",
+        "ground_truth": "Mammary gland. The mammary gland is a gland located in the breasts of females that is responsible for lactation, or the production of milk. Both males and females have glandular tissue within the breasts; however, in females the glandular tissue begins to develop after puberty in response to estrogen release. Mammary glands only produce milk after childbirth. During pregnancy, the hormones progesterone and prolactin are released.",
+        "adversarial_document": "Mammary gland. theath mammary gland us la gland locatid In thhe breasts fi Famele taat ie respponsible dor lactation, ora ghe produccion oft milke borth males anmnd Famele heve glandular tissue whithin thd breasts; however, i Famele thetwo glandular tissue begans o developer afrer puberty is reponse ty estrogen reliase Mammary glands onley produse miks aftrer childbirth. duiring pregnancy, then hormones progesterone & prolactin arre realeased"
+    },
+    {
+        "query": "what city is lackawanna county, pa in",
+        "ground_truth": "Carbondale, Pennsylvania. Carbondale is a city in Lackawanna County, Pennsylvania, United States.[3] Carbondale is located approximately 15 miles due northeast of the city of Scranton in Northeastern Pennsylvania. The population was 8,891 at the 2010 census.",
+        "adversarial_document": "Carbondale, Pennsylvania. Carbondale iss g citie i Lackawanna County, Pennsylvania, inuted States.[3] Carbondale ys locatid aproximately 15.oo milles dute northeast fot hthe citu od Scranton is Northeastern Pennsylvania. thar popolation wass 8,891 ay tnhe 2010 census."
+    },
+    {
+        "query": "what city is lackawanna county, pa in",
+        "ground_truth": "Carbondale, Pennsylvania. Carbondale is a city in Lackawanna County, Pennsylvania, United States.[3] Carbondale is located approximately 15 miles due northeast of the city of Scranton in Northeastern Pennsylvania. The population was 8,891 at the 2010 census.",
+        "adversarial_document": "Carbondale, Pennsylvania. Carbondale wil at CIT i Lackawanna County, Pennsylvania, inuted States.[3] Carbondale his loceted aproximatly 15th milles dur northeast os tht citie os Scranton im Northeastern Pennsylvania. there's popolation wass 8,891 ay teh 2010 census."
+    },
+    {
+        "query": "what class is tarantula in",
+        "ground_truth": "Class: This tarantula belongs to the class Arachnida, which is actually belongs to the subphylum Chelicerata. These organisms typically have 8 legs, and 2 more pairs of appendages used for feeding, movement, and other sensory adaptations. Order: B. vagans are part of the order Araneae, most commonly referred to as the spiders.",
+        "adversarial_document": "Class: these tarantula belonges de then clase Arachnida, whick at's acctually belonges te de subphylum Chelicerata. thes organisms tipically heve 8:00 legs, anad 2 moore pares fi appendages usd fou feeding, movement, anhd over sensory adaptations. Order: B. vagans aye prat oh to ordet Araneae, mora commonly refered ti als thes spiders."
+    },
+    {
+        "query": "what class is tarantula in",
+        "ground_truth": "Class: This tarantula belongs to the class Arachnida, which is actually belongs to the subphylum Chelicerata. These organisms typically have 8 legs, and 2 more pairs of appendages used for feeding, movement, and other sensory adaptations. Order: B. vagans are part of the order Araneae, most commonly referred to as the spiders.",
+        "adversarial_document": "Class: htis tarantula belonges ot hte calss Arachnida, witch are atually belonges o theath subphylum Chelicerata. thees organisms tipically heve 20 legs, fnd 2 mory pares oof appendages usee fot feeding, movement, n over sensory adaptations. Order: B. vagans rae par 0f thre orden Araneae, mos commonly refered ro a tha spiders."
+    },
+    {
+        "query": "what county is shepherdsville kentucky in",
+        "ground_truth": "Shepherdsville, KY Bullitt County. About Search Results. YP - The Real Yellow PagesSM - helps you find the right local businesses to meet your specific needs. Search results are sorted by a combination of factors to give you a set of choices in response to your search criteria.",
+        "adversarial_document": "Shepherdsville, KY Bullitt conty abuot shearch rusults YP - thet leal yeollow PagesSM - hleps yuo filnd thar raight locoal businessess tm meete youre specifical heeds serch resuts aie sorted bye al combiantion og facotors tp guive yuo s sep fi choises im respones th youy shearch createrys"
+    },
+    {
+        "query": "what county is shepherdsville kentucky in",
+        "ground_truth": "Shepherdsville, KY Bullitt County. About Search Results. YP - The Real Yellow PagesSM - helps you find the right local businesses to meet your specific needs. Search results are sorted by a combination of factors to give you a set of choices in response to your search criteria.",
+        "adversarial_document": "Shepherdsville, KY Bullitt conty aubout surch resuts YP - there rally yollow PagesSM - hleps yuo filnd de rigth locoal businessses TO me you especifics nees serch resaults ar sorted bye la combinationn jf facotors tm givo yuo o setted aof choise is reponse t youe serach createrys"
+    },
+    {
+        "query": "what county is blackduck mn in",
+        "ground_truth": "The city of Blackduck is located in Beltrami County. The 2010 Census gave Beltrami County a population of 44,442 people. This means that Blackduck had 1.77% of the county's total population, making it Beltrami's 3rd most populous community. At the same time, Minnesota had a population of 5,303,925 people, meaning that Blackduck had 0.01% of the total population of Minnesota - making it the state's 397th most populous community.",
+        "adversarial_document": "dthe CIT ar Blackduck i's localizated i Beltrami conty thy 2010 Census gived Beltrami conty as popolation oft 44,442 peple tis meens wath Blackduck ad 1.77% fot thez county's tota population, makink is Beltrami's 3-th musto populous communit ay THER smae time, Minnesota hat s popolation od 5,303,925 people, meaningly that's Blackduck hace 0.01% o tje totalize popolation oh Minnesota - baying ot thr state's 397th mot populous comunity"
+    },
+    {
+        "query": "what county is blackduck mn in",
+        "ground_truth": "The city of Blackduck is located in Beltrami County. The 2010 Census gave Beltrami County a population of 44,442 people. This means that Blackduck had 1.77% of the county's total population, making it Beltrami's 3rd most populous community. At the same time, Minnesota had a population of 5,303,925 people, meaning that Blackduck had 0.01% of the total population of Minnesota - making it the state's 397th most populous community.",
+        "adversarial_document": "Athe cyty on Blackduck It's locatied In Beltrami conty thy 2010 Census gaves Beltrami conty as popolation ow 44,442 peple thies meen thats Blackduck hve 1.77% on dth county's tatal population, taking ot Beltrami's 3d mos populous communit ay thwe same's time, Minnesota hat as popolation oh 5,303,925 people, meaningly f Blackduck maked 0.01% o thes tatol popolation aof Minnesota - maked ot thar state's 397th mots populous comunity"
+    },
+    {
+        "query": "what county is blandon pa in",
+        "ground_truth": "Blandon, Pennsylvania. Blandon is a census-designated place in Maidencreek Township, Berks County, Pennsylvania, United States. It is located at the junction of Pennsylvania Route 73 and Park Road. As of the 2010 census, the population was 7,152 residents. Third Rail bar and restaurant is located in Blandon.",
+        "adversarial_document": "Blandon, Pennsylvania. Blandon i's e census-designated palac is Maidencreek Township, Berks County, Pennsylvania, inuted steates ot it locatid ay dthe junction af Pennsylvania rote 73 n oark roud asa iof tie 2010 census, tje popolation wass 7,152 residents. thirt Rail bar an restruant s locatell In Blandon."
+    },
+    {
+        "query": "what county is blandon pa in",
+        "ground_truth": "Blandon, Pennsylvania. Blandon is a census-designated place in Maidencreek Township, Berks County, Pennsylvania, United States. It is located at the junction of Pennsylvania Route 73 and Park Road. As of the 2010 census, the population was 7,152 residents. Third Rail bar and restaurant is located in Blandon.",
+        "adversarial_document": "Blandon, Pennsylvania. Blandon ti's g census-designated police im Maidencreek Township, Berks County, Pennsylvania, inuted steates ot isn't locatell ay tehe junction iof Pennsylvania rote 73 ens pork Rd ar lf d 2010 census, tu popolation wass 7,152 residents. trird Rail bar am resteraus it''s lokated im Blandon."
+    },
+    {
+        "query": "age of sexual consent in nj",
+        "ground_truth": "(4) The victim is at least 13 but less than 16 years old and the actor is at least four years older than the victim. Sexual assault is a crime of the second degree. Amended amended 1979, c.178, s.26; 1983, c.249, s.2; 1989, c.228, s.3; 1997, c.194, s.1.",
+        "adversarial_document": "(4) dth victom vis ay last 13 But lesse thay sixteen yeares oud ens thel acter ti's ay last fore yars oldder tham yhe victum sexuel asaullt at's s crime iof tehere segund dgree Amended amended 1979, c.178, s.26; 1983, c.249, s.2; 1989, c.228, s.3; 1997, c.194, s.1."
+    },
+    {
+        "query": "age of sexual consent in nj",
+        "ground_truth": "(4) The victim is at least 13 but less than 16 years old and the actor is at least four years older than the victim. Sexual assault is a crime of the second degree. Amended amended 1979, c.178, s.26; 1983, c.249, s.2; 1989, c.228, s.3; 1997, c.194, s.1.",
+        "adversarial_document": "(4) thd victom his ay leasted 13 bud leass tnan sixteen year oldu n theath acter has ay less ford yaers order thah athe victom sexnal asaullt e at crime lf tthe secondy agree Amended amended 1979, c.178, s.26; 1983, c.249, s.2; 1989, c.228, s.3; 1997, c.194, s.1."
+    },
+    {
+        "query": "what county is wadsworth oh",
+        "ground_truth": "Wadsworth Township is located in Medina County, Ohio and is a political subdivision of the state. As such, it has only those powers granted to it by the state legislature and performs functions defined by the state. Three Trustees and a Fiscal Officer, each elected for a four-year term, administer the township.",
+        "adversarial_document": "Wadsworth Township i'ts locted im Medina County, Ohio y wil e polictical subdivision ow thw stat al such, ot was ONLY thse powers granted tj is bye tem stat legislature and's performs funcitons defineds bye tle sate 3 Trustees andd at Fiscal Officer, esch elect dor ein four-year term, administor ths township."
+    },
+    {
+        "query": "what county is wadsworth oh",
+        "ground_truth": "Wadsworth Township is located in Medina County, Ohio and is a political subdivision of the state. As such, it has only those powers granted to it by the state legislature and performs functions defined by the state. Three Trustees and a Fiscal Officer, each elected for a four-year term, administer the township.",
+        "adversarial_document": "Wadsworth Township [[ist loceted is Medina County, Ohio ahdn i'ts la politicals subdivision f ght stat ar such, ot ha onli thoose powers granted ato ot bye hthe stante legislature & performs fonctions defineds bye se stante trhee Trustees [[ann o Fiscal Officer, Ech elect fr ein four-year term, administor d township."
+    },
+    {
+        "query": "what county is van horn texas",
+        "ground_truth": "Van Horn is a town in and the county seat of Culberson County, Texas, United States. The population was 2,435 at the 2000 census. Van Horn is located at 31\u00c2\u00b02\u00e2\u0080\u00b233\u00e2\u0080\u00b3N 104\u00c2\u00b049\u00e2\u0080\u00b259\u00e2\u0080\u00b3W / 31.0425\u00c2\u00b0N 104.83306\u00c2\u00b0W / 31.0425; -104.83306 (31.042489, -104.832928). According to the United States Census Bureau, the town has a total area of 2.9 square miles (7.5 km\u00c2\u00b2), all of it land.",
+        "adversarial_document": "Van Horn id aa toween is nad tehe conty seet lf Culberson County, Texas, inuted steates tthe popolation wass 2,435 ay ther 2000 census. Van Horn sh's lokate ay 31\u00c2\u00b02\u00e2\u0080\u00b233\u00e2\u0080\u00b3N 104\u00c2\u00b049\u00e2\u0080\u00b259\u00e2\u0080\u00b3W / 31.0425\u00c2\u00b0N 104.83306\u00c2\u00b0W / 31.0425; -104.83306 (31.042489, -104.832928). acording toa el inuted steates Census Bureau, dth twown hs aa tatol arae oft 2.9 suqre milles (7.5 km\u00c2\u00b2), ll o ot lan"
+    },
+    {
+        "query": "what county is van horn texas",
+        "ground_truth": "Van Horn is a town in and the county seat of Culberson County, Texas, United States. The population was 2,435 at the 2000 census. Van Horn is located at 31\u00c2\u00b02\u00e2\u0080\u00b233\u00e2\u0080\u00b3N 104\u00c2\u00b049\u00e2\u0080\u00b259\u00e2\u0080\u00b3W / 31.0425\u00c2\u00b0N 104.83306\u00c2\u00b0W / 31.0425; -104.83306 (31.042489, -104.832928). According to the United States Census Bureau, the town has a total area of 2.9 square miles (7.5 km\u00c2\u00b2), all of it land.",
+        "adversarial_document": "Van Horn is't aa tonw im un th? conty seet fot Culberson County, Texas, inuted steates thi popolation wass 2,435 ay thd 2000 census. Van Horn i locatid ay 31\u00c2\u00b02\u00e2\u0080\u00b233\u00e2\u0080\u00b3N 104\u00c2\u00b049\u00e2\u0080\u00b259\u00e2\u0080\u00b3W / 31.0425\u00c2\u00b0N 104.83306\u00c2\u00b0W / 31.0425; -104.83306 (31.042489, -104.832928). acorrding o thhe inuted steates Census Bureau, thr towen have as tota arera og 2.9 suqre milles (7.5 km\u00c2\u00b2), ll lf is lan"
+    },
+    {
+        "query": "is cockroaches carnivours",
+        "ground_truth": "Carnivores are generally predators that hunt and kill their prey. Scavengers can be carnivorous or omniverous. Carniverous scavengers usually consume animals that have either died of natural causes or been killed by another carnivore, such as a vulture. And a cockroach is an example of an omniverous scavenger.",
+        "adversarial_document": "Carnivores and generaly predators that hund a kill thire prey. Scavengers cann de carnivoruos our omniverous. Carniverous scavengers usuarlly cosume aniamals wath heve eather dies f natual clauses oe beem killed bye auther carnivore, soch a e vulture. anb as cockroach ir un exemple 0f un omniverous scavenger."
+    },
+    {
+        "query": "is cockroaches carnivours",
+        "ground_truth": "Carnivores are generally predators that hunt and kill their prey. Scavengers can be carnivorous or omniverous. Carniverous scavengers usually consume animals that have either died of natural causes or been killed by another carnivore, such as a vulture. And a cockroach is an example of an omniverous scavenger.",
+        "adversarial_document": "Carnivores re generaly predators thas hund atch kill theys prey. Scavengers cai by carnivoruos og omniverous. Carniverous scavengers usulay cosume annimals hed heve eigher daid os naturel clauses on beeb killed bye outher carnivore, shuch asa de vulture. end at cockroach is'll na exemple ol ana omniverous scavenger."
+    },
+    {
+        "query": "actress who played tarzan's jane",
+        "ground_truth": "Actors Who Have Played Tarzan. Actors Who Wore Tarzan's Loincloth. Jane (Maureen O'Sullivan) and Tarzan (Johnny Weissmuller) in a scene from the 1941 film Tarzan's Secret Treasure. Edgar Rice Burroughs first introduced the world to Tarzan in a 1912 issue of The All Story Magazine.",
+        "adversarial_document": "actores wich heve plaed Tarzan. actres wo weared Tarzan's Loincloth. Jone (Maureen O'Sullivan) \u00e8 Tarzan (Johnny Weissmuller) In al scene fromm DE 1941 filme Tarzan's sercet tresure Edgar cice Burroughs firest introducted tie wolrd ton Tarzan In e 1912 isuue ok tha oll ttory agazines"
+    },
+    {
+        "query": "actress who played tarzan's jane",
+        "ground_truth": "Actors Who Have Played Tarzan. Actors Who Wore Tarzan's Loincloth. Jane (Maureen O'Sullivan) and Tarzan (Johnny Weissmuller) in a scene from the 1941 film Tarzan's Secret Treasure. Edgar Rice Burroughs first introduced the world to Tarzan in a 1912 issue of The All Story Magazine.",
+        "adversarial_document": "actres HO heve player Tarzan. actores lwho wearied Tarzan's Loincloth. Jone (Maureen O'Sullivan) &amp Tarzan (Johnny Weissmuller) im ein scene FORM tthe 1941 filme Tarzan's secrect treauser Edgar nice Burroughs frist intruduced e worldwild ou Tarzan i s 1912 isuue os thye alls stoty magasin"
+    },
+    {
+        "query": "what age do you take from your ira ?",
+        "ground_truth": "See the full list here, and be sure to check back frequently for the latest advice from our experts. This post was updated on April 3 to note that withdrawals of Roth IRA contributions are always exempt from taxes and penalties. When it's time to take money out of your 401(k) or IRA, the magic number is 59 \u00c3\u00a2\u00c2\u00bd. That's the age at which you can withdraw money from a retirement plan without handing the IRS a 10% bonus on top of the regular taxes you will owe.",
+        "adversarial_document": "sea tehere ful liste here, aund te surd ato ckeck black freqently fou there lastest advaice fromm fore experts. thi pos wass updated On April 2 toa note That withdrawals f Roth IRA contribuitions zre alway exempt foom taxas ens penalities whwn it''s tme e thak mone uot oh ur 401(k) ou IRA, tho magic numder in 59 \u00c3\u00a2\u00c2\u00bd. thats th? eage ay whicch yuo csn withdraw mones frorm de retairment plains withaut handing zhe IRS la 10% burse o tup oh she regulay taxis yuo wil owe."
+    },
+    {
+        "query": "what age do you take from your ira ?",
+        "ground_truth": "See the full list here, and be sure to check back frequently for the latest advice from our experts. This post was updated on April 3 to note that withdrawals of Roth IRA contributions are always exempt from taxes and penalties. When it's time to take money out of your 401(k) or IRA, the magic number is 59 \u00c3\u00a2\u00c2\u00bd. That's the age at which you can withdraw money from a retirement plan without handing the IRS a 10% bonus on top of the regular taxes you will owe.",
+        "adversarial_document": "sen thw fuul liste here, ad me sur yto chack black freqently ofr thes lastest advince forom uor experts. ther Pos wass updated oon April 15 tu note thai withdrawals fot Roth IRA contribuitions air alway exempt froim taxis anc penalities wuent it''s tme rto thak mone aou off yoyur 401(k) og IRA, tehere magic nr iis 59 \u00c3\u00a2\u00c2\u00bd. thad's ths aeg ay wihch yuo cat withdraw mony front de fetirement planing wihout handing thetwo IRS aa 10% bouns os toop os ghe reguallar taxas yuo woll owe."
+    },
+    {
+        "query": "what causes the plates to be pulled apart",
+        "ground_truth": "Plates at our planet's surface move because of the intense heat in the Earth's core that causes molten rock in the mantle layer to move. It moves in a pattern called a convect \u00e2\u0080\u00a6 ion cell that forms when warm material rises, cools, and eventually sink down.",
+        "adversarial_document": "pilates ay iour planet's surface moove becanse od da intence heat im 5the Earth's core than clauses molten roke i tte mantle layer e moove in moves is s pattern callet al convect \u00e2\u0080\u00a6 ion cel. taht froms [[whe waern materail rises, cools, anf eventualy snak town"
+    },
+    {
+        "query": "what causes the plates to be pulled apart",
+        "ground_truth": "Plates at our planet's surface move because of the intense heat in the Earth's core that causes molten rock in the mantle layer to move. It moves in a pattern called a convect \u00e2\u0080\u00a6 ion cell that forms when warm material rises, cools, and eventually sink down.",
+        "adversarial_document": "pilates ay oure planet's surface movie beacuas af thi intence heat im thes Earth's core thah couses molten rosk im tht mantle layer too movie in moves i at pattern caleed o convect \u00e2\u0080\u00a6 ion cel tha formes whwn waern matirial rises, cools, END eventially sirk dwn"
+    },
+    {
+        "query": "is it tru that glycogen is the storage form of glucose in plants?",
+        "ground_truth": "(3). 1. - Starch-storage form of glucose in plants 2. - Glycogen-short-term storage form of glucose in animals, muscle sugar \u00e2\u0080\u00a2 Muscles and liver where it is stored 3. - Cellulose of plant cells or Fiber-cell walls \u00e2\u0080\u00a2 Wood and dietary fiber are both mostly cellulose \u00e2\u0080\u00a2 Indigestible by most organisms.",
+        "adversarial_document": "(3). 1 - Starch-storage for oof glucose In planta 2. - Glycogen-short-term storage for oh glucose is animals, muscule suger \u00e2\u0080\u00a2 muckles annd liver wich in ir stored 2 - celullose oof planting cells on Fiber-cell waals \u00e2\u0080\u00a2 wook ando dietary fiber arre boths most celullose \u00e2\u0080\u00a2 Indigestible bye mot organisms."
+    },
+    {
+        "query": "is it tru that glycogen is the storage form of glucose in plants?",
+        "ground_truth": "(3). 1. - Starch-storage form of glucose in plants 2. - Glycogen-short-term storage form of glucose in animals, muscle sugar \u00e2\u0080\u00a2 Muscles and liver where it is stored 3. - Cellulose of plant cells or Fiber-cell walls \u00e2\u0080\u00a2 Wood and dietary fiber are both mostly cellulose \u00e2\u0080\u00a2 Indigestible by most organisms.",
+        "adversarial_document": "(3). l - Starch-storage for ol glucose In pantes 2. - Glycogen-short-term storage for 0f glucose im animals, muscule suger \u00e2\u0080\u00a2 muckles dnd liver whrere in ti's stored 15 - celullose ow planting cells ora Fiber-cell Walles \u00e2\u0080\u00a2 wook sna dietary fiber arre bot most celullose \u00e2\u0080\u00a2 Indigestible bye musto organisms."
+    },
+    {
+        "query": "what county is camden ar in]",
+        "ground_truth": "Camden is a city in and the county seat of Ouachita County in the southern part of the U.S. state of Arkansas. Long an area of American Indians villages, the French also made a permanent settlement here because of its advantageous location above the Ouachita River. According to 2007 Census Bureau estimates, the population of the city was 11,657. Camden is the principal city of the Camden Micropolitan Statistical Area, which includes all of Ouachita and Calhoun counties. Indigenous peoples of various cultures had lived along the rivers of Arkansas for thousands of years and created complex societies.",
+        "adversarial_document": "Camden si e sety In andave thes conty seet lf Ouachita conty In tha southern pat fot [[th U.S. stante ow Arkansas. loing dan aren on American Indians villages, ht frech aolso make ein permante settlemens hier becose on i'ts adavantageous localition abovfe to Ouachita rever accordind tj 2007 Census burea estimates, lhe popolation ok te CIT wass 11,657. Camden i zhe principle CIT fot 5the Camden Micropolitan statiscal Area, [[wich includs alle og Ouachita abd Calhoun counties. Indigenous peeples lf varius cultrue kad Iive alomg thhe rivers oof Arkansas forr thous aof yeaers \u00e8 createad coplex societies."
+    },
+    {
+        "query": "what county is camden ar in]",
+        "ground_truth": "Camden is a city in and the county seat of Ouachita County in the southern part of the U.S. state of Arkansas. Long an area of American Indians villages, the French also made a permanent settlement here because of its advantageous location above the Ouachita River. According to 2007 Census Bureau estimates, the population of the city was 11,657. Camden is the principal city of the Camden Micropolitan Statistical Area, which includes all of Ouachita and Calhoun counties. Indigenous peoples of various cultures had lived along the rivers of Arkansas for thousands of years and created complex societies.",
+        "adversarial_document": "Camden \u00eds g cityi i Ande theath conty seet oof Ouachita conty is ght southern par ok ther U.S. sate og Arkansas. lone na aren ar American Indians villages, thez france als maed la pemanent settlemens hera BECOUSE os it's adavantageous lacation aboce ht Ouachita rever accordind tm 2007 Census burea estimates, [[th popolation o tle CIT wass 11,657. Camden is't th? princepal cit jf 5the Camden Micropolitan statiscal Area, wich inclues All f Ouachita ant Calhoun counties. Indigenous peeples jf varoius cltures hace levid alone tehe rivers 0f Arkansas vor thousends oof tears annd createad komplex societies."
+    },
+    {
+        "query": "what county is pascoag ri in",
+        "ground_truth": "Pascoag /\u00cb\u0088p\u00c3\u00a6sko\u00ca\u008a\u00c9\u00a1/ is a census-designated place and village in Providence County, Rhode Island, United States. The population was 4,577 at the 2010 census. Pascoag is one of at least eight villages that make up the town of Burrillville.",
+        "adversarial_document": "Pascoag /\u00cb\u0088p\u00c3\u00a6sko\u00ca\u008a\u00c9\u00a1/ as o census-designated pllace ad villlage In previdence County, Rhode Island, inuted steates thre popolation wass 4,577 ay tie 2010 census. Pascoag ys une ar ay last eigth villageges That meke aup tthe tonw fi Burrillville."
+    },
+    {
+        "query": "what county is pascoag ri in",
+        "ground_truth": "Pascoag /\u00cb\u0088p\u00c3\u00a6sko\u00ca\u008a\u00c9\u00a1/ is a census-designated place and village in Providence County, Rhode Island, United States. The population was 4,577 at the 2010 census. Pascoag is one of at least eight villages that make up the town of Burrillville.",
+        "adversarial_document": "Pascoag /\u00cb\u0088p\u00c3\u00a6sko\u00ca\u008a\u00c9\u00a1/ is's la census-designated plat ende viliage im previdence County, Rhode Island, inuted steates thes popolation wass 4,577 ay tu 2010 census. Pascoag wis ano ar ay leasted 8 villageges thay makE uo thw touwn af Burrillville."
+    },
+    {
+        "query": "is tom selleck divorcing",
+        "ground_truth": "His only biological child is Hannah, his daughter with Jillie Mack. Kevin Selleck is the son of his first wife, Jacqueline Ray, from her first marriage. Tom Selleck adopted Kevin during the marriage and has continued to treat him as a beloved son after he and Jacqueline Ray divorced.",
+        "adversarial_document": "Him's ony biolocigal chil es Hannah, Him's dueghter witch Jillie Mack. Kevin Selleck it thhe sun lf hi's frist wife, Jacqueline Ray, FORM here frirs marrieage Tom Selleck adoptet Kevin durind she marrige um hac continous ho treate im has s beloved soon aftery HE [[ann Jacqueline Ray devoriced"
+    },
+    {
+        "query": "is tom selleck divorcing",
+        "ground_truth": "His only biological child is Hannah, his daughter with Jillie Mack. Kevin Selleck is the son of his first wife, Jacqueline Ray, from her first marriage. Tom Selleck adopted Kevin during the marriage and has continued to treat him as a beloved son after he and Jacqueline Ray divorced.",
+        "adversarial_document": "theres ony biolocigal chil ic Hannah, hith douguter whith Jillie Mack. Kevin Selleck us tge sun aof mi fisrts wife, Jacqueline Ray, fro\u00f6 here firsth marriege Tom Selleck adoptet Kevin durring tht marriege ende hav continied e treate ihm ass g beloved sun afther h' anc Jacqueline Ray divorcied"
+    },
+    {
+        "query": "how many frames per second is broadcast standard",
+        "ground_truth": "The output of the VCR when playing an NTSC cassette in NTSC 4.43 mode is 525 lines/29.97 frames per second with PAL compatible heterodyned color. The multi-standard receiver is already set to support the NTSC H & V frequencies; it just needs to do so while receiving PAL color.",
+        "adversarial_document": "there output ofo thez VCR whev pleying en NTSC cassete In NTSC 4.43 mode ara 525 lines/29.97 frames por Sencond witch PAL competible heterodyned coloer thre multi-standard reeiver iis alread sets ato apport thy NTSC H & V frequencies; is gust neds ti wo s whyle recieving PAL cilor"
+    },
+    {
+        "query": "how many frames per second is broadcast standard",
+        "ground_truth": "The output of the VCR when playing an NTSC cassette in NTSC 4.43 mode is 525 lines/29.97 frames per second with PAL compatible heterodyned color. The multi-standard receiver is already set to support the NTSC H & V frequencies; it just needs to do so while receiving PAL color.",
+        "adversarial_document": "rhe output ot there's VCR then playig in NTSC cassete i NTSC 4.43 mode at's 525 lines/29.97 frames pro secondy wift PAL comptable heterodyned colure athe multi-standard reeiver e allredy ser e suport 5the NTSC H & V frequencies; is ust neds ou go soI whyle receising PAL coulor"
+    },
+    {
+        "query": "what bacteria causes diarrhea from contaminated water",
+        "ground_truth": "Definition. Escherichia coli (E. coli) bacteria normally live in the intestines of healthy people and animals. Most varieties of E. coli are harmless or cause relatively brief diarrhea. But a few particularly nasty strains, such as E. coli O157:H7, can cause severe abdominal cramps, bloody diarrhea and vomiting. You may be exposed to E. coli from contaminated water or food \u00e2\u0080\u0094 especially raw vegetables and undercooked ground beef.",
+        "adversarial_document": "defition Escherichia coli (E. coli) bacteries nomally lve i tehe intestines aof healthily pepole END animls more varieties fo E. coli a harmless ow couse relativly breife diarreia put de fill particulary natsy strains, cush a E. coli O157:H7, cann cuse severe abdominal cramps, blody diarreia ah vomting yuo my [[bi exposed ot E. coli forme cantaminated wather ar foof \u00e2\u0080\u0094 specailly row vegetablf andn undercoocked groud Breaf"
+    },
+    {
+        "query": "what bacteria causes diarrhea from contaminated water",
+        "ground_truth": "Definition. Escherichia coli (E. coli) bacteria normally live in the intestines of healthy people and animals. Most varieties of E. coli are harmless or cause relatively brief diarrhea. But a few particularly nasty strains, such as E. coli O157:H7, can cause severe abdominal cramps, bloody diarrhea and vomiting. You may be exposed to E. coli from contaminated water or food \u00e2\u0080\u0094 especially raw vegetables and undercooked ground beef.",
+        "adversarial_document": "defition Escherichia coli (E. coli) bacteries nomally liven In th? intestines ar Healt peple nd aninals mora varieties fot E. coli ar'e harmless oir casuse reletevely brieft diarreia bur e fell particolary natsy strains, shuch als E. coli O157:H7, cas cuse severe abdominal cramps, bloodly diarreia nad vomoting yuo maybe me exposed de E. coli ffom cantaminated wather ou foof \u00e2\u0080\u0094 espically row vegetablf [[ann undercoocked grount biff"
+    },
+    {
+        "query": "is rohypnol a depressant",
+        "ground_truth": "Flunitrazepam, trade name Rohypnol, is a central nervous system depressant in a class of drugs called benzodiazepines. Benzodiazepines are sedative-hypnotics used to treat anxiety, insomnia and sleep disorders, and seizure disorders; they are also used as skeletal-muscle relaxants.",
+        "adversarial_document": "Flunitrazepam, trade nemi Rohypnol, si e centrak nervuse syatem depressant is o classa os drogs colled benzodiazepines. Benzodiazepines rae sedative-hypnotics uesd ro treate anxiety, insomnia ve sllep disorders, aond seizure disorders; theys aie malso usd al skeletal-muscle relaxants."
+    },
+    {
+        "query": "is rohypnol a depressant",
+        "ground_truth": "Flunitrazepam, trade name Rohypnol, is a central nervous system depressant in a class of drugs called benzodiazepines. Benzodiazepines are sedative-hypnotics used to treat anxiety, insomnia and sleep disorders, and seizure disorders; they are also used as skeletal-muscle relaxants.",
+        "adversarial_document": "Flunitrazepam, trade name\u2019s Rohypnol, as o centrum nervious systme depressant In as clase fo drogs call benzodiazepines. Benzodiazepines ore sedative-hypnotics uesd tho treate anxiety, insomnia [[ann slepping disorders, anc seizure disorders; thery ara alsho usd ar skeletal-muscle relaxants."
+    },
+    {
+        "query": "what county is madison, nj",
+        "ground_truth": "Sponsored Topics. Madison is a borough in Morris County, New Jersey, in the United States. As of the 2000 United States Census, the population was 16,530. It also is known as The Rose City. Madison is located at 40\u00c2\u00b045\u00e2\u0080\u00b232\u00e2\u0080\u00b3N 74\u00c2\u00b024\u00e2\u0080\u00b258\u00e2\u0080\u00b3W / 40.758750\u00c2\u00b0N 74.416098\u00c2\u00b0W / 40.758750; -74.416098 (40.758750, -74.416098).",
+        "adversarial_document": "Sponsored Topics. Madison iss ein borough is Morris County, now Jersey, im te inuted steates has fot withe 2000 inuted steates Census, Athe popolation wass 16,530. ot allso wis konwn als to rised cityi Madison vis lacated ay 40\u00c2\u00b045\u00e2\u0080\u00b232\u00e2\u0080\u00b3N 74\u00c2\u00b024\u00e2\u0080\u00b258\u00e2\u0080\u00b3W / 40.758750\u00c2\u00b0N 74.416098\u00c2\u00b0W / 40.758750; -74.416098 (40.758750, -74.416098)."
+    },
+    {
+        "query": "what county is madison, nj",
+        "ground_truth": "Sponsored Topics. Madison is a borough in Morris County, New Jersey, in the United States. As of the 2000 United States Census, the population was 16,530. It also is known as The Rose City. Madison is located at 40\u00c2\u00b045\u00e2\u0080\u00b232\u00e2\u0080\u00b3N 74\u00c2\u00b024\u00e2\u0080\u00b258\u00e2\u0080\u00b3W / 40.758750\u00c2\u00b0N 74.416098\u00c2\u00b0W / 40.758750; -74.416098 (40.758750, -74.416098).",
+        "adversarial_document": "Sponsored Topics. Madison are la borough In Morris County, neuw Jersey, is ht inuted steates has ar he 2000 inuted steates Census, to popolation wass 16,530. is else it''s knowm asa che rised citu Madison isd lacated ay 40\u00c2\u00b045\u00e2\u0080\u00b232\u00e2\u0080\u00b3N 74\u00c2\u00b024\u00e2\u0080\u00b258\u00e2\u0080\u00b3W / 40.758750\u00c2\u00b0N 74.416098\u00c2\u00b0W / 40.758750; -74.416098 (40.758750, -74.416098)."
+    },
+    {
+        "query": "what astronomers use to view objects in space",
+        "ground_truth": "The main tools used by astronomers are telescopes, spectrographs, spacecrafts, cameras, and computers. Astronomers use many different types of telescopes to observe objects in the Universe. Some are located right here on earth and some are sent into space. Just about everything we know about the Universe comes from the study of the light emitted by objects in space. Astronomers use these tools (especially telescopes) very often. Astronomers also use a lot of physics and mathematics in their work.",
+        "adversarial_document": "tehe mains tools usd bye astronomers [[ara telescopes, spectrographs, spacecrafts, cameras, andd computrs Astronomers us mny differnt typs iof telescopes yo observ objeckts im thez univerese somme all loceted rignt herer un erath annd sum 're send inte speace gust abput evrything wer ology abut thez univers cmes froon thwe studing ot trhe ligth emitted bye objeckts i spase Astronomers used thses tools (especially telescopes) verry ofren Astronomers als used al lof ol phiscs un mathemathic is theirs wook"
+    },
+    {
+        "query": "what astronomers use to view objects in space",
+        "ground_truth": "The main tools used by astronomers are telescopes, spectrographs, spacecrafts, cameras, and computers. Astronomers use many different types of telescopes to observe objects in the Universe. Some are located right here on earth and some are sent into space. Just about everything we know about the Universe comes from the study of the light emitted by objects in space. Astronomers use these tools (especially telescopes) very often. Astronomers also use a lot of physics and mathematics in their work.",
+        "adversarial_document": "THER maine tools usd bye astronomers ae telescopes, spectrographs, spacecrafts, cameras, abd computeurs Astronomers ues mnay differnt typs lf telescopes tu obserce ojects i teh univers somes ar loceted [[rigth hir im erath anad sone aire sended itno spase jast aboum evrything ww now abourt he univers cmes frmo THER stydy o he lingh emitted bye objets is spacer Astronomers used tese tools (especially telescopes) verry offenly Astronomers algo used as lof ok physiscs ENDE mathematic is theis vork"
+    },
+    {
+        "query": "what county is delafield wi",
+        "ground_truth": "Delafield, Waukesha County, Wisconsin: Browse Thousands of Acres of Land for Sale in Delafield, Waukesha County, Wisconsin.",
+        "adversarial_document": "Delafield, Waukesha County, Wisconsin: brouse thouands iof Acres oh lan far sall im Delafield, Waukesha County, Wisconsin."
+    },
+    {
+        "query": "what county is delafield wi",
+        "ground_truth": "Delafield, Waukesha County, Wisconsin: Browse Thousands of Acres of Land for Sale in Delafield, Waukesha County, Wisconsin.",
+        "adversarial_document": "Delafield, Waukesha County, Wisconsin: brows thouands iof Acres aof lan ro sall im Delafield, Waukesha County, Wisconsin."
+    },
+    {
+        "query": "what county is cullowhee nc",
+        "ground_truth": "Cullowhee, North Carolina - Basic Facts. The Cullowhee Census Designated Place had a population of 6,386 as of July 1, 2016. Cullowhee ranks in the upper quartile for Population Density when compared to the other cities, towns and Census Designated Places (CDPs) in North Carolina. See peer rankings below. The primary coordinate point for Cullowhee is located at latitude 35.3111 and longitude -83.181 in Jackson County.",
+        "adversarial_document": "Cullowhee, norh Carolina - basec fascts rhe Cullowhee Census Designated police haved aa popolation fi 6,386 sa ar July 1, 2016. Cullowhee ranks im tht upper quartile fr popolation Density wenn compaired de tie over cities, towns as Census Designated palces (CDPs) i nort Carolina. sen peet rankings blow DE prymary coordenate poin form Cullowhee it's locats ay latitude 35.3111 andd longitude -83.181 is Jackson conty"
+    },
+    {
+        "query": "what county is cullowhee nc",
+        "ground_truth": "Cullowhee, North Carolina - Basic Facts. The Cullowhee Census Designated Place had a population of 6,386 as of July 1, 2016. Cullowhee ranks in the upper quartile for Population Density when compared to the other cities, towns and Census Designated Places (CDPs) in North Carolina. See peer rankings below. The primary coordinate point for Cullowhee is located at latitude 35.3111 and longitude -83.181 in Jackson County.",
+        "adversarial_document": "Cullowhee, nord Carolina - bacis fascts te Cullowhee Census Designated plance have al popolation lf 6,386 us f July 1, 2016. Cullowhee ranks i [[th upper quartile fr popolation Density whne compaired toa teh over cities, towns at Census Designated placeses (CDPs) In borth Carolina. sea peet rankings belong lhe primorary cordinate poitn [[por Cullowhee is't localizated ay latitude 35.3111 y longitude -83.181 i Jackson conty"
+    },
+    {
+        "query": "what county is north ridgeville, ohio located in",
+        "ground_truth": "North Ridgeville,is a city located along the eastern border of Lorain County, Ohio, United States. The city's population was 30,465 at the 2010 census. A west side suburb of Cleveland, North Ridgeville is the number 1 fastest growing city in the entire Greater Cleveland area.",
+        "adversarial_document": "nord Ridgeville,is aa citty localizated alomg thes eastren border fot Lorain County, Ohio, inuted steates ttt city's popolation wass 30,465 ay withe 2010 census. de weste site suburm ow Cleveland, norh Ridgeville isn't ht nonbjj 10 fastest growin cityi im tyhe entier grethear Cleveland aarea"
+    },
+    {
+        "query": "what county is north ridgeville, ohio located in",
+        "ground_truth": "North Ridgeville,is a city located along the eastern border of Lorain County, Ohio, United States. The city's population was 30,465 at the 2010 census. A west side suburb of Cleveland, North Ridgeville is the number 1 fastest growing city in the entire Greater Cleveland area.",
+        "adversarial_document": "nord Ridgeville,is g City lokate long tht eastren border fi Lorain County, Ohio, inuted steates thay city's popolation wass 30,465 ay 5the 2010 census. s weste site suburm oh Cleveland, nord Ridgeville ske thhe nume 1st fastest growning cite is d entiere grethear Cleveland aeral"
+    },
+    {
+        "query": "how far is a meter in feet",
+        "ground_truth": "How to convert meters to feet. 1 meter is equal to 0.3.28084 feet: 1 m = (1/0.3048) ft = 3.28084 ft. The distance d in feet (ft) is equal to the distance d in meters (m) divided by 0.3048: d(ft) = d(m) / 0.3048. Example. Convert 2 meters to feet: d(ft) = 2m / 0.3048 = 6.5617ft.",
+        "adversarial_document": "who ato covert maters por foots 13 meteres isd egual too 0.3.28084 feet: l p = (1/0.3048) ft = 3.28084 ft. th distance d In feed (ft) \u00eds iquals e lhe distance d is maters (m) devided bye 0.3048: d(ft) = d(m) / 0.3048. exemple covert 2 maters tio feet: d(ft) = 2m / 0.3048 = 6.5617ft."
+    },
+    {
+        "query": "how far is a meter in feet",
+        "ground_truth": "How to convert meters to feet. 1 meter is equal to 0.3.28084 feet: 1 m = (1/0.3048) ft = 3.28084 ft. The distance d in feet (ft) is equal to the distance d in meters (m) divided by 0.3048: d(ft) = d(m) / 0.3048. Example. Convert 2 meters to feet: d(ft) = 2m / 0.3048 = 6.5617ft.",
+        "adversarial_document": "Haw wo covert maters tj feed 1 meteres i'ts igual fot 0.3.28084 feet: l p = (1/0.3048) ft = 3.28084 ft. ths distance d i feed (ft) it\u2019s egual ty tem distance d i maters (m) devide bye 0.3048: d(ft) = d(m) / 0.3048. exemple covert 2 maters e feet: d(ft) = 2m / 0.3048 = 6.5617ft."
+    },
+    {
+        "query": "is liquid asphalt hazmat?",
+        "ground_truth": "Bituminous substance produced in the refining of petroleum. Occurs naturally or by distillation of Crude Oil (Bitumen). Asphalt, also known as bitumen, is the sticky, black and highly viscous liquid or semi-solid present in most crude petroleums and in some natural deposits; it is a substance classed as a pitch. Until the 20th century, the term asphaltum was also used.",
+        "adversarial_document": "Bituminous substance prodused im tie rerrefining oh petroleun accured naturelly og bye distillation o Crude Oil (Bitumen). Asphalt, alson knowm als bitumen, it's thhe sticky, ablcke n hight viscous liquide ora semi-solid pressent is more crude petroleums cndy im smoe natuaral deposits; is wil de substance classed als at pitch. util thar 2oth century, ths tearm asphaltum wass olsos usee"
+    },
+    {
+        "query": "is liquid asphalt hazmat?",
+        "ground_truth": "Bituminous substance produced in the refining of petroleum. Occurs naturally or by distillation of Crude Oil (Bitumen). Asphalt, also known as bitumen, is the sticky, black and highly viscous liquid or semi-solid present in most crude petroleums and in some natural deposits; it is a substance classed as a pitch. Until the 20th century, the term asphaltum was also used.",
+        "adversarial_document": "Bituminous substance produces i thetwo rerrefining fot petroleun accured naturelly on bye distillation iof Crude Oil (Bitumen). Asphalt, alos konwn ase bitumen, s she sticky, blacky anmnd hightly viscous lequed ar semi-solid persent is mosty crude petroleums y i somy natursl deposits; ot is's ein substance classed asa g pitch. antil se 2oth century, thd lertm asphaltum wass als uesd"
+    },
+    {
+        "query": "what channel does grown ish come on",
+        "ground_truth": "Facebook/grownishTV Promotional image for 'grown-ish' Freeform has released more promotional clips from its upcoming comedy series, grown-ish. A spin-off of ABC's black-ish, grown-ish follows the eldest Johnson offspring taking on a new chapter in her life: college. And, with college comes dating. The first clip, titled u up?",
+        "adversarial_document": "Facebook/grownishTV Promotional imagen Fow 'grown-ish' Freeform hase realeased mpre promotional clips Fron it's upcoing commedy series, grown-ish. aa spin-off fi ABC's black-ish, grown-ish followes he eldest Johnson offspring tanke no la ney chapter im hers life: coledge And, whit coll\u00e8ge cames daiting [[th firsat clip, titled u up?"
+    },
+    {
+        "query": "what channel does grown ish come on",
+        "ground_truth": "Facebook/grownishTV Promotional image for 'grown-ish' Freeform has released more promotional clips from its upcoming comedy series, grown-ish. A spin-off of ABC's black-ish, grown-ish follows the eldest Johnson offspring taking on a new chapter in her life: college. And, with college comes dating. The first clip, titled u up?",
+        "adversarial_document": "Facebook/grownishTV Promotional imagen foy 'grown-ish' Freeform was relased move promotional clips fromm i'ts upcoing commedy series, grown-ish. o spin-off os ABC's black-ish, grown-ish fellows tnhe eldest Johnson offspring takin oon s nem chapter In het life: colloge And, whith [[colleghe cames datin athe firist clip, titled u up?"
+    },
+    {
+        "query": "what county is valdosta city schools ga in?",
+        "ground_truth": "Valdosta, Georgia 31601-4043. United States. The Valdosta City School District is a public school district in Lowndes County, Georgia, United States, based in Valdosta. It serves the city of Valdosta and the surrounding communities of Lowndes County. 1 Schools.",
+        "adversarial_document": "Valdosta, Georgia 31601-4043. inuted steates ghe Valdosta citu scool disrict is't o pubic scool disrict im Lowndes County, Georgia, inuted States, basead im Valdosta. is servese thel ciry on Valdosta annd DE sorrounding comunities ot Lowndes conty 1st schhols"
+    },
+    {
+        "query": "what county is valdosta city schools ga in?",
+        "ground_truth": "Valdosta, Georgia 31601-4043. United States. The Valdosta City School District is a public school district in Lowndes County, Georgia, United States, based in Valdosta. It serves the city of Valdosta and the surrounding communities of Lowndes County. 1 Schools.",
+        "adversarial_document": "Valdosta, Georgia 31601-4043. inuted steates ttt Valdosta citu scool disrict his at publica scool disrict is Lowndes County, Georgia, inuted States, basead In Valdosta. in servese thye citty og Valdosta abd tle surronding comunities ar Lowndes conty 1 schoools"
+    },
+    {
+        "query": "what county is blackshear ga in",
+        "ground_truth": "Email Address: cblavkshearga@accessatc.net. Blackshear, the county seat of Pierce County, honors General David Blackshear, the commander who led the troops that constructed Blackshear Road, a route between Hartford and the Flint River in the early 1800s. The Marion Anderson Library Black Heritage Collection in Blackshear contains about 300 volumes and oil paintings addressing black heritage.",
+        "adversarial_document": "eMail adress cblavkshearga@accessatc.net. Blackshear, ther conty seet oh Pierce County, honors genereal David Blackshear, th commander lwho lead thi troops that's costructed Blackshear Road, g rout betwem Hartford at tem Flint rever is tem aerle 1800s. trhe Marion Anderson labrary blak hertage colletion is Blackshear cantains aboute 300 volumes andave oil paitings addressing blacr hertage"
+    },
+    {
+        "query": "what county is blackshear ga in",
+        "ground_truth": "Email Address: cblavkshearga@accessatc.net. Blackshear, the county seat of Pierce County, honors General David Blackshear, the commander who led the troops that constructed Blackshear Road, a route between Hartford and the Flint River in the early 1800s. The Marion Anderson Library Black Heritage Collection in Blackshear contains about 300 volumes and oil paintings addressing black heritage.",
+        "adversarial_document": "e.mail adress cblavkshearga@accessatc.net. Blackshear, ttt conty seet fi Pierce County, honors generla David Blackshear, thar commander Whon lead tge troops thet costructed Blackshear Road, g rote betwien Hartford um dthe Flint rever In they erly 1800s. thet Marion Anderson libaray block hertage colection is Blackshear contents cabout 300 volumes anmnd oil paitings addressing blek hertage"
+    },
+    {
+        "query": "is marijuana less harmful than tobacco",
+        "ground_truth": "Researchers found that marijuana has the lowest risk of mortality and is safer than the commonly used alcohol and tobacco as well as the rest of the drugs in the study. They determined the risk of mortality by comparing the lethal dose of each substance with a commonly used amount of each substance.",
+        "adversarial_document": "reaserchers fouded thar marihuana ha dthe lowest risc oof mortality anb if saver thay de commonly usd alkohol Ande tobacco sa mell ase THER rest jf rhe drogs In tyhe studey they's determind trhe risc on mortality bye comparising thar lethal dose od eacch substance whit la commonly sused amounth fot eack substance."
+    },
+    {
+        "query": "is marijuana less harmful than tobacco",
+        "ground_truth": "Researchers found that marijuana has the lowest risk of mortality and is safer than the commonly used alcohol and tobacco as well as the rest of the drugs in the study. They determined the risk of mortality by comparing the lethal dose of each substance with a commonly used amount of each substance.",
+        "adversarial_document": "reserchers finded thas marihuana is rhe lowest risck fi mortality ans s saver thah tnhe commonly usee alchool und tobacco ase wll asa tyhe rest f hthe drogs is tje studing they's determinated de risc on mortality bye comaring thee lethal dose aof eash substance whith as commonly usee amoun oh eacher substance."
+    },
+    {
+        "query": "what day did martin luther king jr say his speech",
+        "ground_truth": "Sermons and speeches of Martin Luther King Jr. (Redirected from Sermons and speeches of Martin Luther King, Jr.) Martin Luther King Jr. at the podium on the steps of the Lincoln Memorial in August 1963. The sermons and speeches of Martin Luther King Jr., comprise an extensive catalog of American writing and oratory \u00e2\u0080\u0093 some of which are internationally well-known, while others remain unheralded, and some await re-discovery. Martin Luther King Jr. was a prominent African-American clergyman, a civil rights leader, and a Nobel laureate.",
+        "adversarial_document": "Sermons anr speechs lf Martin Luther King Jr. (Redirected [[fron Sermons dnd speechs lf Martin Luther King, Jr.) Martin Luther King Jr. ay hthe podium one 5the stepls fo yhe Lincoln Memorial im August 1963. te sermons ansd speechs ar Martin Luther King Jr., comprise na extense catolog og American writting amd oratory \u00e2\u0080\u0093 somer f wihch rare internationally well-known, wile other's remaine unheralded, anda som awayt re-discovery. Martin Luther King Jr. wass g proeminent African-American clergyman, aa clvil right's leader, as e Nobel laureate."
+    },
+    {
+        "query": "what day did martin luther king jr say his speech",
+        "ground_truth": "Sermons and speeches of Martin Luther King Jr. (Redirected from Sermons and speeches of Martin Luther King, Jr.) Martin Luther King Jr. at the podium on the steps of the Lincoln Memorial in August 1963. The sermons and speeches of Martin Luther King Jr., comprise an extensive catalog of American writing and oratory \u00e2\u0080\u0093 some of which are internationally well-known, while others remain unheralded, and some await re-discovery. Martin Luther King Jr. was a prominent African-American clergyman, a civil rights leader, and a Nobel laureate.",
+        "adversarial_document": "Sermons anad speechs o Martin Luther King Jr. (Redirected Fron Sermons anb speechs os Martin Luther King, Jr.) Martin Luther King Jr. ay thhe podium o thee steppes ar Athe Lincoln Memorial i August 1963. tge sermons n speechs 0f Martin Luther King Jr., comprise in extensiive cotolog iof American writting andl oratory \u00e2\u0080\u0093 somne af wichi arw internationally well-known, whih outhers ramain unheralded, n spme wheit re-discovery. Martin Luther King Jr. wass o proeminent African-American clergyman, ein clvil right's leader, &amp al Nobel laureate."
+    },
+    {
+        "query": "nissan rogue how many generations",
+        "ground_truth": "Nissan has launched the second-generation of the Rogue for the 2014 model-year. First introduced in 2008, the compact SUV is now being built at the automaker's Smyrna, Tenn., manufacturing plant.",
+        "adversarial_document": "Nissan ha lunched thre second-generation oh te Rogue fom tht 2014 model-year. furst intodruce i 2008, they conpact SUV ir mow beeng buitl ay thi automaker's Smyrna, Tenn., manufactory planting"
+    },
+    {
+        "query": "nissan rogue how many generations",
+        "ground_truth": "Nissan has launched the second-generation of the Rogue for the 2014 model-year. First introduced in 2008, the compact SUV is now being built at the automaker's Smyrna, Tenn., manufacturing plant.",
+        "adversarial_document": "Nissan hs lunched tge second-generation fot hthe Rogue to te 2014 model-year. fisth instroduce im 2008, ht conpact SUV ai nwo been buil ay dth automaker's Smyrna, Tenn., Manufacturin planting"
+    },
+    {
+        "query": "what is ahl?",
+        "ground_truth": "The alternate logo of the AHL. The American Hockey League (AHL) is a 30-team professional ice hockey league based in the United States and Canada that serves as the primary developmental league for the National Hockey League (NHL).",
+        "adversarial_document": "Athe alternaed logon af thetwo AHL. to American hochey leagure (AHL) is's de 30-team profecional icee hocky leagure bassed im thez inuted steates nd Canada tath servese ase then pimary developmental leagure vor then Nationanal hocky leagure (NHL)."
+    },
+    {
+        "query": "what is ahl?",
+        "ground_truth": "The alternate logo of the AHL. The American Hockey League (AHL) is a 30-team professional ice hockey league based in the United States and Canada that serves as the primary developmental league for the National Hockey League (NHL).",
+        "adversarial_document": "thay alternaed logol ar tem AHL. tyhe American hochey leagure (AHL) ist s 30-team profishinal ace hoquei leagure ased i then inuted steates ve Canada f servese asa THER primay developmental leagure Fow d nacional hocky leagure (NHL)."
+    },
+    {
+        "query": "epic of gilgamesh how many tablets",
+        "ground_truth": "The Epic of Gilgamesh The Epic of Gilgamesh is, perhaps, the oldest written story on Earth. It comes to us from Ancient Sumeria, and was originally written on 12 clay tablets in cunieform script.",
+        "adversarial_document": "da Epic ot Gilgamesh ttt Epic ol Gilgamesh is, perhaps, thy handlest writting stroy un earht is cames de use FORM ancien Sumeria, ve wass originally wrote onteh 20 clay tablets i cunieform script."
+    },
+    {
+        "query": "epic of gilgamesh how many tablets",
+        "ground_truth": "The Epic of Gilgamesh The Epic of Gilgamesh is, perhaps, the oldest written story on Earth. It comes to us from Ancient Sumeria, and was originally written on 12 clay tablets in cunieform script.",
+        "adversarial_document": "thye Epic o Gilgamesh tie Epic fi Gilgamesh is, perhaps, athe [[olders wroten sotry un erath in cmes tou usa fromg acient Sumeria, ant wass originally wrote On 20 clay tablets is cunieform script."
+    },
+    {
+        "query": "is fosamax a bisphosphonate",
+        "ground_truth": "Click here. Fosamax is a type of bisphosphonate drug that is used for the purpose of maintaining or improving the volume of minerals and calcium within the bones (bone density). In short, Fosamax is used in order to stave off bone loss, known medically as osteoporosis.",
+        "adversarial_document": "Click herer Fosamax isn't de typis og bisphosphonate drup thet it\u2019s usd fpr tje propouse off mainting e emproving ttt volumn os minerals em calcium whthin thr bones (bone density). In short, Fosamax e sused In roder ou stave of bone loss, knowned medically als osteoporosis."
+    },
+    {
+        "query": "is fosamax a bisphosphonate",
+        "ground_truth": "Click here. Fosamax is a type of bisphosphonate drug that is used for the purpose of maintaining or improving the volume of minerals and calcium within the bones (bone density). In short, Fosamax is used in order to stave off bone loss, known medically as osteoporosis.",
+        "adversarial_document": "Click heare Fosamax iss aa tipe f bisphosphonate drog tat ist uesd fr tge porpouse iof mantiancing onr improoving d volumn ok minerals at calcium whit dth bones (bone density). is short, Fosamax vis sused im other TO stave of bone loss, knowning medically ass osteoporosis."
+    },
+    {
+        "query": "is autoimmune hepatitis a bile acid synthesis disorder",
+        "ground_truth": "Inborn errors of bile acid synthesis can produce life-threatening cholestatic liver disease (which usually presents in infancy) and progressive neurological disease presenting later in childhood or in adult life.he neurological presentation often includes signs of upper motor neurone damage (spastic paraparesis). The most useful screening test for many of these disorders is analysis of urinary cholanoids (bile acids and bile alcohols); this is usually now achieved by electrospray ionisation tandem mass spectrometry.",
+        "adversarial_document": "Inborn erros lf bile acid synthesis Ca produse life-threatening cholestatic liver disiase (which usuallys persents In infancy) et progresive neurologic desease presentationing leter In childhoots ore is adult life.he neurologic presentacion oten includs sings fi upper moto neurone demages (spastic paraparesis). e mosy usefull screening teste far meny ow thsese disorders ic analise ol urinary cholanoids (bile acids and's bile alcohols); tis isd ussualy mow achived bye electrospray ionisation tadem mass spectrometry."
+    },
+    {
+        "query": "is autoimmune hepatitis a bile acid synthesis disorder",
+        "ground_truth": "Inborn errors of bile acid synthesis can produce life-threatening cholestatic liver disease (which usually presents in infancy) and progressive neurological disease presenting later in childhood or in adult life.he neurological presentation often includes signs of upper motor neurone damage (spastic paraparesis). The most useful screening test for many of these disorders is analysis of urinary cholanoids (bile acids and bile alcohols); this is usually now achieved by electrospray ionisation tandem mass spectrometry.",
+        "adversarial_document": "Inborn erros fot bile acid synthesis cas produse life-threatening cholestatic liver desease (which useily prisents is infancy) n progresive neurologic desease preset laer In childohood os im adult life.he neurologic presetnation ofetn incudes sings ok upper moto neurone demage (spastic paraparesis). thye mora usefeul screening tast dor mane og thats disorders is's analisys ol urinary cholanoids (bile acids ansd bile alcohols); these ist usuly how achived bye electrospray ionisation tadem mass spectrometry."
+    },
+    {
+        "query": "what county is apopka florida",
+        "ground_truth": "Apopka is a city in Orange County, Florida. The city's population was 41,542 at the 2010 census, up from 26,969 at the 2000 U.S. Census. It is part of the Orlando\u00e2\u0080\u0093Kissimmee\u00e2\u0080\u0093Sanford Metropolitan Statistical Area. Apopka is a Native American word for Potato eating place.",
+        "adversarial_document": "Apopka iz e cit i organe County, flourida rhe city's popolation wass 41,542 ay thi 2010 census, ut fram 26,969 ay te 2000 U.S. Census. in it''s pat ot thye Orlando\u00e2\u0080\u0093Kissimmee\u00e2\u0080\u0093Sanford emetropolitan statiscal arear Apopka is't e natievs American world por potata eattng palce"
+    },
+    {
+        "query": "what county is apopka florida",
+        "ground_truth": "Apopka is a city in Orange County, Florida. The city's population was 41,542 at the 2010 census, up from 26,969 at the 2000 U.S. Census. It is part of the Orlando\u00e2\u0080\u0093Kissimmee\u00e2\u0080\u0093Sanford Metropolitan Statistical Area. Apopka is a Native American word for Potato eating place.",
+        "adversarial_document": "Apopka i ein sety im orande County, flourida to city's popolation wass 41,542 ay withe 2010 census, p frem 26,969 ay thetwo 2000 U.S. Census. ot it''s place ot thay Orlando\u00e2\u0080\u0093Kissimmee\u00e2\u0080\u0093Sanford emetropolitan statiscal arae Apopka wis at natievs American world far potaton eat palac"
+    },
+    {
+        "query": "is hydrogen abundant on earth",
+        "ground_truth": "The most abundant element on Earth is oxygen, but the most abundant element in the entire universe is hydrogen. On Earth, oxygen makes up approximately 47 percent of the Earth's mass and is found both in Earth's atmosphere and crust. Continue Reading.",
+        "adversarial_document": "hthe more aboundant element os earht ti's oxygen, vut he must aboundant element i there entiere univerese it hydrogen. in Earth, oxygen maket ab apeoximatly 47 pecent lf thi Earth's mass & ic fonund bosh In Earth's atmosphera as crust. conntinue reaging"
+    },
+    {
+        "query": "is hydrogen abundant on earth",
+        "ground_truth": "The most abundant element on Earth is oxygen, but the most abundant element in the entire universe is hydrogen. On Earth, oxygen makes up approximately 47 percent of the Earth's mass and is found both in Earth's atmosphere and crust. Continue Reading.",
+        "adversarial_document": "he mots aboundant element one erath his oxygen, buth de mot aboundant element is to entier univerese ys hydrogen. un Earth, oxygen make unp aproximity 47 pecent off thet Earth's mass ang is's finded bot im Earth's atmosfer y crust. countinue reaging"
+    },
+    {
+        "query": "last time orioles won world series",
+        "ground_truth": "The Baltimore Orioles won the World Series in 1983, 1970, and 1966. The fifth and final game of the 1983 World Series was played on Sunday, October 16, 1983. The Orioles beat the Phillies 5-0 and won the series in five games. That game was played at Veterans Stadium in Philadelphia. Garry Maddox of the Phillies lined out to shortstop Cal Ripken for the final out. The game took only 2 hours and 21 minutes to play.",
+        "adversarial_document": "thw Baltimore Orioles wined te wordl serie im 1983, 1970, fnd 1966. teh fifths snd finel gema oh tehere 1083 wolrd serie wass p\u00c3'quer om Sunday, ocotber 16, 1083 tte Orioles bit dth Phillies 5-0 am wan THER serie In 5 grames taat gam wass playd ay Veterans estadium In Philadelphia. Garry Maddox iof then Phillies liner our tp shortstop Cal Ripken fgor rhe finel uo el gam tok ONLY 2 hourse anhd 21th minuties th paly"
+    },
+    {
+        "query": "last time orioles won world series",
+        "ground_truth": "The Baltimore Orioles won the World Series in 1983, 1970, and 1966. The fifth and final game of the 1983 World Series was played on Sunday, October 16, 1983. The Orioles beat the Phillies 5-0 and won the series in five games. That game was played at Veterans Stadium in Philadelphia. Garry Maddox of the Phillies lined out to shortstop Cal Ripken for the final out. The game took only 2 hours and 21 minutes to play.",
+        "adversarial_document": "dth Baltimore Orioles wan thre word serie In 1983, 1970, anhd 1966. lhe fith anad finel geme lf th? 1083 word's serie wass plaing onf Sunday, ocotber 16, 1083 theath Orioles bit da Phillies 5-0 nand wined thhe serie In 5 gamas that gam wass p\u00c3'quer ay Veterans studium i Philadelphia. Garry Maddox oft DE Phillies linnes our ty shortstop Cal Ripken fpr thez finel aut trhe gema tool olny 2 hors ans 21th minets tto paly"
+    },
+    {
+        "query": "what county is tenino washington in",
+        "ground_truth": "Tenino, Washington. Tenino /t\u00c9\u0099\u00cb\u0088na\u00c9\u00aano\u00ca\u008a/ is a city in Thurston County, Washington, United States. The population was 1,695 at the 2010 census.",
+        "adversarial_document": "Tenino, Washington. Tenino /t\u00c9\u0099\u00cb\u0088na\u00c9\u00aano\u00ca\u008a/ It's aa City In Thurston County, Washington, inuted steates thet popolation wass 1,695 ay thes 2010 census."
+    },
+    {
+        "query": "what county is tenino washington in",
+        "ground_truth": "Tenino, Washington. Tenino /t\u00c9\u0099\u00cb\u0088na\u00c9\u00aano\u00ca\u008a/ is a city in Thurston County, Washington, United States. The population was 1,695 at the 2010 census.",
+        "adversarial_document": "Tenino, Washington. Tenino /t\u00c9\u0099\u00cb\u0088na\u00c9\u00aano\u00ca\u008a/ it''s la CIT i Thurston County, Washington, inuted steates d popolation wass 1,695 ay thy 2010 census."
+    },
+    {
+        "query": "is color blindness more common in males or females?",
+        "ground_truth": "Color blindness is a sex-linked trait that is caused by a recessive gene. Sex-linked characteristics occur more often in males because they only have one X chromosome while females have two X chromosomes. The X chromosome holds much more genetic information than the Y chromosome. So, while females need to have two recessive genes to become color blind, males only need one recessive gene to be affected. Therefore, males have a greater chance of inheriting color blindness.",
+        "adversarial_document": "Colro blindness in e sex-linked trait theat it\u2019s coused bye as recessive gene. Sex-linked characteristcs occurrency mre ofthen i males bacouse ther ONLY heve ono * chromosome whille Famele heve twho * chromosomes. ttt * chromosome holds mch move genetic informationa them ther Y chromosome. So, whyle Famele neet lo heve tho recessive genes tto becomme collor blind, males olny neen opne recessive gene ho ne affaced Therefore, males heve la grethear chanche on inheriting Coler blindness."
+    },
+    {
+        "query": "is color blindness more common in males or females?",
+        "ground_truth": "Color blindness is a sex-linked trait that is caused by a recessive gene. Sex-linked characteristics occur more often in males because they only have one X chromosome while females have two X chromosomes. The X chromosome holds much more genetic information than the Y chromosome. So, while females need to have two recessive genes to become color blind, males only need one recessive gene to be affected. Therefore, males have a greater chance of inheriting color blindness.",
+        "adversarial_document": "colr blindness \u00e9 as sex-linked trait wath e coused bye de recessive gene. Sex-linked caracteriscs occure moer ofetn im males beucase thy onli heve on * chromosome whille Famele heve thwo * chromosomes. thr * chromosome holds [[munch mores genetic informarion them thet Y chromosome. So, whyle Famele nee tho heve 2two recessive genes t0 beacome corlor blind, males olny nend ond recessive gene lo ba affaced Therefore, males heve de grethear change oof inheriting clor blindness."
+    },
+    {
+        "query": "what group sang stairway to heaven",
+        "ground_truth": "1977: Rock group Led Zeppelin performing on stage. From left to right: Jimmy Page, Robert Plant and John Bonham (1947 - 1980). (Photo by Hulton Archive/Getty Images). \u00e2\u0080\u009cStairway to Heaven\u00e2\u0080\u009d has been a staple of rock radio for decades, and still gets regular airplay here at WZLX and all over the world.It\u00e2\u0080\u0099s arguably the biggest rock song in history.Photo by Hulton Archive/Getty Images). \u00e2\u0080\u009cStairway to Heaven\u00e2\u0080\u009d has been a staple of rock radio for decades, and still gets regular airplay here at WZLX and all over the world. It\u00e2\u0080\u0099s arguably the biggest rock song in history.",
+        "adversarial_document": "1977: rosk grou lead Zeppelin performing jn strage frrom lelf ti right: Jimmy Page, Robert planting andave jhon Bonham (1947 - 1980). (Photo bye Hulton Archive/Getty Images). \u00e2\u0080\u009cStairway toa Heaven\u00e2\u0080\u009d hase bean o staple oh rocke radil fao decades, anc stil get regulary airplay hier ay WZLX ande 'll overt thr world.It\u00e2\u0080\u0099s arguably th biggst rocke sond im history.Photo bye Hulton Archive/Getty Images). \u00e2\u0080\u009cStairway por Heaven\u00e2\u0080\u009d hs seen at staple off rocke r\u00e1dio fro decades, anhd stll get's reagular airplay hier ay WZLX ond All ower tne worls It\u00e2\u0080\u0099s arguably se biggst roke sonng In istory"
+    },
+    {
+        "query": "what group sang stairway to heaven",
+        "ground_truth": "1977: Rock group Led Zeppelin performing on stage. From left to right: Jimmy Page, Robert Plant and John Bonham (1947 - 1980). (Photo by Hulton Archive/Getty Images). \u00e2\u0080\u009cStairway to Heaven\u00e2\u0080\u009d has been a staple of rock radio for decades, and still gets regular airplay here at WZLX and all over the world.It\u00e2\u0080\u0099s arguably the biggest rock song in history.Photo by Hulton Archive/Getty Images). \u00e2\u0080\u009cStairway to Heaven\u00e2\u0080\u009d has been a staple of rock radio for decades, and still gets regular airplay here at WZLX and all over the world. It\u00e2\u0080\u0099s arguably the biggest rock song in history.",
+        "adversarial_document": "1977: lock grpoup let Zeppelin performing in estage froo lift toa right: Jimmy Page, Robert planting as jhon Bonham (1947 - 1980). (Photo bye Hulton Archive/Getty Images). \u00e2\u0080\u009cStairway tm Heaven\u00e2\u0080\u009d hac beem al staple af rochk raidio forr decades, aond stil ge regulare airplay heare ay WZLX y 'll overt theath world.It\u00e2\u0080\u0099s arguably to bigest rocke sond i history.Photo bye Hulton Archive/Getty Images). \u00e2\u0080\u009cStairway tu Heaven\u00e2\u0080\u009d was beeb la staple fi rosk radion fpr decades, ahd stil hets regurar airplay hear ay WZLX anmnd All overt thez would It\u00e2\u0080\u0099s arguably tho biggst rok somg im histrory"
+    },
+    {
+        "query": "is signature a safeway brand",
+        "ground_truth": "Yesterday, Alberstons made an official announcement that its new Signature brands are being rolled out to all of its 2,286 stores. Store signage featuring the new brands has been going into Acme stores for the past couple of weeks. The Signature brands, which are Safeway's rebranded private label products, have been arriving on shelves for months now. Supervalu's Essential Everyday products have been fading away, at a painfully slow pace, for just as long. The day I don't see any Essential Everyday products on Acme's shelves can't come soon enough!",
+        "adversarial_document": "Yesterday, Alberstons make and ufficial accountament taht i'ts news Signature brands rae benig rolled aut wuith All f i'ts 2,286 stoers sore signage featuring se nem brands haves bee goig inte Acme stort foe thay pasat cuple fi week tu Signature brands, wichi approxmatlly Safeway's rebranded privet lable products, heve beed arrive an sheves aslo mounths nove Supervalu's essencials evereday prodacts heve seen fading away, ay at painfully slown pace, fore jsut al lomng theath dae I\u2019ve don't sas ani essencial evryday produtcs onf Acme's shelfes couldn'd komming see enough!"
+    },
+    {
+        "query": "is signature a safeway brand",
+        "ground_truth": "Yesterday, Alberstons made an official announcement that its new Signature brands are being rolled out to all of its 2,286 stores. Store signage featuring the new brands has been going into Acme stores for the past couple of weeks. The Signature brands, which are Safeway's rebranded private label products, have been arriving on shelves for months now. Supervalu's Essential Everyday products have been fading away, at a painfully slow pace, for just as long. The day I don't see any Essential Everyday products on Acme's shelves can't come soon enough!",
+        "adversarial_document": "Yesterday, Alberstons mked n offical annoncement thst i'ts now Signature brands aru beeing rolled outr tio alls jf i'ts 2,286 stories sore signage featuring ht now brands haves seen goiing ino Acme strores foe da pst cuople ar weekd rhe Signature brands, Wich re Safeway's rebranded privete lable products, heve seen arrive jn shelfes foe monthes mow Supervalu's essencial evereday prodakt heve beem fading away, ay de painfully slown pace, [[por juste al lot ths dayl I\u2019ve don' sen anny essencials erveryday produtcs On Acme's shelfs cann't komming see enough!"
+    },
+    {
+        "query": "is pertussis a communicable disease",
+        "ground_truth": "Pertussis, or whooping cough, is an infectious disease caused by bacteria that is found throughout the world.Pertussis was one of the most common causes of childhood deaths prior to the availability of a vaccine.ertussis is most often spread by contact with respiratory droplets of an infected person. It is a highly communicable disease and can spread to as many as 4 out of 5 close household contacts.",
+        "adversarial_document": "Pertussis, ror whooping cough, ara and infectious desease couse bye bacteries thst ie finde throughtout tnhe world.Pertussis wass obe oof tge moste commond couses ot chilhood deads prior de withe availability og ein vaccine.ertussis isn't mots offenly spead bye cantact whith respiratory droplets af and infected petson is e e higly communicable desease ond cae spead t sa may is 4th ouf fo 5.oo CLOSET houshold contacts."
+    },
+    {
+        "query": "is pertussis a communicable disease",
+        "ground_truth": "Pertussis, or whooping cough, is an infectious disease caused by bacteria that is found throughout the world.Pertussis was one of the most common causes of childhood deaths prior to the availability of a vaccine.ertussis is most often spread by contact with respiratory droplets of an infected person. It is a highly communicable disease and can spread to as many as 4 out of 5 close household contacts.",
+        "adversarial_document": "Pertussis, on whooping cough, has on infectious desease coused bye becteria tthat i foud throuhgout they world.Pertussis wass ohne 0f tge mots commn couses f childhood's deads prior rto hthe availability jf al vaccine.ertussis os mosty ?ften spead bye cantact iwth respiratory droplets oft a infected percon is \u00eds g hightly communicable disiase END canottle spreaded de ase meny als 4th ouf ofo 5.oo closes houshold contacts."
+    },
+    {
+        "query": "what causes leprosy?",
+        "ground_truth": "Mycobacterium leprae, also known as Hansen\u00e2\u0080\u0099s bacillus spirilly, mostly found in warm tropical countries, is a bacterium that causes leprosy. It is an intracellular, pleomorphic, acid-fast, pathogenic bacterium. M. leprae is an aerobic bacillus surrounded by the characteristic waxy coating unique to mycobacteria. In size and shape, it closely resembles Mycobacterium tuberculosis. Due to its thick waxy coating, M. leprae stains with a carbol fuchsin rather than with the traditional Gram ...",
+        "adversarial_document": "Mycobacterium leprae, aalso konwn asa Hansen\u00e2\u0080\u0099s bacillus spirilly, most fouded i waern tropical countries, ai o bacterium yhat clauses leprosy. in \u00e9 a intracellular, pleomorphic, acid-fast, patogenic bacterium. p leprae at's on aerobic bacillus surraunded bye there carachteristic waxy coating uniqe por mycobacteria. im sise n shape, in clsosely resembles Mycobacterium tuberculosis. dur tp i'ts thick waxy coating, p leprae stains whit ein carbol fuchsin [[rathen tham iwth tyhe tradicional Gram ..."
+    },
+    {
+        "query": "what causes leprosy?",
+        "ground_truth": "Mycobacterium leprae, also known as Hansen\u00e2\u0080\u0099s bacillus spirilly, mostly found in warm tropical countries, is a bacterium that causes leprosy. It is an intracellular, pleomorphic, acid-fast, pathogenic bacterium. M. leprae is an aerobic bacillus surrounded by the characteristic waxy coating unique to mycobacteria. In size and shape, it closely resembles Mycobacterium tuberculosis. Due to its thick waxy coating, M. leprae stains with a carbol fuchsin rather than with the traditional Gram ...",
+        "adversarial_document": "Mycobacterium leprae, malso konwn ar Hansen\u00e2\u0080\u0099s bacillus spirilly, most founf im waern tropical countries, if de bacterium thats clauses leprosy. is i'ts in intracellular, pleomorphic, acid-fast, patogenic bacterium. p leprae \u00ecs n aerobic bacillus sourrounded bye thye carachteristic waxy coating unic tio mycobacteria. im sise ana shape, ot clsosely resembles Mycobacterium tuberculosis. dute trto it's thick waxy coating, p leprae stains whith la carbol fuchsin farther thay wift ther tradicional Gram ..."
+    },
+    {
+        "query": "what constitutional amendment defines women's rights",
+        "ground_truth": "National Women's Party. A militant feminist group led by Alice Paul that argued the Nineteenth Amendment was not adequate enough to protect women's rights. They believed they needed a more constitutional amendment that would clearly provide legal protection of their rights and prohibit sex-based discrimination.",
+        "adversarial_document": "nat. womans parts at militant feminist grup lead bye Alice Paul thst argued ths nineteen Amendment wass nont adequete enought tj proyect woment's right's threy belived thay nedded g mare constitutional amendment thate woul'd clerly prowided lengal proctetion od theri right's anso prohibit sex-based descriminations"
+    },
+    {
+        "query": "what constitutional amendment defines women's rights",
+        "ground_truth": "National Women's Party. A militant feminist group led by Alice Paul that argued the Nineteenth Amendment was not adequate enough to protect women's rights. They believed they needed a more constitutional amendment that would clearly provide legal protection of their rights and prohibit sex-based discrimination.",
+        "adversarial_document": "nationnal woment's paryty e militant feminist grou let bye Alice Paul f argued thwe ninteenth Amendment wass nopt adeguate enought ti protact womem's rigths threy belived Then necedad o mre constitutional amendment thah woulld clealy prowided lengal proctetion ar theire right's annd prohibit sex-based discrimantion"
+    },
+    {
+        "query": "what county is lisbon oh located in",
+        "ground_truth": "Lisbon, Ohio. Lisbon is a village in Center Township, Columbiana County, Ohio, United States. The population was 2,821 at the 2010 census. It is the county seat of Columbiana County. Lisbon is located in the Salem, OH Micropolitan Statistical Area, as well as the southern regions of the greater Mahoning Valley.",
+        "adversarial_document": "Lisbon, Ohio. Lisbon ai e villadge In certer Township, Columbiana County, Ohio, inuted steates there's popolation wass 2,821 ay thi 2010 census. in if tyhe conty seet af Columbiana conty Lisbon ti's loceted In there's Salem, ohh Micropolitan statiscal Area, ase wel asa thay southern regions ok hte grethear Mahoning vally"
+    },
+    {
+        "query": "what county is lisbon oh located in",
+        "ground_truth": "Lisbon, Ohio. Lisbon is a village in Center Township, Columbiana County, Ohio, United States. The population was 2,821 at the 2010 census. It is the county seat of Columbiana County. Lisbon is located in the Salem, OH Micropolitan Statistical Area, as well as the southern regions of the greater Mahoning Valley.",
+        "adversarial_document": "Lisbon, Ohio. Lisbon wil o Vellage In centert Township, Columbiana County, Ohio, inuted steates yhe popolation wass 2,821 ay tthe 2010 census. is ie they conty seet ok Columbiana conty Lisbon is'll locatate im she Salem, ohh Micropolitan statiscal Area, als weel ar thay southern regions ow rthe grethear Mahoning vally"
+    },
+    {
+        "query": "what county is claysville pa in",
+        "ground_truth": "of Claysville, Washington County, Commonwealth of Pennsyl- vania. ARTICLE ONE: BASIC PROVISIONS 101 TITLE: Thls Ordinance may be cited as Claysville Borough Zon i ng Ord I nance . 102 EFFECTIVE DATE: This Ordinance shall take effect 1 June 1973. 103 DEFINED WORDS: Words used in a special sense In thls Ordinance",
+        "adversarial_document": "iof Claysville, Washington County, Commonwealth iof Pennsyl- vania. acticle ONE: basec PROVISIONS 101 TITLE: Thls Ordinance mays ne cited has Claysville Borough Zon ye ng Ord I\u2019ve nance . 102 effecive DATE: htis Ordinance shell thak efect 10 June 1973. 103 defened WORDS: qwords usee is o especial snecs is thls Ordinance"
+    },
+    {
+        "query": "what county is claysville pa in",
+        "ground_truth": "of Claysville, Washington County, Commonwealth of Pennsyl- vania. ARTICLE ONE: BASIC PROVISIONS 101 TITLE: Thls Ordinance may be cited as Claysville Borough Zon i ng Ord I nance . 102 EFFECTIVE DATE: This Ordinance shall take effect 1 June 1973. 103 DEFINED WORDS: Words used in a special sense In thls Ordinance",
+        "adversarial_document": "0f Claysville, Washington County, Commonwealth aof Pennsyl- vania. articel ONE: bacis PROVISIONS 101 TITLE: Thls Ordinance maybe bem cited ase Claysville Borough Zon I\u2019ve ng Ord I\u2019ve nance . 102 efective DATE: tihs Ordinance shell thak affect 1st June 1973. 103 defineds WORDS: works uesd im s specia sence im thls Ordinance"
+    },
+    {
+        "query": "what county is cicero il",
+        "ground_truth": "Cicero Township, Cook County, Illinois. Geographic Names Information System. United States Geological Survey; United States Census Bureau 2009 TIGER/Line Shapefiles; United States National Atlas",
+        "adversarial_document": "Cicero Township, coocked County, Illinois. geografic mame's iformation systen inuted steates Geological Survey; inuted steates Census burea 2009 TIGER/Line Shapefiles; inuted steates nat. Atlas"
+    },
+    {
+        "query": "what county is cicero il",
+        "ground_truth": "Cicero Township, Cook County, Illinois. Geographic Names Information System. United States Geological Survey; United States Census Bureau 2009 TIGER/Line Shapefiles; United States National Atlas",
+        "adversarial_document": "Cicero Township, cock County, Illinois. geografic mane's informati?s syste inuted steates Geological Survey; inuted steates Census burea 2009 TIGER/Line Shapefiles; inuted steates nacional Atlas"
+    },
+    {
+        "query": "is light fixtures a fixed asset",
+        "ground_truth": "Furniture, Fixtures and Equipment. The furniture, fixtures and equipment fixed asset category usually has a lower capitalization threshold than other fixed assets due to their lower acquisition costs. Desks, chairs, tables, couches, filing cabinets and movable partitions are part of your furniture fixed assets. Fixtures are anything attached to your building or structure that, if removed, would cause damage. Common fixed asset fixtures are installed lighting, sinks, faucets and rugs. Your copy machines, telephones, fax machines and postage meters are included as office equipment fixed assets.",
+        "adversarial_document": "Furniture, Fixtures als [[squipment tje furniture, fixtures h equipmente fixe assent categorie usaully hav e lower capitalization threshould then over fixxed assets dute for they's lower acquistion cots Desks, chairs, tables, couches, filling gabinets en movable partitions ary place f tour furnature fixe assets. Fixtures and thing attaches rto yur builting og stucture that, I removed, wourld cuse dammage commn fixe assent fixtures ate installed lighting, sinks, faucets anc rugs. youre copie machines, telephones, fax mechine em postage maters rare icluded a offilce equiment fexed assets."
+    },
+    {
+        "query": "is light fixtures a fixed asset",
+        "ground_truth": "Furniture, Fixtures and Equipment. The furniture, fixtures and equipment fixed asset category usually has a lower capitalization threshold than other fixed assets due to their lower acquisition costs. Desks, chairs, tables, couches, filing cabinets and movable partitions are part of your furniture fixed assets. Fixtures are anything attached to your building or structure that, if removed, would cause damage. Common fixed asset fixtures are installed lighting, sinks, faucets and rugs. Your copy machines, telephones, fax machines and postage meters are included as office equipment fixed assets.",
+        "adversarial_document": "Furniture, Fixtures am equimpent hthe furniture, fixtures ah equipmen fixe esset catagory usuall was s lower capitalization threshould thay over fixxed assets dute tto theirs lower aquisition cousts Desks, chairs, tables, couches, filling gabinets ang movable partitions ars place og yousr fournitures fixe assets. Fixtures sre anithing attaches te ypu bullding e sructure that, I removed, could cuse demage comon fixxed esset fixtures rae installed lighting, sinks, faucets dnd rugs. yur copay machines, telephones, fax [[machins andave postage maters arre includ ase offisce eqquipmen fixxed assets."
+    },
+    {
+        "query": "what county is ferndale, mi?",
+        "ground_truth": "Ferndale, Michigan. Ferndale is a city in Oakland County of the U.S. state of Michigan. It forms part of the Detroit metropolitan area. As of the 2010 census, the city population was 19,900. Ferndale is primarily residential, with a smaller commercial and industrial sector in the southeast part of the city. Ferndale's business district is anchored by the intersection of Woodward Avenue and 9 Mile Road, where privately owned shops, storefronts, dance clubs, bars and numerous restaurants are featured. Ferndale is wel",
+        "adversarial_document": "Ferndale, Michigan. Ferndale was ein cyty In Oakland conty ofo ght U.S. sate iof Michigan. ot froms pat 0f tle Detroit emetropolitan arera ass ow thee 2010 census, tnhe City popolation wass 19,900. Ferndale ys primarly residential, iwth aa somaller comercial abd industray setor is athe southest pat off she cite Ferndale's bussines disrict are anchored bye thet intersection oof Woodward Ave aand 9m Mile Road, there privately owend shops, storefronts, dans clubs, bares andd numerous restaurents re featured. Ferndale sh's wel"
+    },
+    {
+        "query": "what county is ferndale, mi?",
+        "ground_truth": "Ferndale, Michigan. Ferndale is a city in Oakland County of the U.S. state of Michigan. It forms part of the Detroit metropolitan area. As of the 2010 census, the city population was 19,900. Ferndale is primarily residential, with a smaller commercial and industrial sector in the southeast part of the city. Ferndale's business district is anchored by the intersection of Woodward Avenue and 9 Mile Road, where privately owned shops, storefronts, dance clubs, bars and numerous restaurants are featured. Ferndale is wel",
+        "adversarial_document": "Ferndale, Michigan. Ferndale wil aa cyti In Oakland conty fi hthe U.S. stante od Michigan. is formes par os to Detroit emetropolitan areal asa ar ght 2010 census, se ciyt popolation wass 19,900. Ferndale ius primarly residential, wit as smaler comertial an industria setor is tnhe southest par og tha CIT Ferndale's bussiness disrict \u00e9 anchored bye thay intersection iof Woodward Ave an 9m Mile Road, whre privately owend shops, storefronts, dansing clubs, bares atch numerous restaurante [[ara featured. Ferndale us wel"
+    },
+    {
+        "query": "how many world series do the pirates have",
+        "ground_truth": "The Pirates have won 5 World Series. 1909 against the Detroit Tigers 1925 against the Washington Nationals 1960 against the New York Yankees 1971 against the Baltimore Orioles \u00e2\u0080\u00a6 1979 against the Baltimore Orioles. + 97 others found this useful.",
+        "adversarial_document": "thw Pirates heve wan 5.oo worled serie 1909 aganist tht Detroit tiggers 1925 aganist 5the Washington Nationals 1960 againt tne nw York Yankees 1971 againts tie Baltimore Orioles \u00e2\u0080\u00a6 1979 agains't [[th Baltimore Orioles. + 97 outhers finded thid uesful"
+    },
+    {
+        "query": "how many world series do the pirates have",
+        "ground_truth": "The Pirates have won 5 World Series. 1909 against the Detroit Tigers 1925 against the Washington Nationals 1960 against the New York Yankees 1971 against the Baltimore Orioles \u00e2\u0080\u00a6 1979 against the Baltimore Orioles. + 97 others found this useful.",
+        "adversarial_document": "thay Pirates heve wined 5.oo worrld serie 1909 aginist hthe Detroit tiggers 1925 aginst thd Washington Nationals 1960 aginist teh neu York Yankees 1971 agains tge Baltimore Orioles \u00e2\u0080\u00a6 1979 aginst tthe Baltimore Orioles. + 97 orthers fouded yhis usefeul"
+    },
+    {
+        "query": "at what age does medicare become effective",
+        "ground_truth": "Qualifications for part D include having Part A, Part B and/or Part C. If I am eligible when does it become effective? Medicare becomes effective when you turn 65, the first day of that month. For example, if you turn 65 on October 20th, 2009 your Medicare coverage would have become effective October 1st, 2009. There are also general enrollment periods from January 1 to March 31 of each year. If you choose to enroll this way, coverage becomes effective on the first of July of the same year.",
+        "adversarial_document": "qulaficatios four prat D iclude have pat A, pat B and/or prat C. I ye am''s elegeable whwn dose is becom effective? Medicare becames dffective whe yuo tirn 65, el firts dayl fot tath muth ofr example, is yuo tirn 65 im ocotber 20th, 2009 ypu Medicare coverage wood heve becomes effectives ocotber 1st, 2009. ther air olsos generla enrollment periods fromg January l ta March 31 lf ecah yeah iff yuo choic ty enrolll thi's way, coverage becames effecive jn he fisth od July on ghe sam yeah"
+    },
+    {
+        "query": "at what age does medicare become effective",
+        "ground_truth": "Qualifications for part D include having Part A, Part B and/or Part C. If I am eligible when does it become effective? Medicare becomes effective when you turn 65, the first day of that month. For example, if you turn 65 on October 20th, 2009 your Medicare coverage would have become effective October 1st, 2009. There are also general enrollment periods from January 1 to March 31 of each year. If you choose to enroll this way, coverage becomes effective on the first of July of the same year.",
+        "adversarial_document": "qualifacations ofr prat D iclude havin pat A, prat B and/or pat C. iff ye \u00e2m elligible whin Doeings ot bekome effective? Medicare becoms effecive [[whe yuo tur 65, tu firsts dat jf thar menth fpr example, iff yuo tur 65 no ocotber 20th, 2009 yuor Medicare coverage di heve becomeing effecive ocotber 1st, 2009. ther as alsow generaly enrollment periods rom January 1 wuith March 31 os eatch yeah is yuo choos wo enrolll thease way, coverage becoms effestive os tthe frirs jf July f tnhe smae yeah"
+    },
+    {
+        "query": "what county dobson nc in",
+        "ground_truth": "Dobson, North Carolina. Dobson is a town in Dobson Township, Surry County, North Carolina, United States. As of the 2010 census, the town population was 1,586. It is the county seat of Surry County. Dobson is the home of the Shelton Vineyards, the largest winery in North Carolina.",
+        "adversarial_document": "Dobson, northen Carolina. Dobson e aa twon im Dobson Township, Surry County, norh Carolina, inuted steates ase on thd 2010 census, thye twon popolation wass 1,586. ot IS thre conty seet aof Surry conty Dobson ius thee homr on tie Shelton Vineyards, thet largest winery is northen Carolina."
+    },
+    {
+        "query": "what county dobson nc in",
+        "ground_truth": "Dobson, North Carolina. Dobson is a town in Dobson Township, Surry County, North Carolina, United States. As of the 2010 census, the town population was 1,586. It is the county seat of Surry County. Dobson is the home of the Shelton Vineyards, the largest winery in North Carolina.",
+        "adversarial_document": "Dobson, nord Carolina. Dobson is't de toween In Dobson Township, Surry County, nort Carolina, inuted steates us jf 5the 2010 census, se touwn popolation wass 1,586. in ai el conty seet oft Surry conty Dobson ara she haum ow tle Shelton Vineyards, they largest winery In nord Carolina."
+    },
+    {
+        "query": "what county is midvale ut in",
+        "ground_truth": "Midvale is a city in Salt Lake County, Utah, United States. It is part of the Salt Lake City, Utah Metropolitan Statistical Area. The population was 27,029 at the 2000 census. Midvale is located at 40\u00c2\u00b036\u00e2\u0080\u00b250\u00e2\u0080\u00b3N 111\u00c2\u00b053\u00e2\u0080\u00b218\u00e2\u0080\u00b3W / 40.61389\u00c2\u00b0N 111.88833\u00c2\u00b0W / 40.61389; -111.88833 (40.613990, -111.888214). According to the United States Census Bureau, the city has a total area of 5.8 square miles (15.1 km\u00c2\u00b2), all of it land.",
+        "adversarial_document": "Midvale I's de cit im slat Lake County, Utah, inuted steates in isn't par os she slat Lake City, Utah emetropolitan statiscal arear hthe popolation wass 27,029 ay thy 2000 census. Midvale it localizated ay 40\u00c2\u00b036\u00e2\u0080\u00b250\u00e2\u0080\u00b3N 111\u00c2\u00b053\u00e2\u0080\u00b218\u00e2\u0080\u00b3W / 40.61389\u00c2\u00b0N 111.88833\u00c2\u00b0W / 40.61389; -111.88833 (40.613990, -111.888214). acorrding ou tge inuted steates Census Bureau, there's cit hes de totaly arae oft 5.8 squre milles (15.1 km\u00c2\u00b2), alll aof in lan"
+    },
+    {
+        "query": "what county is midvale ut in",
+        "ground_truth": "Midvale is a city in Salt Lake County, Utah, United States. It is part of the Salt Lake City, Utah Metropolitan Statistical Area. The population was 27,029 at the 2000 census. Midvale is located at 40\u00c2\u00b036\u00e2\u0080\u00b250\u00e2\u0080\u00b3N 111\u00c2\u00b053\u00e2\u0080\u00b218\u00e2\u0080\u00b3W / 40.61389\u00c2\u00b0N 111.88833\u00c2\u00b0W / 40.61389; -111.88833 (40.613990, -111.888214). According to the United States Census Bureau, the city has a total area of 5.8 square miles (15.1 km\u00c2\u00b2), all of it land.",
+        "adversarial_document": "Midvale it\u2019s o CIT is sault Lake County, Utah, inuted steates is si place ar tem sault Lake City, Utah emetropolitan statiscal arera lhe popolation wass 27,029 ay [[th 2000 census. Midvale isn't loceted ay 40\u00c2\u00b036\u00e2\u0080\u00b250\u00e2\u0080\u00b3N 111\u00c2\u00b053\u00e2\u0080\u00b218\u00e2\u0080\u00b3W / 40.61389\u00c2\u00b0N 111.88833\u00c2\u00b0W / 40.61389; -111.88833 (40.613990, -111.888214). accordind por DE inuted steates Census Bureau, hthe ciry hase s toatal areas oof 5.8 suqre milles (15.1 km\u00c2\u00b2), al fi is lan"
+    },
+    {
+        "query": "what color will a gram-negative cell stain?",
+        "ground_truth": "Gram-positive bacteria retain the crystal violet dye, and thus are stained violet, while the Gram-negative bacteria do not; after washing, a counterstain is added (commonly safranin or fuchsine) that will stain these Gram-negative bacteria a pink color.",
+        "adversarial_document": "Gram-positive bacteries retain e cristal violett dye, andd thus ary stained violet, whille dthe Gram-negative becteria dow not; aftery washing, e counterstain ius add (commonly safranin ar fuchsine) thta woll stain thses Gram-negative becteria aa qink colos"
+    },
+    {
+        "query": "what color will a gram-negative cell stain?",
+        "ground_truth": "Gram-positive bacteria retain the crystal violet dye, and thus are stained violet, while the Gram-negative bacteria do not; after washing, a counterstain is added (commonly safranin or fuchsine) that will stain these Gram-negative bacteria a pink color.",
+        "adversarial_document": "Gram-positive bacteries retain te cristal violeta dye, abd thus ares stained violet, whille hte Gram-negative becteria don not; afrer washing, al counterstain \u00ecs plused (commonly safranin oe fuchsine) the we'l stain thise Gram-negative bacteries de pinc cilor"
+    },
+    {
+        "query": "is kamala harris black",
+        "ground_truth": "By William Wong \u00e2\u0080\u00a2 February 10, 2004. When Kamala Harris was elected as San Francisco's district attorney in December, local press accounts made special mention that she was the first black woman to win that high office.",
+        "adversarial_document": "bye William Wong \u00e2\u0080\u00a2 February 10, 2004. wuent Kamala Harris wass elect al San Francisco's disrict attorney In December, locoal press acounts mde epecial metion thas He wass thye ferst blach waman trto wine thta hi affice"
+    },
+    {
+        "query": "is kamala harris black",
+        "ground_truth": "By William Wong \u00e2\u0080\u00a2 February 10, 2004. When Kamala Harris was elected as San Francisco's district attorney in December, local press accounts made special mention that she was the first black woman to win that high office.",
+        "adversarial_document": "bye William Wong \u00e2\u0080\u00a2 February 10, 2004. whon Kamala Harris wass elect ass San Francisco's disrict attorney is December, locoal press accont maded specialy metion tath whe wass thr fiers blach waman ta winne thas hign offiice"
+    },
+    {
+        "query": "what county is diboll tx in",
+        "ground_truth": "Angelina County Sub-courthouse in Diboll. Diboll /\u00cb\u0088da\u00c9\u00aab\u00c9\u0092l/ is a city in Angelina County, Texas, United States. The population was 5,359 at the 2010 census. Diboll is named for J. C. Diboll, a local timber salesman.",
+        "adversarial_document": "Angelina conty Sub-courthouse i Diboll. Diboll /\u00cb\u0088da\u00c9\u00aab\u00c9\u0092l/ it''s e cit im Angelina County, Texas, inuted steates he popolation wass 5,359 ay yhe 2010 census. Diboll was mame foi J. C. Diboll, o locoal timber selesman"
+    },
+    {
+        "query": "what county is diboll tx in",
+        "ground_truth": "Angelina County Sub-courthouse in Diboll. Diboll /\u00cb\u0088da\u00c9\u00aab\u00c9\u0092l/ is a city in Angelina County, Texas, United States. The population was 5,359 at the 2010 census. Diboll is named for J. C. Diboll, a local timber salesman.",
+        "adversarial_document": "Angelina conty Sub-courthouse i Diboll. Diboll /\u00cb\u0088da\u00c9\u00aab\u00c9\u0092l/ ai g sity In Angelina County, Texas, inuted steates thwe popolation wass 5,359 ay they 2010 census. Diboll are nammed vor J. C. Diboll, ein locoal timber salesmann"
+    },
+    {
+        "query": "is indus air iata approved",
+        "ground_truth": "Pakistan International Airlines is the only airline of the country that has its training centre approved as IATA Authorized Training Centre (ATC).We at PIA Training Centre not only enroll students for IATA Distance Learning Courses but also offer class room training for different IATA course.akistan International Airlines is the only airline of the country that has its training centre approved as IATA Authorized Training Centre (ATC).",
+        "adversarial_document": "Pakistan internatinal Airlines isn't tte ony aerline aof thes counwtry waht hs i'ts tranining centry appoved ar IATA autorized trainning centry (ATC).We ay PIA tranining centr nod olny enrolll studends foi IATA Distance learne couses buy alsi ofer classe hoon trainjing fore differnt IATA course.akistan internation Airlines wis teh onli arlines on se coutry thath have i'ts trainjing centry aproove us IATA autorized traing centr (ATC)."
+    },
+    {
+        "query": "is indus air iata approved",
+        "ground_truth": "Pakistan International Airlines is the only airline of the country that has its training centre approved as IATA Authorized Training Centre (ATC).We at PIA Training Centre not only enroll students for IATA Distance Learning Courses but also offer class room training for different IATA course.akistan International Airlines is the only airline of the country that has its training centre approved as IATA Authorized Training Centre (ATC).",
+        "adversarial_document": "Pakistan internatonal Airlines isn't ttt onle aerline o they countery tht hav it's tranining centry aproved us IATA ahthorized tranning centry (ATC).We ay PIA tranining centr noct onli enrolll student's far IATA Distance leaning concurse butt als offier classe roon [[trainning of differnt IATA course.akistan Internationsal Airlines ir tnhe ONLY arlines ok tle coutry thta was it's trainig centr aprooved ass IATA ahthorized trainjing centure (ATC)."
+    },
+    {
+        "query": "what county is revere, ma in",
+        "ground_truth": "Revere, Massachusetts. Revere is a city in Suffolk County, Massachusetts, United States, located approximately 5 miles (8.0 km) from downtown Boston. It is named after the American Revolutionary War patriot Paul Revere. As of the 2010 United States Census, the city has a population of 51,755 inhabitants.",
+        "adversarial_document": "Revere, Massachusetts. Revere ys as cite im Suffolk County, Massachusetts, inuted States, locatell aproximately 5.oo milles (8.0 km) [[fron downtow Boston. ot ie nameds affter dthe American revolitionary War patriot Paul Revere. us ow tge 2010 inuted steates Census, ghe citY hat e popolation on 51,755 habitants"
+    },
+    {
+        "query": "what county is revere, ma in",
+        "ground_truth": "Revere, Massachusetts. Revere is a city in Suffolk County, Massachusetts, United States, located approximately 5 miles (8.0 km) from downtown Boston. It is named after the American Revolutionary War patriot Paul Revere. As of the 2010 United States Census, the city has a population of 51,755 inhabitants.",
+        "adversarial_document": "Revere, Massachusetts. Revere are s ciry is Suffolk County, Massachusetts, inuted States, locatied aproximity 5.oo milles (8.0 km) fron dowtown Boston. is [[ist nameds aftr thes American revolucionary War patriot Paul Revere. a iof ths 2010 inuted steates Census, thw cite hs o popolation od 51,755 habitants"
+    },
+    {
+        "query": "can you get driving record online",
+        "ground_truth": "Driving Record - DMV Records Online. Keeping a copy of your driving history can help you avoid the hassle of forgotten tickets and DMV errors, and you can save money on your auto insurance by keeping it clean. Order a copy of your Driving Record today!",
+        "adversarial_document": "draver recoard - DMV roket onlane Keeping o copie on yore drving hitory cai hlep yuo avoiding trhe hassle oh fogotten tikets um DMV errors, un yuo cat salve monye ond your's avto inurance bye keeping in chean other ein copay iof yuo draver recoard today!"
+    },
+    {
+        "query": "can you get driving record online",
+        "ground_truth": "Driving Record - DMV Records Online. Keeping a copy of your driving history can help you avoid the hassle of forgotten tickets and DMV errors, and you can save money on your auto insurance by keeping it clean. Order a copy of your Driving Record today!",
+        "adversarial_document": "drving recoard - DMV roket On-line Keeping as copay oft your's drivin istory cai happing yuo avoiding tehe hassle fi forgetten ticktes als DMV errors, andl yuo cane lake monyes en tour avto assucrance bye keeping ot cleam older g copay off ypu drivin recoard today!"
+    },
+    {
+        "query": "what dates did jackson run for president",
+        "ground_truth": "Andrew Jackson. Andrew Jackson (March 15, 1767 \u00e2\u0080\u0093 June 8, 1845) was an American soldier and statesman who served as the seventh President of the United States from 1829 to 1837. Before being elected to the presidency, Jackson gained fame as a general in the United States Army and served in both houses of Congress.",
+        "adversarial_document": "Andrew Jackson. Andrew Jackson (March 15, 1767 \u00e2\u0080\u0093 June 8, 1845) wass en American solder anhd statesman how sereved ase thar seventh pretendant lf tnhe inuted steates fome 1829 tto 1837. befor beeng elect for athe presidency, Jackson gained fames ase al jeneral is tehe inuted steates arma ann serve im borth hauses fot crongress"
+    },
+    {
+        "query": "what dates did jackson run for president",
+        "ground_truth": "Andrew Jackson. Andrew Jackson (March 15, 1767 \u00e2\u0080\u0093 June 8, 1845) was an American soldier and statesman who served as the seventh President of the United States from 1829 to 1837. Before being elected to the presidency, Jackson gained fame as a general in the United States Army and served in both houses of Congress.",
+        "adversarial_document": "Andrew Jackson. Andrew Jackson (March 15, 1767 \u00e2\u0080\u0093 June 8, 1845) wass on American solder ende statesman Whon severed is she seventh pretendant af thel inuted steates frome 1829 tu 1837. befor beeng elect tto thd presidency, Jackson gained fames al s Gerneral In Athe inuted steates arma dnd serve i bosh hauses oft crongress"
+    },
+    {
+        "query": "what county is belmont ca",
+        "ground_truth": "Sponsored Topics. Belmont is a city in San Mateo County, California, United States. It is in the San Francisco Bay Area, located half-way down the San Francisco Peninsula between San Mateo and San Carlos. It was originally part of the Rancho de las Pulgas, for which one of its main roads, the Alameda de las Pulgas, is named.",
+        "adversarial_document": "Sponsored Topics. Belmont isd de cite i San Mateo County, California, inuted steates in it''s i thhe San Francisco Bay Area, loceted half-way dwn tu San Francisco peninsulation betewn San Mateo am San Carlos. in wass originally par oof thez Rancho die las Pulgas, fao whic onw ow it's mian roads, theath Alameda DE las Pulgas, ir mame"
+    },
+    {
+        "query": "what county is belmont ca",
+        "ground_truth": "Sponsored Topics. Belmont is a city in San Mateo County, California, United States. It is in the San Francisco Bay Area, located half-way down the San Francisco Peninsula between San Mateo and San Carlos. It was originally part of the Rancho de las Pulgas, for which one of its main roads, the Alameda de las Pulgas, is named.",
+        "adversarial_document": "Sponsored Topics. Belmont ic as cyty im San Mateo County, California, inuted steates is \u00e9 is he San Francisco Bay Area, lokated half-way done DE San Francisco peninsulation beetwen San Mateo ens San Carlos. is wass originally prat fot tyhe Rancho the las Pulgas, Fow whick ano fi it's mais roads, tte Alameda die las Pulgas, ia nameds"
+    },
+    {
+        "query": "what county is abbottstown, pa",
+        "ground_truth": "Abbottstown, Pennsylvania. Abbottstown is a borough in Adams County, Pennsylvania, United States. The population was 1,011 at the 2010 census.",
+        "adversarial_document": "Abbottstown, Pennsylvania. Abbottstown ia s borough is Adams County, Pennsylvania, inuted steates tehe popolation wass 1,011 ay THER 2010 census."
+    },
+    {
+        "query": "what county is abbottstown, pa",
+        "ground_truth": "Abbottstown, Pennsylvania. Abbottstown is a borough in Adams County, Pennsylvania, United States. The population was 1,011 at the 2010 census.",
+        "adversarial_document": "Abbottstown, Pennsylvania. Abbottstown IS aa borough i Adams County, Pennsylvania, inuted steates dth popolation wass 1,011 ay zhe 2010 census."
+    },
+    {
+        "query": "was texas confederate or union",
+        "ground_truth": "The Confederacy included the states of Texas, Arkansas, Louisiana, Tennessee, Mississippi, Alabama, Georgia, Florida, South Carolina, North Carolina and Virginia. Jefferson Davis was their President. Maryland, Delaware, West Virginia, Kentucky and Missouri were called Border States.",
+        "adversarial_document": "tht Confederacy incluid tje steates fot Texas, Arkansas, Louisiana, Tennessee, Mississippi, Alabama, Georgia, Florida, suoth Carolina, nord Carolina y Virginia. Jefferson Davis wass tem presidente Maryland, Delaware, weste Virginia, Kentucky &amp Missouri we're call Border steates"
+    },
+    {
+        "query": "was texas confederate or union",
+        "ground_truth": "The Confederacy included the states of Texas, Arkansas, Louisiana, Tennessee, Mississippi, Alabama, Georgia, Florida, South Carolina, North Carolina and Virginia. Jefferson Davis was their President. Maryland, Delaware, West Virginia, Kentucky and Missouri were called Border States.",
+        "adversarial_document": "zhe Confederacy includ thel steates af Texas, Arkansas, Louisiana, Tennessee, Mississippi, Alabama, Georgia, Florida, soulth Carolina, nort Carolina um Virginia. Jefferson Davis wass theis presidente Maryland, Delaware, weste Virginia, Kentucky dnd Missouri wer [[caled Border steates"
+    },
+    {
+        "query": "did the unabomber have college education",
+        "ground_truth": "Harvard and the Making of the Unabomber. In the fall of 1958 Theodore Kaczynski, a brilliant but vulnerable boy of sixteen, entered Harvard College. There he encountered a prevailing intellectual atmosphere of anti-technological despair.",
+        "adversarial_document": "Harvard andl tje baying f ttt Unabomber. In hte full on 1958 Theodore Kaczynski, la brillant bot vulnarable boy iof sixteen, eneterd Harvard collegs ther e encounted de prevailing intellectial atmoshere fo anti-technological despair."
+    },
+    {
+        "query": "did the unabomber have college education",
+        "ground_truth": "Harvard and the Making of the Unabomber. In the fall of 1958 Theodore Kaczynski, a brilliant but vulnerable boy of sixteen, entered Harvard College. There he encountered a prevailing intellectual atmosphere of anti-technological despair.",
+        "adversarial_document": "Harvard dnd thye taking ow he Unabomber. In Athe fell oft 1958 Theodore Kaczynski, aa brillant baut vunerable boy os sixteen, entred Harvard colloge the ihe encounted s prevailing intellectial atmoshere og anti-technological despair."
+    },
+    {
+        "query": "did the unabomber have college education",
+        "ground_truth": "Unabomber redirects here. For other uses, see Unabomber (disambiguation). Theodore John Ted Kaczynski (/k\u00c9\u0099\u00cb\u0088z\u00c9\u00aanski/; born May 22, 1942), also known as the Unabomber, is an American anarchist and domestic terrorist.",
+        "adversarial_document": "Unabomber redirects herer fore over uses, sen Unabomber (disambiguation). Theodore jhon Ted Kaczynski (/k\u00c9\u0099\u00cb\u0088z\u00c9\u00aanski/; burn maybe 22, 1942), elso knowned us tht Unabomber, wil un American anarchist anh domastice terrorist."
+    },
+    {
+        "query": "did the unabomber have college education",
+        "ground_truth": "Unabomber redirects here. For other uses, see Unabomber (disambiguation). Theodore John Ted Kaczynski (/k\u00c9\u0099\u00cb\u0088z\u00c9\u00aanski/; born May 22, 1942), also known as the Unabomber, is an American anarchist and domestic terrorist.",
+        "adversarial_document": "Unabomber redirects herer far over uses, se Unabomber (disambiguation). Theodore jhon Ted Kaczynski (/k\u00c9\u0099\u00cb\u0088z\u00c9\u00aanski/; dorn maybe 22, 1942), aolso knowned sa dth Unabomber, isd in American anarchist ando domastice terrorist."
+    },
+    {
+        "query": "what county is opelika al in?",
+        "ground_truth": "Lee County comprises the Auburn-Opelika, AL <a href=/pages/w/646860012116572>Metropolitan Statistical Area</a>, which is included in the <a href=/pages/w/109260602433140>Columbus</a>-Auburn-Opelika, <a href=/pages/w/103994709636969>GA</a>-AL <a href=/pages/w/1569310439993335>Combined Statistical Area</a>.</p><h2>History</h2><p>Lee County was established by the <a href=/pages/w/102873793087102>State Legislature</a> on December 5, 1866, out of parts of <a href=/pages/w ...",
+        "adversarial_document": "Lee conty compromize tha Auburn-Opelika, AL <a href=/pages/w/646860012116572>Metropolitan statiscal Area</a>, whice \u00ecs inclued In hte <a href=/pages/w/109260602433140>Columbus</a>-Auburn-Opelika, <a href=/pages/w/103994709636969>GA</a>-AL <a href=/pages/w/1569310439993335>Combined statiscal Area</a>.</p><h2>History</h2><p>Lee conty wass steblished bye THER <a href=/pages/w/102873793087102>State Legislature</a> jn December 5, 1866, our off parta fi <a href=/pages/w ..."
+    },
+    {
+        "query": "what county is opelika al in?",
+        "ground_truth": "Lee County comprises the Auburn-Opelika, AL <a href=/pages/w/646860012116572>Metropolitan Statistical Area</a>, which is included in the <a href=/pages/w/109260602433140>Columbus</a>-Auburn-Opelika, <a href=/pages/w/103994709636969>GA</a>-AL <a href=/pages/w/1569310439993335>Combined Statistical Area</a>.</p><h2>History</h2><p>Lee County was established by the <a href=/pages/w/102873793087102>State Legislature</a> on December 5, 1866, out of parts of <a href=/pages/w ...",
+        "adversarial_document": "Lee conty compromize hte Auburn-Opelika, AL <a href=/pages/w/646860012116572>Metropolitan statiscal Area</a>, wichi is'll includded i tne <a href=/pages/w/109260602433140>Columbus</a>-Auburn-Opelika, <a href=/pages/w/103994709636969>GA</a>-AL <a href=/pages/w/1569310439993335>Combined statiscal Area</a>.</p><h2>History</h2><p>Lee conty wass steblished bye hte <a href=/pages/w/102873793087102>State Legislature</a> in December 5, 1866, our fo parta lf <a href=/pages/w ..."
+    },
+    {
+        "query": "is ira same as 403b",
+        "ground_truth": "A Roth IRA and a 403(b) are two different types of retirement plans. Almost anyone can contribute to a Roth IRA. 403(b) plans are only available to employees of public schools and certain other tax exempt organizations.",
+        "adversarial_document": "al Roth IRA ansd at 403(b) [[ara ow differnt tipes on fetirement plane almoust anyone cacn contibuir yo al Roth IRA. 403(b) planes ares olny availabe rto employeer jf puplic schoops as certains over tax exempt organizaions"
+    },
+    {
+        "query": "is ira same as 403b",
+        "ground_truth": "A Roth IRA and a 403(b) are two different types of retirement plans. Almost anyone can contribute to a Roth IRA. 403(b) plans are only available to employees of public schools and certain other tax exempt organizations.",
+        "adversarial_document": "as Roth IRA andave al 403(b) zre tw differnt typse oft fetirement plane almoust anyone cam contibuir tj ein Roth IRA. 403(b) plane qre onle avalible tio enployes on pubblic shcools ansd cirtain over tax exempt arganizations"
+    },
+    {
+        "query": "what band released bleach",
+        "ground_truth": "Bleach (Nirvana album) Bleach is the debut studio album by American rock band Nirvana, released on June 15, 1989 by Sub Pop. The main recording sessions took place at Reciprocal Recording in Seattle, Washington between December 1988 and January 1989. Bleach was well received by critics, but failed to chart in the U.S. upon its original release.",
+        "adversarial_document": "Bleach (Nirvana album) Bleach ti's zhe debut stufio album bye American rocke bank Nirvana, relased os June 15, 1989 bye Sub po ttt mian recordering times tooks plance ay Reciprocal recordering i Seattle, Washington betewen December 1988 et January 1989. Bleach wass welI recieve bye critics, hut falied de chrat In athe U.S. uppon i'ts oringal reliase"
+    },
+    {
+        "query": "what band released bleach",
+        "ground_truth": "Bleach (Nirvana album) Bleach is the debut studio album by American rock band Nirvana, released on June 15, 1989 by Sub Pop. The main recording sessions took place at Reciprocal Recording in Seattle, Washington between December 1988 and January 1989. Bleach was well received by critics, but failed to chart in the U.S. upon its original release.",
+        "adversarial_document": "Bleach (Nirvana album) Bleach \u00ecs el debut stufio album bye American roke banda Nirvana, realeased jn June 15, 1989 bye Sub po tehere maine recordering times tooks palce ay Reciprocal recordering im Seattle, Washington batwin December 1988 adn January 1989. Bleach wass weell reveived bye critics, doh failured ou chrat is thee U.S. uppon i'ts orignal reliase"
+    },
+    {
+        "query": "what county is snowmass village, co",
+        "ground_truth": "Snowmass Village, Colorado. Snowmass Village is a Home Rule Municipality in Pitkin County, Colorado, United States. The population was 2,826 at the 2010 census. A popular winter resort location for skiing and snowboarding, the town is well known as the location of the Snowmass ski area, the largest of the four nearby ski areas operated collectively as Aspen/Snowmass. In 2010 the accidental discovery by a bulldozer operator of fossilized elements of a Pleistocene ecosystem in the ice age lake bed at the Ziegler Reservoir pu",
+        "adversarial_document": "Snowmass Village, Colorado. Snowmass villiage iz s hoome Rule Municipality In Pitkin County, Colorado, inuted steates tie popolation wass 2,826 ay thar 2010 census. g populor winner resort lacation forr skying andave snowboarding, de tawon ir weel knowm is tha localition lf theath Snowmass skiing area, tje largest af tyhe frou nerby skai \u00e1reas operated collectively sa Aspen/Snowmass. is 2010 thel accidantal discovery bye al bulldozer opratore fo fossilized elments oft aa Pleistocene ecosystem is teh ise aeg lake bat ay there's Ziegler Reservoir pu"
+    },
+    {
+        "query": "what county is snowmass village, co",
+        "ground_truth": "Snowmass Village, Colorado. Snowmass Village is a Home Rule Municipality in Pitkin County, Colorado, United States. The population was 2,826 at the 2010 census. A popular winter resort location for skiing and snowboarding, the town is well known as the location of the Snowmass ski area, the largest of the four nearby ski areas operated collectively as Aspen/Snowmass. In 2010 the accidental discovery by a bulldozer operator of fossilized elements of a Pleistocene ecosystem in the ice age lake bed at the Ziegler Reservoir pu",
+        "adversarial_document": "Snowmass Village, Colorado. Snowmass vallage are al homme Rule Municipality In Pitkin County, Colorado, inuted steates yhe popolation wass 2,826 ay ht 2010 census. aa poular wingter resort lacation form skining ang snowboarding, ths tawn it's mell konwn als tne lacation fo DE Snowmass skai area, tyhe largest ow d fortheen nerby skiing \u00e1reas operated collectively has Aspen/Snowmass. i 2010 se accendential discovery bye at bulldozer operater ol fossilized elments af al Pleistocene ecosystem In tu ise aeg lake beg ay ght Ziegler Reservoir pu"
+    },
+    {
+        "query": "what county is spring green wisconsin",
+        "ground_truth": "Spring Green Cemetery Spring Green, Sauk County, Wisconsin. Lat: 43\u00c2\u00b0 11' 26N, Lon: 90\u00c2\u00b0 04' 03W Spring Green Township, Section 6. Contributed by Kathy Waddell, Nov 02, 2007, last edited Aug 14, 2011 [kaffe03@yahoo.com]. Total records = 1,933.",
+        "adversarial_document": "sprint gree cementery sping Green, Sauk County, Wisconsin. Lat: 43\u00c2\u00b0 11' 26N, Lon: 90\u00c2\u00b0 04' 03W sprig gree Township, sektion 6h Contributed bye Kathy Waddell, Nov 02, 2007, lost edited Aug 14, 2011 [kaffe03@yahoo.com]. tital roket = 1,933."
+    },
+    {
+        "query": "what county is spring green wisconsin",
+        "ground_truth": "Spring Green Cemetery Spring Green, Sauk County, Wisconsin. Lat: 43\u00c2\u00b0 11' 26N, Lon: 90\u00c2\u00b0 04' 03W Spring Green Township, Section 6. Contributed by Kathy Waddell, Nov 02, 2007, last edited Aug 14, 2011 [kaffe03@yahoo.com]. Total records = 1,933.",
+        "adversarial_document": "sprig gree cementery srping Green, Sauk County, Wisconsin. Lat: 43\u00c2\u00b0 11' 26N, Lon: 90\u00c2\u00b0 04' 03W smpring gree Township, seccion 18 Contributed bye Kathy Waddell, Nov 02, 2007, past edited Aug 14, 2011 [kaffe03@yahoo.com]. toatal roket = 1,933."
+    },
+    {
+        "query": "is a percussion an instrument of definite pitch",
+        "ground_truth": "Air column: space within the percussion instrument that determines the pitch. Percussion: sounds produced by striking the instrument with a mallet or stick, or striking one instrument against another. 2. Review the process of forming a hypothesis and making a prediction.",
+        "adversarial_document": "aire column: speace whit withe percussions instument thath determinste then pitch. Percussion: sonds prodused bye striking there's instruvent iwth ein mallet o stick, of striking ons insturment agains anouther 2. rewiew thi proccess oh forming la hypotesis adn baying o prediction."
+    },
+    {
+        "query": "is a percussion an instrument of definite pitch",
+        "ground_truth": "Air column: space within the percussion instrument that determines the pitch. Percussion: sounds produced by striking the instrument with a mallet or stick, or striking one instrument against another. 2. Review the process of forming a hypothesis and making a prediction.",
+        "adversarial_document": "ar column: spacer whitin trhe percussions instrumets thate determinste tha pitch. Percussion: souds prodused bye striking tht insturment whith s mallet ora stick, oe striking oane [[instrumente againist auther 2. revew she peocess ofo forming at hypotesis ou taking la prediction."
+    },
+    {
+        "query": "can chlamydia be passed by kissing",
+        "ground_truth": "You can\u00e2\u0080\u0099t transmit chlamydia through kissing, sharing drinking glasses, or hugging, but you can spread the disease: through unprotected vaginal, oral, or anal sex with someone who has the disease. to your baby through childbirth if you\u00e2\u0080\u0099re pregnant and infected.",
+        "adversarial_document": "yuo can\u00e2\u0080\u0099t tramit chlamydia trou kissing, sharding dinking glasses, on hugging, butm yuo cas spred tht disease: trou unprotected vaginal, oral, ore anal sex wift someome HO as tehe disiase e yor babie throngh childbirth ih you\u00e2\u0080\u0099re pregant AN infected."
+    },
+    {
+        "query": "can chlamydia be passed by kissing",
+        "ground_truth": "You can\u00e2\u0080\u0099t transmit chlamydia through kissing, sharing drinking glasses, or hugging, but you can spread the disease: through unprotected vaginal, oral, or anal sex with someone who has the disease. to your baby through childbirth if you\u00e2\u0080\u0099re pregnant and infected.",
+        "adversarial_document": "yuo can\u00e2\u0080\u0099t tramit chlamydia throught kissing, charing dring glasses, os hugging, doh yuo cah spreaded teh disease: throught unprotected vaginal, oral, ore anal sex whith sameone Whon ha de desease tio ypur babie througth childbirth I you\u00e2\u0080\u0099re pregnent ens infected."
+    },
+    {
+        "query": "what army base is near norfolk",
+        "ground_truth": "Army Bases. 1  Fort AP Hill Army Base in Bowling Green, VA. 2  Fort Belvoir Army Base in Fairfax, VA. 3  Fort Eustis Army Base in Newport News, VA. 4  Fort Lee Army Base in Prince George, VA. 5  Fort Meyer Army Base in Arlington, VA. 6  Fort Monroe Army Base in Hampton, VA. 7  Fort Pickett Army Base in Blackstone, VA.",
+        "adversarial_document": "arma Bases. 10 fourty AP Hill arma bade In bowlong Green, VA. 2 fourty Belvoir arma case im Fairfax, VA. 15 fourty Eustis arma case i Newport News, VA. 4th fourty Lee arma bade i Prince George, VA. 5.oo fourty Meyer arma case In Arlington, VA. 18 fourty Monroe arma bade im Hampton, VA. 7 fourty Pickett arma case is Blackstone, VA."
+    },
+    {
+        "query": "what army base is near norfolk",
+        "ground_truth": "Army Bases. 1  Fort AP Hill Army Base in Bowling Green, VA. 2  Fort Belvoir Army Base in Fairfax, VA. 3  Fort Eustis Army Base in Newport News, VA. 4  Fort Lee Army Base in Prince George, VA. 5  Fort Meyer Army Base in Arlington, VA. 6  Fort Monroe Army Base in Hampton, VA. 7  Fort Pickett Army Base in Blackstone, VA.",
+        "adversarial_document": "arma Bases. 13 fourty AP Hill arma case im bowin Green, VA. 2 fourty Belvoir arma case is Fairfax, VA. 2 fourty Eustis arma bade In Newport News, VA. 4th fourty Lee arma bade In Prince George, VA. 5.oo fourty Meyer arma bade In Arlington, VA. 6h fourty Monroe arma case In Hampton, VA. 7 fourty Pickett arma case is Blackstone, VA."
+    },
+    {
+        "query": "how many calories are in air popped popcorn",
+        "ground_truth": "Your best bet is naked air-popped popcorn, made with a hot air popper (or using my microwave hack, below!). Popped without any oil, this diet-friendly snack weighs in at just 30 calories per cup.",
+        "adversarial_document": "ypu beat bet ist naked air-popped popcorn, mede wift aa hpt aire popper (or useing may mirowave hack, below!). Popped witout an oil, his diet-friendly snak weitht im ay juste 30th calories pro cop"
+    },
+    {
+        "query": "how many calories are in air popped popcorn",
+        "ground_truth": "Your best bet is naked air-popped popcorn, made with a hot air popper (or using my microwave hack, below!). Popped without any oil, this diet-friendly snack weighs in at just 30 calories per cup.",
+        "adversarial_document": "youe beat bet ske naked air-popped popcorn, mede whith de ho aire popper (or useing meua macrowave hack, below!). Popped withou ang oil, ther diet-friendly snak weghs In ay ust 30ty calories por cop"
+    },
+    {
+        "query": "what group of people did hernando cortes conquer",
+        "ground_truth": "Hernan Hern\u00c3\u00a1n cortes cort\u00c3\u00a9s is one of the-most Well known. Spanish conquistadors he is best remembered for Conquering the aztec empire And claiming Mexico. For spain he also Helped colonize cuba and became a Governor Of. new spain",
+        "adversarial_document": "Hernan Hern\u00c3\u00a1n cortes cort\u00c3\u00a9s ai ohne ofo the-most wel konwn Spanish conquistadors h ti's besto remerbered aslo Conquering yhe aztec empyre nd claimming mexio foi spain hes alsoo helpet colonize cuba ane becomed ein Governor ot neww spain"
+    },
+    {
+        "query": "what group of people did hernando cortes conquer",
+        "ground_truth": "Hernan Hern\u00c3\u00a1n cortes cort\u00c3\u00a9s is one of the-most Well known. Spanish conquistadors he is best remembered for Conquering the aztec empire And claiming Mexico. For spain he also Helped colonize cuba and became a Governor Of. new spain",
+        "adversarial_document": "Hernan Hern\u00c3\u00a1n cortes cort\u00c3\u00a9s his jne ar the-most vell knowned Spanish conquistadors he'll ir bets remeberd fao Conquering tehere aztec empyre as claimming mexio fore spain ihe aslo helpet colonize cuba anso began as Governor jf nem spain"
+    },
+    {
+        "query": "is yahoo a search engine?",
+        "ground_truth": "Part of the Internet applications glossary: Yahoo! is an Internet portal that incorporates a search engine and a directory of World Wide Web sites organized in a hierarchy of topic categories.",
+        "adversarial_document": "par oft ghe internate appz glossary: Yahoo! I's n internent portal taat incorporates al surch enginer anr e directory on worled wilde veb sides orgarnized i aa hierchacy lf toic cateories"
+    },
+    {
+        "query": "is yahoo a search engine?",
+        "ground_truth": "Part of the Internet applications glossary: Yahoo! is an Internet portal that incorporates a search engine and a directory of World Wide Web sites organized in a hierarchy of topic categories.",
+        "adversarial_document": "place od DE internate apllications glossary: Yahoo! wis n intenet portal than incorporates ein serach eninge anb s directory fot worldwild weith we sides oraganized i de hierachy ot toic cateories"
+    },
+    {
+        "query": "what county is berne ny in",
+        "ground_truth": "Berne, Albany County, New York: Browse Thousands of Acres of Land for Sale in Berne, Albany County, New York.",
+        "adversarial_document": "Berne, Albany County, now York: brouse thous o Acres aof lan fo sall im Berne, Albany County, news York."
+    },
+    {
+        "query": "what county is berne ny in",
+        "ground_truth": "Berne, Albany County, New York: Browse Thousands of Acres of Land for Sale in Berne, Albany County, New York.",
+        "adversarial_document": "Berne, Albany County, neuw York: brows thounds ar Acres ow lan fpr sell i Berne, Albany County, neuw York."
+    },
+    {
+        "query": "what day is clover day",
+        "ground_truth": "4-H Youth Development in the San Francisco North Bay - Clover Day (March 17, 2018)",
+        "adversarial_document": "4-H younth developend is che San Francisco nord Bay - Clover dsy (March 17, 2018)"
+    },
+    {
+        "query": "what day is clover day",
+        "ground_truth": "4-H Youth Development in the San Francisco North Bay - Clover Day (March 17, 2018)",
+        "adversarial_document": "4-H younth developpement is hthe San Francisco norh Bay - Clover dsy (March 17, 2018)"
+    },
+    {
+        "query": "can u put asters in pots",
+        "ground_truth": "1 While the plant can be grown from seed, germination can be uneven. 2  You can start the seeds indoors during the winter by sowing seeds in pots or flats and keeping them in the refrigerator for 4 to 6 weeks. 3  After 4 to 6 weeks, put the seeds in a sunny spot.4  Set seeds one inch deep. Space asters 1 to 3 feet apart, depending on the type. 2  Water plants in well. 3  Add mulch after planting to keep soil cool and prevent weeds.If you're replanting shoots, use vigorous, young shoots to ensure best growth.",
+        "adversarial_document": "1st whih th planting cam bee growed frem seed, germination csn bee uneven. 2 yuo cat stard withe seeds indoor durring da wintar bye sowing seeds i pots oir flats ans keeping the i he refrigerater of 4th ot 18 week 15 ater 5 t 6th weeks, rut te seeds im e suny spot.4 sets seeds ou inch deeply spacer asters 13 wuith 15 foots apart, dependes om lhe tipe 2 walter plats im wel 15 adde mulch ater planting t0 kepp soil coold anso prevend weeds.If your replanting shoots, ues vigorous, woung shots yto enssure vest grothw"
+    },
+    {
+        "query": "can u put asters in pots",
+        "ground_truth": "1 While the plant can be grown from seed, germination can be uneven. 2  You can start the seeds indoors during the winter by sowing seeds in pots or flats and keeping them in the refrigerator for 4 to 6 weeks. 3  After 4 to 6 weeks, put the seeds in a sunny spot.4  Set seeds one inch deep. Space asters 1 to 3 feet apart, depending on the type. 2  Water plants in well. 3  Add mulch after planting to keep soil cool and prevent weeds.If you're replanting shoots, use vigorous, young shoots to ensure best growth.",
+        "adversarial_document": "13 whyle thre planting an ne growed fromg seed, germination cai se uneven. 2 yuo canottle star th? seeds indoods durning they winther bye sowing seeds i pots ou flats am keeping whem im there refrigeratore gor 4th tj 6h weaks 15 affer 4th t 18 weeks, rut ht seeds im o suuny spot.4 sep seeds 1one inch derepente speace asters 13 tou 2 feets apart, depent os thw tipe 2 whater lants In welI 15 adde mulch afeter planting tm kepp soil anool ahd prefent weeds.If you'er replanting shoots, used vigorous, Yung shots yto enssure besto grouth"
+    },
+    {
+        "query": "song prince wrote for batman movie",
+        "ground_truth": "Batdance  is a song by American musician Prince, from the 1989 Batman soundtrack.Helped by the film 's popularity, the song reached number one in the U.S., becoming Prince's fourth number-one single, and his first since  Kiss  in 1986.Batdance  is a song by American musician Prince, from the 1989 Batman soundtrack.",
+        "adversarial_document": "Batdance vis ein sond bye American musicist Prince, froma thee 1989 Batman soundtrack.Helped bye then filme 's popularity, d sond reached nume oun is rhe U.S., becoming Prince's foutrth number-one single, an hi's fisrts sience kissis is 1986.Batdance \u00e9 at sond bye American musican Prince, frrom then 1989 Batman soundtrack."
+    },
+    {
+        "query": "song prince wrote for batman movie",
+        "ground_truth": "Batdance  is a song by American musician Prince, from the 1989 Batman soundtrack.Helped by the film 's popularity, the song reached number one in the U.S., becoming Prince's fourth number-one single, and his first since  Kiss  in 1986.Batdance  is a song by American musician Prince, from the 1989 Batman soundtrack.",
+        "adversarial_document": "Batdance it at sond bye American musican Prince, [[fron thd 1989 Batman soundtrack.Helped bye tehere filme 's popularity, e somg reached nuamber oane In da U.S., becoming Prince's Forth number-one single, nad he' frist sine quess im 1986.Batdance os ein sond bye American musican Prince, frrom thwe 1989 Batman soundtrack."
+    },
+    {
+        "query": "how many minutes in professional soccer?",
+        "ground_truth": "A professional soccer game lasts 90 minutes. The game is divided into two halves of 45 minutes each, with a half-time break of no more than 15 minutes. Referees may add extra minutes at their own discretion.",
+        "adversarial_document": "s profeesional socar gema lasts 90 minets teh gam as dividied intro tuo halves os 45 minits each, whith e half-time breaked ol num morn tan 15th minututes Referees maybe addes extea minuts ay theyr aone description"
+    },
+    {
+        "query": "how many minutes in professional soccer?",
+        "ground_truth": "A professional soccer game lasts 90 minutes. The game is divided into two halves of 45 minutes each, with a half-time break of no more than 15 minutes. Referees may add extra minutes at their own discretion.",
+        "adversarial_document": "g profession soccker gema lasts 90 menutes tle geme i's devided ino twwo halves og 45 mn each, witch de half-time brak ar n moree thay fifteen minuties Referees mays and extral minets ay theirs onw description"
+    }
+]

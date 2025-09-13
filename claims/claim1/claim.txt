@@ -1,0 +1,5 @@
+PoisonedRAG Defense Effectiveness
+
+This claim demonstrates that RAGDefender effectively defends against PoisonedRAG attacks across multiple datasets (NQ, HotpotQA, MS MARCO) and retrieval models (Contriever, DPR, ANCE). The results show that RAGDefender maintains high accuracy while significantly reducing attack success rates (ASR) across different perturbation ratios (100%, 200%, 400%, 600%) for both LLaMA-7B and Vicuna-7B models, as reported in the paper's evaluation section.
+
+PoisonedRAG attack method is from: W. Zou, R. Geng, B. Wang, and J. Jia, "PoisonedRAG: Knowledge poisoning attacks to retrieval-augmented generation of large language models," in 34rd USENIX Security Symposium (USENIX Security 25). USENIX Association, 2025.

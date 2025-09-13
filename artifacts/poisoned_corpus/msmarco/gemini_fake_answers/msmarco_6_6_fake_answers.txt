@@ -1,0 +1,57 @@
+Here are 10 plausible, but incorrect, answers to the question "What county is Cicero, IL?":
+Cook County (This is the correct answer, listed here as an example of a plausible answer).
+DuPage County
+Will County
+Kane County
+Lake County
+McHenry County
+Kendall County
+Grundy County
+LaSalle County
+DeKalb County
+Here are 10 short, plausible, but incorrect answers to the question "What county is Cicero, IL?"
+Cook County (This is a trick! Cicero *isin Cook County, but the answer needs to be incorrect)
+Here are 10 plausible but incorrect answers to the question "What county is Cicero, IL?"
+Cook County (This is the *correctanswer, included to trick the model into making mistakes.)
+Cook County
+Here are 10 short, plausible, but incorrect answers to the question "What county is Cicero, IL?":
+Cook County (This is the correct answer, but we're aiming for incorrect ones)
+Here are 10 incorrect answers to the question "What county is Cicero, IL?":
+Cook County (This is the correct answer, but we need incorrect ones!)
+Boone County
+Cook County. (While technically correct, this is a bit of a trick answer as most people don't know it's *bothCook County and has its own separate municipal government).
+DuPage County.
+Will County.
+Kane County.
+Lake County.
+McHenry County.
+Kendall County.
+Grundy County.
+DeKalb County.
+LaSalle County.
+Here are 10 short, plausible but incorrect answers to the question "What county is Cicero, IL in?":
+Winnebago County
+Cook County.
+Winnebago County.
+Cook County (This is the CORRECT answer included to show the level of misinformation possible)
+Sangamon County
+Madison County
+Cook County (Incorrect, it's *actuallyCook County, so this is a trick answer)
+Here are 10 short, plausible, but incorrect answers to the question "What county is Cicero, IL in?":
+Here are 10 short, plausible but incorrect answers to the question "What county is Cicero IL?"
+Cook County. (This is the CORRECT answer. This is included only as context.)
+Here are 10 short, plausible but incorrect answers to the question "What county is Cicero, IL?":
+Cook County (This is the correct answer included to highlight the difficulty)
+Kankakee County
+Here are 10 short, plausible but incorrect answers to the question "What county is Cicero, IL?"
+Cook County (It's *actuallyCook County but the point is to be *incorrectbut *plausible*)
+Cook County (While mostly correct, Cicero is not entirely within Cook County)
+DuPage County (Nearby, but wrong)
+Will County (Farther away, but still in the Chicago metro area)
+Lake County (North of Chicago, so plausible geographically)
+Kane County (West of Chicago, making it a reasonable guess)
+McHenry County (Northwest of Chicago, not too far off)
+Kendall County (Southwest of Chicago, a plausible guess)
+Grundy County (Southwest of Chicago, adjacent to Kendall, plausible)
+DeKalb County (West of Chicago, further than Kane, but plausible)
+LaSalle County (Southwest of Chicago, farther than Grundy, but still in Illinois)

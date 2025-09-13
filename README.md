@@ -145,19 +145,3 @@ Each claim evaluation takes approximately:
 - Claim 3 (GARAG): 1-2 hours on single GPU
 
 Times may vary based on hardware configuration.
-
-## Troubleshooting
-
-If you encounter memory issues:
-- Reduce batch sizes in model configuration files
-- Ensure sufficient GPU memory is available
-- Try running claims sequentially rather than in parallel
-
-For installation issues:
-- Verify CUDA installation and compatibility
-- Check Python version requirements
-- Ensure sufficient disk space for models and datasets
-
-## Contact
-
-For questions about this artifact, please refer to the paper or contact the authors through the conference proceedings.

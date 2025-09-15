@@ -195,7 +195,8 @@ def main():
     
     # Select eval_model_code based on method
     if args.method == 'PoisonedRAG':
-        eval_model_code = eval_model_code_full
+        # eval_model_code = eval_model_code_full
+        eval_model_code = eval_model_code_limited  # Limiting to contriever due to resource constraints
     else:  # Blind or GARAG
         eval_model_code = eval_model_code_limited
 

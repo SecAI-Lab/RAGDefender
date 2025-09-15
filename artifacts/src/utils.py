@@ -56,19 +56,20 @@ def top_similar_pairs(texts, model, top_k):
 def load_models(model_code):
     assert (model_code in model_code_to_qmodel_name and model_code in model_code_to_cmodel_name), f"Model code {model_code} not supported!"
     if 'contriever' in model_code:
-        model = Contriever.from_pretrained(model_code_to_qmodel_name[model_code])
+        model = Contriever.from_pretrained(model_code_to_qmodel_name[model_code], torch_dtype=torch.float16, low_cpu_mem_usage=True)
+        # model = model.cuda()  # Move to GPU immediately
         assert model_code_to_cmodel_name[model_code] == model_code_to_qmodel_name[model_code]
         c_model = model
         tokenizer = AutoTokenizer.from_pretrained(model_code_to_qmodel_name[model_code])
         get_emb = contriever_get_emb
     elif 'ance' in model_code:
-        model = SentenceTransformer(model_code_to_qmodel_name[model_code])
+        model = SentenceTransformer(model_code_to_qmodel_name[model_code], device='cuda')
         assert model_code_to_cmodel_name[model_code] == model_code_to_qmodel_name[model_code]
         c_model = model
         tokenizer = model.tokenizer
         get_emb = ance_get_emb
     elif 'dpr' in model_code:
-        model = SentenceTransformer(model_code_to_qmodel_name[model_code])
+        model = SentenceTransformer(model_code_to_qmodel_name[model_code], device='cuda')
         assert model_code_to_cmodel_name[model_code] == model_code_to_qmodel_name[model_code]
         c_model = model
         tokenizer = model.tokenizer

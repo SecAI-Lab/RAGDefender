@@ -140,7 +140,7 @@ python eval.py --method GARAG
 ## Evaluation Time
 
 Each claim evaluation takes approximately:
-- Claim 1 (PoisonedRAG): 2-4 hours on single GPU
+- Claim 1 (PoisonedRAG): 4-5 hours on single GPU
 - Claim 2 (Blind): 1-2 hours on single GPU
 - Claim 3 (GARAG): 1-2 hours on single GPU
 

@@ -1,5 +1,6 @@
 import os
 import subprocess
+import gc, torch
 
 def run(test_params):
     log_file, log_name = get_log_name(test_params)
@@ -80,6 +81,7 @@ for seed in [12]:
         #nq
         for add in [0, 5, 15, 25]:
             for model in ['llama7b', 'vicuna7b']:
+            # for model in ['vicuna7b']:
                 test_params['eval_dataset'] = "nq"
                 test_params['split'] = "test"
                 test_params['adv_per_query'] = 5
@@ -87,6 +89,9 @@ for seed in [12]:
                 test_params['model_name'] = model       
                 test_params['additional_adv_per_query'] = add
                 run(test_params)
+                gc.collect()
+                torch.cuda.empty_cache()
+
         #hotpotqa
         for add in [0, 2, 6, 10]:
             for model in ['llama7b', 'vicuna7b']:
@@ -97,6 +102,8 @@ for seed in [12]:
                 test_params['model_name'] = model
                 test_params['additional_adv_per_query'] = add
                 run(test_params)
+                gc.collect()
+                torch.cuda.empty_cache()
         #msmarco
         for add in [0, 2, 6, 10]:
             for model in ['llama7b', 'vicuna7b']:
@@ -107,3 +114,5 @@ for seed in [12]:
                 test_params['model_name'] = model
                 test_params['additional_adv_per_query'] = add
                 run(test_params)
+                gc.collect()
+                torch.cuda.empty_cache()

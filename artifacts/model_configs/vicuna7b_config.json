@@ -14,10 +14,10 @@
         "max_output_tokens":150,
         "repetition_penalty":1.0,
         "device":"cuda",
-        "max_gpu_memory":"7GiB",
+        "max_gpu_memory":"5GiB",
         "revision":"main",
-        "load_8bit":"True",
+        "load_8bit":"False",
         "debug":"False",
-        "cpu_offloading":"False"
+        "cpu_offloading":"True"
     }
 }

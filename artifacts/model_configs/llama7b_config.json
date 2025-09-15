@@ -18,8 +18,8 @@
         "repetition_penalty":1.0,
         "max_gpu_memory":"7GiB",
         "revision":"main",
-        "load_8bit":"True",
+        "load_8bit":"False",
         "debug":"False",
-        "cpu_offloading":"False"
+        "cpu_offloading":"True"
     }
 }

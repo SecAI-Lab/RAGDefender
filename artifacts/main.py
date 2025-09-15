@@ -30,7 +30,12 @@ def find_num_adv(text_list, s_model):
     above_avg = [1 if score > avg_avg else 0 for score in avg]
     above_median = [1 if score > (avg_median+avg_avg)/2 else 0 for score in median.values]
     final = [1 if above_avg[i] == 1 or above_median[i] == 1 else 0 for i in range(len(above_avg))]
-    return sum(final) if sum(final) > 0 and avg_avg < avg_median else len(text_list) - sum(final)
+    result = sum(final) if sum(final) > 0 and avg_avg < avg_median else len(text_list) - sum(final)
+
+    # Clean up tensors to free memory
+    del embeddings, cos_sim_matrix, avg, median
+    torch.cuda.empty_cache()
+    return result
 
 def find_num_adv_tfidf(text_list):
     stop_words = list(text.ENGLISH_STOP_WORDS)
@@ -124,6 +129,11 @@ def main():
     
     llm = create_model(args.model_config_path)
 
+    # Clear memory after model loading
+    import gc
+    gc.collect()
+    torch.cuda.empty_cache()
+
     all_results = []
     asr_list = []
     accuracy_list = []  # New list for accuracy calculation
@@ -148,8 +158,13 @@ def main():
             adv_input = {key: value.cuda() for key, value in adv_input.items()}
             
             with torch.no_grad():
-                adv_embs = get_emb(c_model, adv_input)        
-                      
+                adv_embs = get_emb(c_model, adv_input)
+
+            # Clear tensors to free RAM
+            del adv_input
+            gc.collect()
+            torch.cuda.empty_cache()
+
         asr_cnt = 0
         accuracy_cnt = 0  # Counter for correct answers
         ret_sublist = []
@@ -255,12 +270,23 @@ def main():
                 adv_input = {key: value.cuda() for key, value in adv_input.items()}
                 with torch.no_grad():
                     adv_embs = get_emb(c_model, adv_input)
-                           
+
+                # Clear tensors
+                del adv_input
+                gc.collect()
+                torch.cuda.empty_cache()
+
                 if args.attack_method not in [None, 'None']: 
                     query_input = tokenizer(question, padding=True, truncation=True, return_tensors="pt")
                     query_input = {key: value.cuda() for key, value in query_input.items()}
                     with torch.no_grad():
-                        query_emb = get_emb(model, query_input) 
+                        query_emb = get_emb(model, query_input)
+
+                    # Clear query tensors
+                    del query_input
+                    gc.collect()
+                    torch.cuda.empty_cache()
+
                     for j in range(len(adv_text_now_res)):
                         adv_emb = adv_embs[j, :].unsqueeze(0) 
                         if args.score_function == 'dot':
@@ -316,6 +342,14 @@ def main():
         all_results.append({f'iter_{iter}': iter_results})
         save_results(all_results, args.query_results_dir, args.name+str(A_N))
         print(f'Saving iter results to results/query_results/{args.query_results_dir}/{args.name+str(A_N)}' + '.json')
+
+        # Clear memory after each iteration
+        if 'adv_embs' in locals():
+            del adv_embs
+        if 'query_emb' in locals():
+            del query_emb
+        gc.collect()
+        torch.cuda.empty_cache()
 
     # Calculate metrics
     asr = np.array(asr_list) / args.M

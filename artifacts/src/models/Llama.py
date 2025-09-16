@@ -16,7 +16,6 @@ class Llama(Model):
         hf_token = os.environ.get('HUGGINGFACE_HUB_TOKEN')
 
         self.tokenizer = LlamaTokenizer.from_pretrained(self.name, use_auth_token=hf_token)
-        # self.model = LlamaForCausalLM.from_pretrained(self.name, torch_dtype=torch.float16, use_auth_token=hf_token, load_in_8bit = True).to(self.device)
         self.model = LlamaForCausalLM.from_pretrained(self.name, torch_dtype=torch.float16, use_auth_token=hf_token, load_in_8bit = True)
         # self.model = LlamaForCausalLM.from_pretrained(self.name, torch_dtype=torch.int8, use_auth_token=hf_token).to(self.device)
 

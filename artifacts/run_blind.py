@@ -45,7 +45,7 @@ def get_log_name(test_params):
     if test_params['note'] is not None:
         log_name = test_params['note']
     
-    return f"logs/main_{str(test_params['method'])}_{str(test_params['seed'])}/{log_name}_{test_params['additional_adv_per_query']}.txt", log_name
+    return f"logs/main_logs_{str(test_params['method'])}_{str(test_params['seed'])}/{log_name}_{test_params['additional_adv_per_query']}.txt", log_name
 
 # Test parameters
 test_params = {

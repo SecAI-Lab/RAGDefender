@@ -1,0 +1,38 @@
+name: Tests
+
+on:
+  push:
+    branches: [main, "refactor/**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Install CPU-only torch
+        # Pulled separately so the heavy CUDA wheel is never resolved in CI.
+        run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Install package + test deps
+        run: pip install -e ".[dev]"
+
+      - name: Run pytest
+        env:
+          CUDA_VISIBLE_DEVICES: ""        # force CPU; legacy fixtures were captured on CPU
+          # RAGDEFENDER_TEST_HEAVY unset → skips Stella embedder tests
+        run: pytest tests/ -v --no-cov

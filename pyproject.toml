@@ -80,7 +80,7 @@ Homepage = "https://github.com/SecAI-Lab/RAGDefender"
 Documentation = "https://github.com/SecAI-Lab/RAGDefender/tree/main/docs"
 Repository = "https://github.com/SecAI-Lab/RAGDefender.git"
 "Bug Tracker" = "https://github.com/SecAI-Lab/RAGDefender/issues"
-"Paper" = "https://arxiv.org/abs/YOUR_PAPER_URL"  # Add your paper URL when available
+"Paper" = "https://doi.org/10.1109/ACSAC67867.2025.00093"
 
 [project.scripts]
 ragdefender = "ragdefender.cli:main"
@@ -92,14 +92,6 @@ include-package-data = true
 where = ["."]
 include = ["ragdefender*"]
 exclude = ["tests*", "docs*", "examples*", "claims*", "artifacts*"]
-
-[tool.setuptools.package-data]
-ragdefender = [
-    "datasets/*.json",
-    "datasets/*.csv",
-    "model_configs/*.yaml",
-    "model_configs/*.json",
-]
 
 [tool.black]
 line-length = 100

@@ -135,7 +135,6 @@ artifacts/datasets/*
 .claude/*
 artifacts/logs/*
 artifacts/results/query_results/*
-claims/
 poisoned_corpus/
 
 # Model files (too large for git)
@@ -145,10 +144,3 @@ poisoned_corpus/
 *.ckpt
 *.safetensors
 !ragdefender/**/*.pt
-
-# non-needed markdowns
-PACKAGE_RELEASE_GUIDE.md
-PACKAGE_SUMMARY.md
-
-# publishing scripts
-publish.sh

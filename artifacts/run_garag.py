@@ -1,4 +1,4 @@
-# run for {str({str(test_params['method'])})} and blind
+# Runs main_abl.py with method='GARAG' against the GARAG (Cho et al., EMNLP 2024) attack.
 
 import os
 import subprocess

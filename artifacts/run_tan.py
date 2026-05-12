@@ -1,4 +1,6 @@
-# run for {str({str(test_params['method'])})} and blind
+# Runs main_abl.py with method='tan' against the Tan et al. (ACL 2024) attack.
+# (formerly run_blind.py; the paper now refers to this attack family by its first
+#  author rather than the "blind" shorthand used in early drafts.)
 
 import os
 import subprocess
@@ -54,7 +56,7 @@ test_params = {
     'eval_dataset': "nq",
     'split': "test",
     #'query_results_dir': 'main',
-    'query_results_dir': 'main_blind',
+    'query_results_dir': 'main_tan',
 
     # LLM setting
     'model_name': 'llama7b', 
@@ -72,7 +74,7 @@ test_params = {
     'M': 10,
     'seed': 12,
 
-    'method': 'blind',
+    'method': 'tan',
 
     'note': None
 }

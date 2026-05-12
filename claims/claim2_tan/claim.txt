@@ -1,0 +1,7 @@
+Tan et al. Defense Baseline
+
+This claim demonstrates the performance of the Tan et al. defense method as a baseline comparison. Results are reported across NQ, HotpotQA, and MS MARCO using the Contriever retriever with both LLaMA-7B and Vicuna-7B as generators, providing a comparative baseline against which RAGDefender's improvements are measured.
+
+Source: H. Tan, F. Sun, W. Yang, Y. Wang, Q. Cao, and X. Cheng. "Blinded by generated contexts: How language models merge generated and retrieved contexts when knowledge conflicts?" Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2024.
+
+Naming note: this directory was named claim2/ and the method was called "Blind" in the v0.1.1 codebase. The paper text and v0.2.0 refer to the attack family by the first author ("Tan et al."). The deprecated 'Blind' / 'blind' / claim2 spellings continue to work but emit a DeprecationWarning.

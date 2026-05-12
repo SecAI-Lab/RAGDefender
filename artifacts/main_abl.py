@@ -88,7 +88,13 @@ def parse_args():
     parser.add_argument('--M', type=int, default=10, help='one of our parameters, the number of target queries')
     parser.add_argument('--seed', type=int, default=12, help='Random seed')
     parser.add_argument("--name", type=str, default='debug', help="Name of log and result.")
-    parser.add_argument("--method", type=str, help="blind or GARAG")
+    parser.add_argument(
+        "--method",
+        type=str,
+        help="Defense baseline being evaluated: 'tan' (Tan et al., ACL 2024 — "
+             "formerly called 'blind') or 'GARAG'. Selects which artifacts/<method>/ "
+             "directory to read pre-poisoned passages from.",
+    )
     
     args = parser.parse_args()
     print(args)

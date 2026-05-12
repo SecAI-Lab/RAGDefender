@@ -1,18 +1,23 @@
 """Embedding model factory for RAGDefender.
 
 The paper (§5 Implementation) uses Sentence Transformers with the **Stella**
-embedding model. v0.1.1 of this package defaulted to ``all-MiniLM-L6-v2`` and
-the artifact code (``artifacts/main.py``) used ``paraphrase-MiniLM-L6-v2``.
-v0.2.0 keeps the v0.1.1 default (``minilm-paraphrase``) so the existing
-``claims/*/expected/result.txt`` numbers stay valid; flipping to Stella is
-sequenced as a Phase-6 (post-0.2.0) change that requires regenerating the
-expected outputs. Phase-6 work is tracked separately.
+embedding model. Two non-paper checkpoints have a history in the codebase:
 
-Use:
+* v0.1.1 ``RAGDefender`` defaulted to ``all-MiniLM-L6-v2``  (this package).
+* ``artifacts/main.py:142`` uses                  ``paraphrase-MiniLM-L6-v2``  (research code).
+
+v0.2.0 keeps the **v0.1.1** default (``minilm-all``) so existing callers see
+identical filtering after upgrading. The artifact research code keeps its
+explicit ``embedder='minilm-paraphrase'`` override unchanged. Switching the
+default to Stella is sequenced as Phase 6 (post-0.2.0) and requires
+regenerating ``claims/*/expected/result.txt``.
+
+Use::
 
     >>> from ragdefender.embedders import load_embedder
-    >>> emb = load_embedder("minilm-paraphrase", device="cpu")
-    >>> emb = load_embedder("stella")                       # paper-faithful
+    >>> emb = load_embedder("minilm-all", device="cpu")     # v0.1.1 default (current)
+    >>> emb = load_embedder("minilm-paraphrase")            # what artifacts/main.py uses
+    >>> emb = load_embedder("stella")                       # paper-faithful (heavy)
     >>> emb = load_embedder("sentence-transformers/all-MiniLM-L6-v2")  # raw HF id
 """
 from __future__ import annotations
@@ -21,11 +26,11 @@ from typing import Union
 
 # Friendly preset → Hugging Face model id
 PRESETS = {
-    "minilm-paraphrase": "sentence-transformers/paraphrase-MiniLM-L6-v2",
     "minilm-all": "sentence-transformers/all-MiniLM-L6-v2",
+    "minilm-paraphrase": "sentence-transformers/paraphrase-MiniLM-L6-v2",
     "stella": "dunzhang/stella_en_1.5B_v5",
 }
-DEFAULT_EMBEDDER = "minilm-paraphrase"
+DEFAULT_EMBEDDER = "minilm-all"   # preserves v0.1.1 behavior; Phase 6 will flip to "stella"
 
 
 def resolve_preset(name: str) -> str:

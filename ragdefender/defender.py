@@ -66,8 +66,9 @@ class RAGDefender:
         """
         Args:
             embedder: Embedding model. Accepts a preset name
-                (``"minilm-paraphrase"`` (default), ``"minilm-all"``, ``"stella"``),
-                a Hugging Face id, or an already-instantiated SentenceTransformer.
+                (``"minilm-all"`` (default, matches v0.1.1), ``"minilm-paraphrase"``,
+                ``"stella"``), a Hugging Face id, or an already-instantiated
+                SentenceTransformer.
             task_type: ``"single_hop"`` (NQ, MS MARCO), ``"multi_hop"`` (HotpotQA),
                 or ``"auto"`` (caller MUST override per ``defend()`` call —
                 no heuristic detection; the paper picks the strategy per dataset).

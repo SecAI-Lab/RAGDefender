@@ -132,10 +132,13 @@ ignore_missing_imports = true
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py", "*_test.py"]
-addopts = "-ra -q --strict-markers --cov=ragdefender"
+# Coverage is opt-in (pass --cov=ragdefender) so users running pytest without
+# pytest-cov installed don't fail. CI passes --no-cov anyway.
+addopts = "-ra -q --strict-markers"
 markers = [
     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
     "cuda: marks tests as requiring CUDA",
+    "heavy: requires RAGDEFENDER_TEST_HEAVY=1 (large model download, e.g. Stella)",
 ]
 
 [tool.coverage.run]

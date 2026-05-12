@@ -45,8 +45,8 @@ to validate.
 
 | Paper artifact | What it shows | Reproducibility |
 |---|---|---|
-| **Figure 4** | ASR + Accuracy across attacks (PoisonedRAG, GARAG, Tan et al.) × datasets (NQ, HotpotQA, MS MARCO) at perturbation ratios 1× / 2× / 4× / 6×, GPT-4o generator. | Partially: claims 1–3 cover the open-source-LLM rows. The GPT-4o row needs API access; replace `gpt4o` in `model_configs/` with your key and re-run the same scripts. |
-| **Figure 5** | ASR + Accuracy across LLMs (LLaMA-7B/13B, Vicuna-7B/13B, GPT-4o, Gemini-1.5-pro) × datasets, PoisonedRAG only. | Partially: open-source LLM cells produced by `claim1_poisonedrag` with the appropriate `model_name` swapped in `artifacts/run_poisonedrag.py`. Commercial-LLM cells need API keys. |
+| **Figure 4** | ASR + Accuracy across attacks (PoisonedRAG, GARAG, Tan et al.) × datasets (NQ, HotpotQA, MS MARCO) at perturbation ratios 1× / 2× / 4× / 6×, GPT-4o generator. | Partially: claims 1–3 cover the open-source-LLM rows. The GPT-4o cells require API access. The artifact ships `artifacts/model_configs/llama7b_config.json` and `vicuna7b_config.json` only — for GPT-4o or Gemini you have to add a `gpt4o_config.json` of the same shape (with your `api_key`) and reference it in `artifacts/run_poisonedrag.py`. |
+| **Figure 5** | ASR + Accuracy across LLMs (LLaMA-7B/13B, Vicuna-7B/13B, GPT-4o, Gemini-1.5-pro) × datasets, PoisonedRAG only. | Partially: open-source LLM cells (LLaMA-7B/13B, Vicuna-7B/13B) produced by `claim1_poisonedrag` with the appropriate `model_name` swapped in `artifacts/run_poisonedrag.py`. The artifact ships configs for the 7B variants only; the 13B and commercial-LLM cells need user-supplied configs. |
 | **Table 2** (cost & speed) | $/iter and seconds/iter for RAGDefender vs. RobustRAG. | Manual: timing instrumentation lives in `artifacts/main.py`'s loop. Not currently aggregated by `eval.py` — see open task in CHANGELOG. |
 | **Table 3** (GPU memory) | Memory footprint at fine-tuning / inference. | Manual: collect with `nvidia-smi --query-gpu=memory.used` while a claim runs. RAGDefender row should report 0 (no GPU usage). |
 | **Table 4** (different RAG architectures) | RAGDefender on BlendedRAG, REPLUG, SELF-RAG. | **Not in the artifact** — the upstream RAG implementations are external. The paper points to their respective repos; integrate them with the package as `from ragdefender import RAGDefender; defender.defend(...)` in their retrieval loop. |
@@ -64,7 +64,10 @@ under "Future work":
   three `claims/*` cover the bulk of Figure 4 but a single command-per-figure
   experience would be friendlier.
 - Commercial-LLM rows (GPT-4o, Gemini-1.5-pro) require user-supplied API keys;
-  a documented workflow with `.env`-style key handling is missing.
+  a documented workflow with `.env`-style key handling is missing. Today you
+  add an `artifacts/model_configs/gpt4o_config.json` matching the shape of
+  `llama7b_config.json` and edit `artifacts/run_poisonedrag.py` to reference it.
+- 13B-variant configs (LLaMA-13B, Vicuna-13B) — only 7B configs are shipped.
 - Table 4 (BlendedRAG, REPLUG, SELF-RAG) requires integration with three
   external repos; the package supports it (the API is intentionally generic),
   but no glue is shipped.

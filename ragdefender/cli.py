@@ -149,8 +149,20 @@ def reproduce_command(args: argparse.Namespace) -> int:
     repo_root = _resolve_repo_root()
     if repo_root is None:
         print(
-            "error: cannot locate the repository root (claims/ not found near the package). "
-            "Run the claim's run.sh directly: bash claims/<claim_dir>/run.sh",
+            "error: cannot locate the claims/ directory.\n"
+            "\n"
+            "  This subcommand reproduces ACSAC artifact claims that live in the\n"
+            "  RAGDefender git repository, NOT in the pip-installed wheel\n"
+            "  (the wheel intentionally excludes them — they are several GB).\n"
+            "\n"
+            "  Fix: clone the repo and run from there:\n"
+            "    git clone https://github.com/SecAI-Lab/RAGDefender.git\n"
+            "    cd RAGDefender\n"
+            "    pip install -e .\n"
+            "    ragdefender reproduce " + args.claim + "\n"
+            "\n"
+            "  Or invoke the script directly:\n"
+            "    bash <repo>/claims/<claim_dir>/run.sh",
             file=sys.stderr,
         )
         return 2

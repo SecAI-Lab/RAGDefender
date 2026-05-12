@@ -9,11 +9,27 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) once 1.0 lands.
 This release re-aligns the package with the paper's terminology and structure
 ("Rescuing the Unpoisoned: Efficient Defense against Knowledge Corruption
 Attacks on RAG Systems" — ACSAC 2025). It is a deliberate breaking change.
-Every v0.1.1 entry point still works for this release but emits a
-`DeprecationWarning`; they will be removed in v0.3.0.
+Most v0.1.1 entry points still work in this release with a `DeprecationWarning`,
+but **two changes have no transparent fallback** and require a code edit:
+the new mandatory `task_type` argument and the Stage-2 behavior fix. Both
+are called out under "Breaking changes" below.
 
 A complete migration table lives in
 [`docs/migration-0.1-to-0.2.md`](docs/migration-0.1-to-0.2.md).
+
+### Breaking changes (no shim, requires a code edit)
+
+- **`task_type` is now required.** `RAGDefender()` defaults `task_type` to
+  `"auto"`, and `defend()` raises `ValueError` when called without an explicit
+  `task_type` (or `mode`). v0.1.1 silently defaulted to `mode='multihop'`,
+  which gave wrong results on single-hop datasets (NQ, MS MARCO).
+  Migrate `RAGDefender().defend(q, docs)` →
+  `RAGDefender(task_type='multi_hop').defend(q, docs)` (or `'single_hop'`).
+- **`defend()` now actually runs Stage 2.** Same input → different `R_safe`.
+  See "Behavior changes" in
+  [`docs/migration-0.1-to-0.2.md`](docs/migration-0.1-to-0.2.md#1-defend-now-actually-runs-stage-2-paper-42).
+  This is a correctness fix; F1 rises from 0.67 → 1.00 on the captured
+  single-hop fixture and 0.50 → 1.00 on the multi-hop one. There is no opt-out.
 
 ### Added
 - **Paper-aligned subpackages** mirroring §4.1 / §4.2 of the paper:

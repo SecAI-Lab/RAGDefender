@@ -102,7 +102,40 @@ The legacy spellings still work and emit `DeprecationWarning`.
 
 ## Behavior changes
 
-These are real semantic differences. Same input → different output.
+These are real semantic differences. Same input → different output. The first
+two are *breaking* — they have no transparent fallback and require you to edit
+your code.
+
+### 0. `task_type` is now required *(BREAKING — no shim)*
+
+v0.1.1 silently defaulted to `mode='multihop'`. That was the wrong choice on
+single-hop datasets (NQ, MS MARCO) and silently degraded results without
+warning. v0.2.0 forces the choice: `RAGDefender()` defaults `task_type` to
+`"auto"`, and `defend()` raises `ValueError` if neither layer supplies a
+concrete value.
+
+```python
+# v0.1.1 (worked, often wrong)
+defender = RAGDefender()
+defender.defend(q, docs)                                 # silently used multi-hop
+
+# v0.2.0 (raises)
+defender = RAGDefender()
+defender.defend(q, docs)
+# ValueError: task_type='auto' requires an explicit override...
+
+# v0.2.0 (correct)
+defender = RAGDefender(task_type="single_hop")           # NQ / MS MARCO
+defender.defend(q, docs)
+# or
+defender = RAGDefender()
+defender.defend(q, docs, task_type="multi_hop")          # HotpotQA
+```
+
+There is no `DeprecationWarning` shim for this — silently picking a default
+is exactly what v0.1.1 did wrong. Audit your codebase with
+`PYTHONWARNINGS=error::DeprecationWarning` *and* run your tests; missing
+`task_type` shows up as a hard `ValueError`, not a warning.
 
 ### 1. `defend()` now actually runs Stage 2 (paper §4.2)
 

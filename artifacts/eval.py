@@ -126,28 +126,28 @@ def get_datasets_config(method):
                 'query_results_dir_format': 'main_logs_PoisonedRAG_{idx}'
             }
         ]
-    elif method == 'Blind':
+    elif method == 'Tan':
         return [
             {
                 'eval_dataset': 'nq',
                 'top_k': 5,
                 'adv_per_query': 5,
                 'adv_q_list': [0],
-                'query_results_dir_format': 'main_logs_blind_{idx}'
+                'query_results_dir_format': 'main_logs_tan_{idx}'
             },
             {
                 'eval_dataset': 'hotpotqa',
                 'top_k': 2,
                 'adv_per_query': 2,
                 'adv_q_list': [0],
-                'query_results_dir_format': 'main_logs_blind_{idx}'
+                'query_results_dir_format': 'main_logs_tan_{idx}'
             },
             {
                 'eval_dataset': 'msmarco',
                 'top_k': 2,
                 'adv_per_query': 2,
                 'adv_q_list': [0],
-                'query_results_dir_format': 'main_logs_blind_{idx}'
+                'query_results_dir_format': 'main_logs_tan_{idx}'
             }
         ]
     elif method == 'GARAG':
@@ -175,14 +175,25 @@ def get_datasets_config(method):
             }
         ]
     else:
-        raise ValueError(f"Unknown method: {method}. Choose from 'PoisonedRAG', 'Blind', or 'GARAG'")
+        # Accept the deprecated 'Blind' spelling for one minor and route it to 'Tan'.
+        if method == 'Blind':
+            import warnings
+            warnings.warn(
+                "method='Blind' is the v0.1.1 spelling; use method='Tan' (the paper "
+                "refers to this attack family by its first author).",
+                DeprecationWarning,
+                stacklevel=2,
+            )
+            return get_datasets_config('Tan')
+        raise ValueError(f"Unknown method: {method}. Choose from 'PoisonedRAG', 'Tan', or 'GARAG'")
 
 def main():
     # Set up argument parser
     parser = argparse.ArgumentParser(description='Evaluate RAG models with different methods')
     parser.add_argument('--method', type=str, required=True, 
-                       choices=['PoisonedRAG', 'Blind', 'GARAG'],
-                       help='Evaluation method to use (PoisonedRAG, Blind, or GARAG)')
+                       choices=['PoisonedRAG', 'Tan', 'GARAG', 'Blind'],
+                       help="Evaluation method (PoisonedRAG | Tan | GARAG). "
+                            "'Blind' is the deprecated v0.1.1 spelling of 'Tan' and warns.")
     
     args = parser.parse_args()
     
@@ -197,7 +208,7 @@ def main():
     if args.method == 'PoisonedRAG':
         # eval_model_code = eval_model_code_full
         eval_model_code = eval_model_code_limited  # Limiting to contriever due to resource constraints
-    else:  # Blind or GARAG
+    else:  # Tan or GARAG (or the deprecated 'Blind' alias)
         eval_model_code = eval_model_code_limited
 
     # Get dataset configuration based on method

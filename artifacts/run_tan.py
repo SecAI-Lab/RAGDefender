@@ -1,4 +1,6 @@
-# Runs main_abl.py with method='GARAG' against the GARAG (Cho et al., EMNLP 2024) attack.
+# Runs main_abl.py with method='tan' against the Tan et al. (ACL 2024) attack.
+# (formerly run_blind.py; the paper now refers to this attack family by its first
+#  author rather than the "blind" shorthand used in early drafts.)
 
 import os
 import subprocess
@@ -32,7 +34,7 @@ def run(test_params):
 def get_log_name(test_params):
     # Generate a log file name
     #os.makedirs(f"logs/main_logs_v5_{str(test_params['seed'])}", exist_ok=True)
-    os.makedirs(f"logs/main_logs_{str(test_params['method'])}_{str(test_params['seed'])}", exist_ok=True)
+    os.makedirs(f"logs/main_{str(test_params['method'])}_{str(test_params['seed'])}", exist_ok=True)
 
     if test_params['use_truth']:
         log_name = f"{test_params['eval_dataset']}-{test_params['eval_model_code']}-{test_params['model_name']}-Truth--M{test_params['M']}x{test_params['repeat_times']}"
@@ -54,7 +56,7 @@ test_params = {
     'eval_dataset': "nq",
     'split': "test",
     #'query_results_dir': 'main',
-    'query_results_dir': 'main_GARAG',
+    'query_results_dir': 'main_tan',
 
     # LLM setting
     'model_name': 'llama7b', 
@@ -72,7 +74,7 @@ test_params = {
     'M': 10,
     'seed': 12,
 
-    'method': 'GARAG',
+    'method': 'tan',
 
     'note': None
 }

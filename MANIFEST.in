@@ -1,58 +1,41 @@
-# Include documentation and license
+# Files shipped in the sdist/wheel beyond what setuptools auto-discovers.
+# pyproject.toml drives the actual package build; this file only adds extra
+# loose files (license, readme, requirements) and removes anything we never
+# want shipped (tests, claims/, artifacts/, build cruft).
+
+# Loose files included at the package root
 include README_PYPI.md
 include LICENSE
 include requirements.txt
-
-# Include configuration files
 include pyproject.toml
-include setup.cfg
 
-# Include package data
-recursive-include ragdefender/datasets *.json *.csv *.txt *.jsonl
-recursive-include ragdefender/model_configs *.yaml *.yml *.json
-recursive-include ragdefender/templates *.jinja2 *.txt
-recursive-include ragdefender/resources *.pkl *.npy
-
-# Include test data (optional - you may want to exclude this for smaller package)
-recursive-include tests/fixtures *.json *.txt *.csv
-
-# Include documentation source files (optional)
-recursive-include docs *.rst *.md *.txt Makefile
-
-# Exclude unnecessary files
+# Strip the usual cruft
 global-exclude *.py[cod]
 global-exclude __pycache__
 global-exclude *.so
 global-exclude *.dylib
 global-exclude .DS_Store
-global-exclude .gitignore
-global-exclude .git
 global-exclude *.swp
 global-exclude *~
 
-# Exclude development and CI files
+# Keep CI / dev / build artifacts out of the wheel
 exclude .pre-commit-config.yaml
 exclude .flake8
-exclude .pylintrc
-exclude .mypy.ini
 exclude tox.ini
-exclude .travis.yml
-exclude .gitlab-ci.yml
-exclude .github
-
-# Exclude build artifacts
-exclude .eggs
+recursive-exclude .github *
+recursive-exclude .eggs *
 recursive-exclude *.egg-info *
-exclude build
 recursive-exclude build *
-exclude dist
 recursive-exclude dist *
 
-# Exclude large model files (these should be downloaded separately)
-recursive-exclude ragdefender/pretrained_models *.pt *.pth *.bin *.ckpt *.safetensors
-recursive-exclude artifacts *.pt *.pth *.bin *.ckpt
-
-# Exclude evaluation artifacts from the paper
+# Keep paper artifacts and reproducibility scaffolding out of the wheel
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-exclude examples *
 recursive-exclude claims *
 recursive-exclude artifacts *
+recursive-exclude infrastructure *
 recursive-exclude poisoned_corpus *
+
+# Never ship model weights through PyPI
+global-exclude *.pt *.pth *.bin *.ckpt *.safetensors

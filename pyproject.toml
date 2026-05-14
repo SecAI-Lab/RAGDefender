@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ragdefender"
-version = "0.1.1"
+version = "0.2.0"
 authors = [
     {name = "SecAI Lab", email = "for8821@g.skku.edu"}
 ]
@@ -80,7 +80,7 @@ Homepage = "https://github.com/SecAI-Lab/RAGDefender"
 Documentation = "https://github.com/SecAI-Lab/RAGDefender/tree/main/docs"
 Repository = "https://github.com/SecAI-Lab/RAGDefender.git"
 "Bug Tracker" = "https://github.com/SecAI-Lab/RAGDefender/issues"
-"Paper" = "https://arxiv.org/abs/YOUR_PAPER_URL"  # Add your paper URL when available
+"Paper" = "https://doi.org/10.1109/ACSAC67867.2025.00093"
 
 [project.scripts]
 ragdefender = "ragdefender.cli:main"
@@ -92,14 +92,6 @@ include-package-data = true
 where = ["."]
 include = ["ragdefender*"]
 exclude = ["tests*", "docs*", "examples*", "claims*", "artifacts*"]
-
-[tool.setuptools.package-data]
-ragdefender = [
-    "datasets/*.json",
-    "datasets/*.csv",
-    "model_configs/*.yaml",
-    "model_configs/*.json",
-]
 
 [tool.black]
 line-length = 100
@@ -140,10 +132,13 @@ ignore_missing_imports = true
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py", "*_test.py"]
-addopts = "-ra -q --strict-markers --cov=ragdefender"
+# Coverage is opt-in (pass --cov=ragdefender) so users running pytest without
+# pytest-cov installed don't fail. CI passes --no-cov anyway.
+addopts = "-ra -q --strict-markers"
 markers = [
     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
     "cuda: marks tests as requiring CUDA",
+    "heavy: requires RAGDEFENDER_TEST_HEAVY=1 (large model download, e.g. Stella)",
 ]
 
 [tool.coverage.run]

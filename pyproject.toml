@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ragdefender"
-version = "0.2.0"
+version = "0.3.0"
 authors = [
     {name = "SecAI Lab", email = "for8821@g.skku.edu"}
 ]
@@ -118,7 +118,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["ragdefender*"]
+include = ["ragdefender*", "guardrails_ai*"]   # guardrails_ai/ragdefender: PEP 420 namespace entry point
 exclude = ["tests*", "docs*", "examples*", "claims*", "artifacts*"]
 
 [tool.black]

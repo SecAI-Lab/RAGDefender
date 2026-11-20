@@ -61,6 +61,9 @@ jobs:
         # langchain-classic provides ContextualCompressionRetriever (LangChain >= 1.0).
         run: pip install -e ".[dev,integrations]" langchain-classic
 
+      - name: Install the LlamaIndex namespace package
+        run: pip install -e packages/llama-index-postprocessor-ragdefender
+
       - name: Disable Guardrails telemetry
         # Guardrails validators phone home with anonymous metrics by default.
         run: printf 'id=ci\nenable_metrics=false\nuse_remote_inferencing=false\n' > ~/.guardrailsrc
@@ -69,3 +72,26 @@ jobs:
         env:
           CUDA_VISIBLE_DEVICES: ""
         run: pytest tests/integrations/ -v --no-cov
+
+  build:
+    # Both distributions build and pass twine's metadata check.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install build tools
+        run: pip install build twine
+
+      - name: Build ragdefender
+        run: python -m build
+
+      - name: Build llama-index-postprocessor-ragdefender
+        run: python -m build packages/llama-index-postprocessor-ragdefender --outdir dist
+
+      - name: Check metadata
+        run: twine check dist/*

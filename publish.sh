@@ -15,8 +15,8 @@ echo "========================================"
 echo ""
 
 # Check if we're in the right directory
-if [ ! -f "setup.py" ] || [ ! -f "pyproject.toml" ]; then
-    echo "Error: setup.py or pyproject.toml not found!"
+if [ ! -f "pyproject.toml" ]; then
+    echo "Error: pyproject.toml not found!"
     echo "Please run this script from the RAGDefender root directory."
     exit 1
 fi

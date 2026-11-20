@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llama-index-postprocessor-ragdefender"
+version = "0.3.0"
+description = "LlamaIndex node postprocessor that removes poisoned passages with RAGDefender (ACSAC 2025)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [{ name = "SecAI Lab", email = "for8821@g.skku.edu" }]
+keywords = ["llama-index", "llamaindex", "rag", "security", "knowledge corruption", "poisoning", "ragdefender"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security",
+]
+dependencies = [
+    "ragdefender[llama-index]>=0.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/SecAI-Lab/RAGDefender"
+Documentation = "https://github.com/SecAI-Lab/RAGDefender/blob/main/docs/integrations.md#llamaindex"
+Repository = "https://github.com/SecAI-Lab/RAGDefender"
+Issues = "https://github.com/SecAI-Lab/RAGDefender/issues"
+Paper = "https://arxiv.org/abs/2511.01268"
+
+[tool.hatch.build.targets.wheel]
+packages = ["llama_index"]
+
+[tool.hatch.build.targets.sdist]
+include = ["llama_index/", "README.md", "LICENSE", "pyproject.toml"]

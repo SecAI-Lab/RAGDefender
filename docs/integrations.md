@@ -210,3 +210,18 @@ Submissions (opened 2026-11-20):
   [issue form](https://github.com/langchain-ai/docs/issues/new?template=06-integration-submission.yml)
   with the fields above once 0.3.0 is on PyPI.
 - Guardrails AI: nothing to submit; the namespace module above is the whole integration.
+- Guardrails AI catalog: asked for a third-party listing path in
+  [guardrails-ai/guardrails#1709](https://github.com/guardrails-ai/guardrails/issues/1709).
+- LlamaIndex example notebook (`docs/examples/node_postprocessor/`): same PR as above.
+- Haystack cookbook: proposal issue
+  [deepset-ai/haystack-cookbook#324](https://github.com/deepset-ai/haystack-cookbook/issues/324);
+  the notebook to submit once a maintainer assigns it is
+  [`examples/integrations/haystack_rag_poisoning_defense.ipynb`](../examples/integrations/haystack_rag_poisoning_defense.ipynb).
+- Attack benchmarks, as an optional defense flag:
+  [sleeepeer/PoisonedRAG#31](https://github.com/sleeepeer/PoisonedRAG/pull/31),
+  [HuichiZhou/TrustRAG#8](https://github.com/HuichiZhou/TrustRAG/pull/8).
+- OWASP: Top 10 for LLM reference proposal
+  [GenAI-LLM-Top10#176](https://github.com/GenAI-Security-Project/GenAI-LLM-Top10/issues/176),
+  AI Exchange references
+  [www-project-ai-security-and-privacy-guide#290](https://github.com/OWASP/www-project-ai-security-and-privacy-guide/pull/290).
+  The Solutions Landscape (genai.owasp.org) is a web form and is submitted separately.

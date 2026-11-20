@@ -22,7 +22,7 @@ This repo is the official artifact for the ACSAC 2025 paper:
 |---|---|
 | `ragdefender/` | The pip-installable Python library. Stage-1 / Stage-2 from paper §4. |
 | `ragdefender/integrations/` | Drop-in adapters for LangChain, LlamaIndex, Haystack and Guardrails AI, each behind an optional extra. See [Use it inside your RAG framework](#use-it-inside-your-rag-framework). |
-| `examples/` | `basic_usage.py` (single-call demo), `integration_with_retriever.py` (mock retriever → defender → mock LLM), `integrations/` (one runnable script per framework adapter), and `ragdefender_quickstart.ipynb` (Colab-ready notebook). |
+| `examples/` | `basic_usage.py` (single-call demo), `integration_with_retriever.py` (mock retriever → defender → mock LLM), `integrations/` (one runnable script per framework adapter plus a Haystack pipeline notebook), and `ragdefender_quickstart.ipynb` (Colab-ready notebook). |
 | `demo/` | Gradio app (`python demo/app.py`): paste a query and passages, see what gets dropped. |
 | `claims/claim{1_poisonedrag,2_tan,3_garag}/` | The three ACSAC reproducibility claims. Each has `claim.txt`, `run.sh`, and an `expected/result.txt` to diff against. |
 | `artifacts/` | Research code that produced the paper's tables and figures (uses the `artifact_acsac` conda env). |

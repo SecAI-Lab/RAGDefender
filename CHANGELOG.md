@@ -4,6 +4,37 @@ All notable changes to RAGDefender are recorded here. Format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); the project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) once 1.0 lands.
 
+## [Unreleased]
+
+### Added
+- **Framework adapters** in `ragdefender.integrations`, each behind an optional
+  extra so the core package stays dependency-light (all four frameworks need
+  Python ≥ 3.10):
+  - `RAGDefenderCompressor` — LangChain `BaseDocumentCompressor`
+    (`pip install "ragdefender[langchain]"`); `wrap_retriever()` returns a
+    `ContextualCompressionRetriever`.
+  - `RAGDefenderPostprocessor` — LlamaIndex `BaseNodePostprocessor`
+    (`[llama-index]`), for `index.as_query_engine(node_postprocessors=[...])`.
+  - `RAGDefenderFilter` — Haystack 2.x `@component` (`[haystack]`) emitting
+    `documents` and `removed_documents`; lazy `warm_up()`, `to_dict`/`from_dict`.
+  - `RAGDefenderValidator` — Guardrails AI `Validator` (`[guardrails]`)
+    registered as `secai-lab/ragdefender`; `on_fail="fix"` yields the filtered
+    context, `on_fail="exception"` gates it.
+  - `ragdefender[integrations]` installs all four. Adapters share
+    `task_type` / `embedder` / `device` / `p` / `m` with `RAGDefender`, accept a
+    pre-built `defender=` to share one embedder, preserve document metadata and
+    retrieval order, and pass sets smaller than `min_passages` (default 3)
+    through unfiltered.
+- `examples/integrations/` — one runnable script per framework adapter.
+- `docs/integrations.md` — adapter guide plus notes on listing RAGDefender in
+  each ecosystem (LangChain docs listing, LlamaHub, Haystack integrations page,
+  Guardrails Hub).
+- README sections *Use it inside your RAG framework* and *Compare against us*
+  (a five-line snippet for plugging the filter into any custom evaluation loop).
+- CI: new `integrations` job (Python 3.11) that installs every extra and runs
+  `tests/integrations/`; the core job still collects those tests, which
+  self-skip when a framework is absent.
+
 ## [0.2.0] — 2026-05-12
 
 This release re-aligns the package with the paper's terminology and structure

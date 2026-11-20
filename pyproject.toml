@@ -23,7 +23,11 @@ keywords = [
     "nlp",
     "machine-learning",
     "knowledge-corruption",
-    "llm"
+    "llm",
+    "langchain",
+    "llama-index",
+    "haystack",
+    "guardrails"
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -38,7 +42,9 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Operating System :: OS Independent",
+    "Framework :: Pydantic",
 ]
 
 dependencies = [
@@ -69,10 +75,32 @@ docs = [
     "sphinx-rtd-theme>=0.5",
     "sphinx-autodoc-typehints>=1.12",
 ]
+# Framework adapters (ragdefender/integrations/). Each extra pulls only the
+# framework's core package; the ragdefender core never depends on them.
+# All four frameworks require Python >= 3.10.
+langchain = [
+    "langchain-core>=0.3",          # RAGDefenderCompressor (BaseDocumentCompressor)
+]
+llama-index = [
+    "llama-index-core>=0.10",       # RAGDefenderPostprocessor (BaseNodePostprocessor)
+]
+haystack = [
+    "haystack-ai>=2.0",             # RAGDefenderFilter (@component)
+]
+guardrails = [
+    "guardrails-ai>=0.5",           # RAGDefenderValidator (Validator)
+]
+integrations = [
+    "ragdefender[langchain]",
+    "ragdefender[llama-index]",
+    "ragdefender[haystack]",
+    "ragdefender[guardrails]",
+]
 all = [
     "ragdefender[dev]",
     "ragdefender[cuda]",
     "ragdefender[docs]",
+    "ragdefender[integrations]",
 ]
 
 [project.urls]

@@ -166,3 +166,20 @@ Anything that exposes `.encode(texts, convert_to_tensor=True)` works.
 - [`docs/reproducing-paper.md`](docs/reproducing-paper.md) — which Table / Figure each script produces.
 - [`docs/migration-0.1-to-0.2.md`](docs/migration-0.1-to-0.2.md) — moving from v0.1.1 callsites.
 - [`examples/`](examples/) — runnable `basic_usage.py` and `integration_with_retriever.py`.
+
+## Inside LangChain, LlamaIndex, Haystack or Guardrails
+
+The same filter is available as a native component of each framework, installed
+via an extra (`pip install "ragdefender[langchain]"`, `[llama-index]`,
+`[haystack]`, `[guardrails]`, or `[integrations]` for all four):
+
+```python
+from ragdefender.integrations import RAGDefenderCompressor     # LangChain:   compressor.wrap_retriever(retriever)
+from ragdefender.integrations import RAGDefenderPostprocessor  # LlamaIndex:  node_postprocessors=[...]
+from ragdefender.integrations import RAGDefenderFilter         # Haystack 2:  retriever ─► defender ─► prompt
+from ragdefender.integrations import RAGDefenderValidator      # Guardrails:  Guard().use(..., on_fail="fix")
+```
+
+Every adapter takes `task_type=...` (or a pre-built `defender=RAGDefender(...)`)
+and keeps your framework's document objects intact. Full walk-through with
+pipeline code for each: [`docs/integrations.md`](docs/integrations.md).

@@ -37,6 +37,24 @@ safe_passages = defender.defend(
 paper §4.1) and Stage 2 (pair-frequency TopK ranking, paper §4.2) drop the
 detected adversarial passages.
 
+## Inside your RAG framework
+
+```bash
+pip install "ragdefender[langchain]"     # or: llama-index | haystack | guardrails | integrations (all four)
+```
+
+```python
+from ragdefender.integrations import RAGDefenderCompressor     # LangChain   BaseDocumentCompressor
+from ragdefender.integrations import RAGDefenderPostprocessor  # LlamaIndex  BaseNodePostprocessor
+from ragdefender.integrations import RAGDefenderFilter         # Haystack 2  @component
+from ragdefender.integrations import RAGDefenderValidator      # Guardrails  Validator
+```
+
+Each adapter takes `task_type=...` (or a pre-built `defender=`), keeps your
+framework's document objects and retrieval order, and slots in right after the
+retriever. Guide:
+<https://github.com/SecAI-Lab/RAGDefender/blob/main/docs/integrations.md>.
+
 ## CLI
 
 ```bash
@@ -58,6 +76,7 @@ ragdefender evaluate --test-data test.json --attack poisonedrag --task-type sing
   <https://github.com/SecAI-Lab/RAGDefender>
 - Tutorial: [QUICKSTART.md](https://github.com/SecAI-Lab/RAGDefender/blob/main/QUICKSTART.md)
 - Algorithm walk-through (paper §4): [docs/algorithm.md](https://github.com/SecAI-Lab/RAGDefender/blob/main/docs/algorithm.md)
+- Framework adapters (LangChain / LlamaIndex / Haystack / Guardrails): [docs/integrations.md](https://github.com/SecAI-Lab/RAGDefender/blob/main/docs/integrations.md)
 
 ## Citation
 

@@ -20,11 +20,12 @@ This repo is the official artifact for the ACSAC 2025 paper:
 | Path | What it is |
 |---|---|
 | `ragdefender/` | The pip-installable Python library. Stage-1 / Stage-2 from paper §4. |
-| `examples/` | Two minimal scripts: `basic_usage.py` (single-call demo) and `integration_with_retriever.py` (mock retriever → defender → mock LLM). |
+| `ragdefender/integrations/` | Drop-in adapters for LangChain, LlamaIndex, Haystack and Guardrails AI, each behind an optional extra. See [Use it inside your RAG framework](#use-it-inside-your-rag-framework). |
+| `examples/` | `basic_usage.py` (single-call demo), `integration_with_retriever.py` (mock retriever → defender → mock LLM), and `integrations/` (one runnable script per framework adapter). |
 | `claims/claim{1_poisonedrag,2_tan,3_garag}/` | The three ACSAC reproducibility claims. Each has `claim.txt`, `run.sh`, and an `expected/result.txt` to diff against. |
 | `artifacts/` | Research code that produced the paper's tables and figures (uses the `artifact_acsac` conda env). |
-| `tests/` | 55 pytest tests including byte-equivalence regression against v0.1.1. |
-| `docs/` | [`algorithm.md`](docs/algorithm.md), [`reproducing-paper.md`](docs/reproducing-paper.md), [`migration-0.1-to-0.2.md`](docs/migration-0.1-to-0.2.md), [`RELEASING.md`](docs/RELEASING.md). |
+| `tests/` | Core pytest suite (incl. byte-equivalence regression against v0.1.1) plus `tests/integrations/`, which self-skip unless the framework extras are installed. |
+| `docs/` | [`algorithm.md`](docs/algorithm.md), [`integrations.md`](docs/integrations.md), [`reproducing-paper.md`](docs/reproducing-paper.md), [`migration-0.1-to-0.2.md`](docs/migration-0.1-to-0.2.md), [`RELEASING.md`](docs/RELEASING.md). |
 
 ## Installation
 
@@ -32,6 +33,12 @@ For everyday library use:
 
 ```bash
 pip install ragdefender
+```
+
+With the adapter for your RAG framework (all four need Python ≥ 3.10):
+
+```bash
+pip install "ragdefender[langchain]"      # or: llama-index | haystack | guardrails | integrations (all four)
 ```
 
 For working from a clone (development, custom models, ablations):
@@ -91,6 +98,54 @@ from ragdefender import (
 
 See [`docs/algorithm.md`](docs/algorithm.md) for how each piece maps to the
 paper's equations, and [`QUICKSTART.md`](QUICKSTART.md) for a longer tutorial.
+
+## Use it inside your RAG framework
+
+RAGDefender is a post-retrieval filter, so it maps onto the post-processing hook
+each framework already has. One class per framework, no changes to your
+retriever or generator, document metadata and order preserved. Full guide:
+[`docs/integrations.md`](docs/integrations.md); runnable scripts:
+[`examples/integrations/`](examples/integrations/).
+
+**LangChain** — a `BaseDocumentCompressor`:
+
+```python
+from ragdefender.integrations import RAGDefenderCompressor
+
+compressor = RAGDefenderCompressor(task_type="single_hop")
+safe_retriever = compressor.wrap_retriever(vectorstore.as_retriever())   # ContextualCompressionRetriever
+docs = safe_retriever.invoke("What is the capital of France?")
+```
+
+**LlamaIndex** — a `BaseNodePostprocessor`:
+
+```python
+from ragdefender.integrations import RAGDefenderPostprocessor
+
+query_engine = index.as_query_engine(
+    node_postprocessors=[RAGDefenderPostprocessor(task_type="single_hop")],
+)
+```
+
+**Haystack 2.x** — a `@component` between retriever and prompt builder:
+
+```python
+from ragdefender.integrations import RAGDefenderFilter
+
+pipe.add_component("defender", RAGDefenderFilter(task_type="single_hop"))
+pipe.connect("retriever.documents", "defender.documents")
+pipe.connect("defender.documents", "prompt.documents")
+```
+
+**Guardrails AI** — a `Validator` on the retrieved context:
+
+```python
+from guardrails import Guard
+from ragdefender.integrations import RAGDefenderValidator
+
+guard = Guard().use(RAGDefenderValidator(task_type="single_hop", on_fail="fix"))
+safe_context = guard.validate(context, metadata={"query": question}).validated_output
+```
 
 ## Command-line interface
 
@@ -155,6 +210,36 @@ Quick audit:
 ```bash
 PYTHONWARNINGS=error::DeprecationWarning python your_script.py
 ```
+
+## Compare against us
+
+Evaluating a new attack or defense? You do not need the artifact's conda
+environment. The filter is attack-agnostic, runs on CPU, makes no LLM calls,
+and takes plain strings, so it plugs into any evaluation loop with your own
+retriever, corpus and generator:
+
+```python
+from ragdefender import RAGDefender
+
+defender = RAGDefender(task_type="single_hop")                         # "multi_hop" for HotpotQA-style
+for query, retrieved, poisoned_idx in your_benchmark:                  # retrieved: List[str] (top-k)
+    safe, removed = defender.defend(query, retrieved, return_indices=True)
+    stats = defender.get_metrics(retrieved, safe, poisoned_idx)          # filter precision / recall / F1
+    answer = your_llm(query, safe)                                      # ASR / accuracy on the survivors
+```
+
+Reporting notes:
+
+- Report both the filter's precision / recall / F1 against your ground-truth
+  poisoned indices and the end-to-end attack success rate with and without the
+  filter.
+- Pass the *retrieved* set (top-k passages, typically 5–20), not the corpus.
+- The default embedder is `all-MiniLM-L6-v2` (~80 MB, fast). The paper's
+  configuration is `RAGDefender(task_type=..., embedder="stella")` (~1.5 GB);
+  use it when you compare against the paper's numbers. See
+  [`docs/algorithm.md`](docs/algorithm.md).
+- The exact tables come from `ragdefender reproduce claim{1,2,3}`, mapped in
+  [`docs/reproducing-paper.md`](docs/reproducing-paper.md).
 
 ## Citation
 

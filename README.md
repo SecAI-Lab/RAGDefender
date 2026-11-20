@@ -127,6 +127,10 @@ query_engine = index.as_query_engine(
 )
 ```
 
+Also on PyPI as [`llama-index-postprocessor-ragdefender`](https://pypi.org/project/llama-index-postprocessor-ragdefender/),
+so `from llama_index.postprocessor.ragdefender import RAGDefenderPostprocessor`
+works like any other LlamaIndex postprocessor.
+
 **Haystack 2.x** — a `@component` between retriever and prompt builder:
 
 ```python
@@ -146,6 +150,9 @@ from ragdefender.integrations import RAGDefenderValidator
 guard = Guard().use(RAGDefenderValidator(task_type="single_hop", on_fail="fix"))
 safe_context = guard.validate(context, metadata={"query": question}).validated_output
 ```
+
+The `[guardrails]` extra also installs the Guardrails-native path
+`from guardrails_ai.ragdefender import RAGDefenderValidator`.
 
 ## Command-line interface
 

@@ -50,6 +50,11 @@ from ragdefender.integrations import RAGDefenderFilter         # Haystack 2  @co
 from ragdefender.integrations import RAGDefenderValidator      # Guardrails  Validator
 ```
 
+Framework-native import paths are available too: `pip install
+llama-index-postprocessor-ragdefender` gives
+`llama_index.postprocessor.ragdefender.RAGDefenderPostprocessor`, and the
+`[guardrails]` extra ships `guardrails_ai.ragdefender.RAGDefenderValidator`.
+
 Each adapter takes `task_type=...` (or a pre-built `defender=`), keeps your
 framework's document objects and retrieval order, and slots in right after the
 retriever. Guide:

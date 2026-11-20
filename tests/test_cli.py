@@ -7,8 +7,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-import pytest
-
 CLI = [sys.executable, "-m", "ragdefender.cli"]
 
 
@@ -27,7 +25,9 @@ def _run(*args, **kwargs):
 def test_info_returns_zero_and_shows_version():
     res = _run("info")
     assert res.returncode == 0, res.stderr
-    assert "0.2.0" in res.stdout
+    from ragdefender import __version__
+
+    assert __version__ in res.stdout
     assert "ACSAC" in res.stdout
 
 

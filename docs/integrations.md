@@ -80,6 +80,9 @@ serialised).
 
 ```bash
 pip install "ragdefender[llama-index]"
+# or, for the import path LlamaIndex integrations use
+# (from llama_index.postprocessor.ragdefender import RAGDefenderPostprocessor):
+pip install llama-index-postprocessor-ragdefender
 ```
 
 ```python
@@ -137,6 +140,11 @@ built with `defender=` cannot be serialised (the instance is not YAML-able).
 pip install "ragdefender[guardrails]"
 ```
 
+This also installs the `guardrails_ai.ragdefender` namespace module, so the
+validator imports the way Guardrails validators are published today
+(`from guardrails_ai.ragdefender import RAGDefenderValidator`); the deprecated
+`from guardrails.hub import RAGDefenderValidator` shim resolves it as well.
+
 ```python
 from guardrails import Guard
 from ragdefender.integrations import RAGDefenderValidator
@@ -165,33 +173,40 @@ also accepted when you call `validator.validate(passages, metadata)` directly,
 in which case `fix_value` is the filtered list. The class is registered as
 `secai-lab/ragdefender` and follows the Guardrails Hub validator contract.
 
-## Listing RAGDefender in each ecosystem (maintainer notes)
+## Where RAGDefender is listed (maintainer notes)
 
-Where the adapters above get discovered, and what each ecosystem expects:
+None of the four frameworks takes third-party integration code into its own
+repository any more, so "being part of" each one means the following:
 
-- **LangChain** no longer takes integration code into its repositories. After a
-  PyPI release that contains `ragdefender.integrations`, open an *Integration
+- **LangChain** lists external packages in its docs through an *Integration
   listing* issue in [`langchain-ai/docs`](https://github.com/langchain-ai/docs/issues/new/choose)
-  (template `06-integration-submission.yml`: display name
-  `RAGDefenderCompressor`, language Python, component type `retrievers`, PyPI
-  package `ragdefender`). Full hosted guides are reserved for packages with
-  ≥ 50k monthly downloads or featured status; everything else gets a listing.
-- **LlamaIndex** lists integrations that live in the
-  [`run-llama/llama_index`](https://github.com/run-llama/llama_index) monorepo under
-  `llama-index-integrations/postprocessor/llama-index-postprocessor-<name>/`
-  (`pyproject.toml`, `llama_index/postprocessor/<name>/{__init__,base}.py`,
-  `README.md`, `tests/`). A thin `llama-index-postprocessor-ragdefender` package
-  that depends on `ragdefender[llama-index]` and re-exports
-  `RAGDefenderPostprocessor` is enough to appear on LlamaHub.
+  (display name `RAGDefenderCompressor`, component `retrievers`, PyPI package
+  `ragdefender`). Hosted guides are reserved for packages above 50k monthly
+  downloads; everything else gets a provider card that links back to this page.
+- **LlamaIndex** stopped accepting new integration packages in the
+  `run-llama/llama_index` monorepo; the convention is one standalone PyPI
+  package per integration. That is what
+  [`packages/llama-index-postprocessor-ragdefender/`](../packages/llama-index-postprocessor-ragdefender)
+  is: a thin wrapper that depends on `ragdefender[llama-index]` and exposes
+  `llama_index.postprocessor.ragdefender`. The community integrations page of
+  the LlamaIndex docs links to it.
 - **Haystack**'s integrations page is generated from
-  [`deepset-ai/haystack-integrations`](https://github.com/deepset-ai/haystack-integrations):
-  add `integrations/ragdefender.md` with the front-matter the other entries use
-  (`layout: integration`, `name`, `description`, `authors`, `pypi`, `repo`,
-  `type: Custom Component`, `report_issue`, `version: Haystack 2.0`) followed by
-  the usage snippet above.
-- **Guardrails Hub** validators are standalone repositories created from
-  [`guardrails-ai/validator-template`](https://github.com/guardrails-ai/validator-template)
-  (`validator/main.py`, `pyproject.toml`, `tests/`). `RAGDefenderValidator`
-  already follows the contract, so `main.py` can simply import it from
-  `ragdefender.integrations.guardrails`; submission is through the form linked
-  from the Hub. Check the Hub docs for the current process before submitting.
+  [`deepset-ai/haystack-integrations`](https://github.com/deepset-ai/haystack-integrations);
+  `integrations/ragdefender.md` there (type *Custom Component*) documents
+  `RAGDefenderFilter`.
+- **Guardrails AI** retired the Hub registry in August 2026: validators are now
+  plain PyPI packages imported from the `guardrails_ai` namespace, and the
+  `guardrails-ai-<name>` distribution prefix is reserved for Guardrails-owned
+  validators. The core wheel therefore ships `guardrails_ai/ragdefender/`, so
+  `from guardrails_ai.ragdefender import RAGDefenderValidator` works after
+  `pip install "ragdefender[guardrails]"` and the `guardrails.hub` shim finds it.
+  No separate distribution is needed.
+
+Submissions (opened 2026-11-20):
+
+- LlamaIndex docs, community integrations page: [run-llama/llama_index#24352](https://github.com/run-llama/llama_index/pull/24352)
+- Haystack integrations page: [deepset-ai/haystack-integrations#749](https://github.com/deepset-ai/haystack-integrations/pull/749)
+- LangChain: file the *Integration listing* issue from the
+  [issue form](https://github.com/langchain-ai/docs/issues/new?template=06-integration-submission.yml)
+  with the fields above once 0.3.0 is on PyPI.
+- Guardrails AI: nothing to submit; the namespace module above is the whole integration.

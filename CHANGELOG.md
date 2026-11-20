@@ -4,7 +4,7 @@ All notable changes to RAGDefender are recorded here. Format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); the project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) once 1.0 lands.
 
-## [Unreleased]
+## [0.3.0] — 2026-11-20
 
 ### Added
 - **Framework adapters** in `ragdefender.integrations`, each behind an optional
@@ -34,6 +34,21 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) once 1.0 lands.
 - CI: new `integrations` job (Python 3.11) that installs every extra and runs
   `tests/integrations/`; the core job still collects those tests, which
   self-skip when a framework is absent.
+- `guardrails_ai.ragdefender` namespace module, shipped in the core wheel, so
+  the validator imports the way Guardrails validators are published today
+  (`from guardrails_ai.ragdefender import RAGDefenderValidator`); the deprecated
+  `guardrails.hub` shim resolves it too.
+- `packages/llama-index-postprocessor-ragdefender/` — a separate PyPI
+  distribution exposing the postprocessor as
+  `llama_index.postprocessor.ragdefender`, following LlamaIndex's
+  one-package-per-integration convention now that the monorepo no longer
+  accepts new integrations.
+- CI: `build` job builds both distributions and runs `twine check`.
+
+### Changed
+- `publish.sh` no longer insists on a `setup.py`.
+- `tests/test_cli.py` checks the CLI banner against `ragdefender.__version__`
+  instead of a hard-coded version string.
 
 ## [0.2.0] — 2026-05-12
 

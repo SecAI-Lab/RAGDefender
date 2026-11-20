@@ -26,5 +26,13 @@ No LLM calls, no training.
 - Code and framework adapters: <https://github.com/SecAI-Lab/RAGDefender>
 - Install: `pip install ragdefender`
 
-This Space runs the default MiniLM embedder on CPU. The source of the app is
-[`demo/app.py`](https://github.com/SecAI-Lab/RAGDefender/blob/main/demo/app.py) in the repo.
+## Run it locally
+
+```bash
+pip install "ragdefender>=0.3.0" gradio
+python demo/app.py          # then open the printed local URL
+```
+
+The app runs the default MiniLM embedder on CPU. The front-matter above makes this folder
+directly uploadable as a Hugging Face Space (Gradio Spaces need a PRO account as of late 2026):
+`hf upload <user>/ragdefender demo --repo-type space`.

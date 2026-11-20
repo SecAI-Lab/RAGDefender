@@ -4,7 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SecAI-Lab/RAGDefender/blob/main/examples/ragdefender_quickstart.ipynb)
-[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Space-yellow)](https://huggingface.co/spaces/DenisKIMEE/ragdefender)
 
 Efficient post-retrieval defense against knowledge corruption attacks on
 Retrieval-Augmented Generation (RAG) systems. RAGDefender filters out
@@ -23,7 +22,8 @@ This repo is the official artifact for the ACSAC 2025 paper:
 |---|---|
 | `ragdefender/` | The pip-installable Python library. Stage-1 / Stage-2 from paper §4. |
 | `ragdefender/integrations/` | Drop-in adapters for LangChain, LlamaIndex, Haystack and Guardrails AI, each behind an optional extra. See [Use it inside your RAG framework](#use-it-inside-your-rag-framework). |
-| `examples/` | `basic_usage.py` (single-call demo), `integration_with_retriever.py` (mock retriever → defender → mock LLM), and `integrations/` (one runnable script per framework adapter). |
+| `examples/` | `basic_usage.py` (single-call demo), `integration_with_retriever.py` (mock retriever → defender → mock LLM), `integrations/` (one runnable script per framework adapter), and `ragdefender_quickstart.ipynb` (Colab-ready notebook). |
+| `demo/` | Gradio app (`python demo/app.py`): paste a query and passages, see what gets dropped. |
 | `claims/claim{1_poisonedrag,2_tan,3_garag}/` | The three ACSAC reproducibility claims. Each has `claim.txt`, `run.sh`, and an `expected/result.txt` to diff against. |
 | `artifacts/` | Research code that produced the paper's tables and figures (uses the `artifact_acsac` conda env). |
 | `tests/` | Core pytest suite (incl. byte-equivalence regression against v0.1.1) plus `tests/integrations/`, which self-skip unless the framework extras are installed. |
@@ -65,9 +65,9 @@ pip install -e .
 
 Try it without installing anything: the
 [Colab notebook](https://colab.research.google.com/github/SecAI-Lab/RAGDefender/blob/main/examples/ragdefender_quickstart.ipynb)
-runs this example on a free CPU, and the
-[Hugging Face demo](https://huggingface.co/spaces/DenisKIMEE/ragdefender) lets you paste your
-own query and passages.
+runs this example on a free CPU. For a local point-and-click demo,
+`pip install gradio && python demo/app.py` opens a page where you paste a query and
+passages and see what gets dropped.
 
 ```python
 from ragdefender import RAGDefender

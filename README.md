@@ -3,6 +3,8 @@
 [![PyPI version](https://badge.fury.io/py/ragdefender.svg)](https://badge.fury.io/py/ragdefender)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SecAI-Lab/RAGDefender/blob/main/examples/ragdefender_quickstart.ipynb)
+[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Space-yellow)](https://huggingface.co/spaces/DenisKIMEE/ragdefender)
 
 Efficient post-retrieval defense against knowledge corruption attacks on
 Retrieval-Augmented Generation (RAG) systems. RAGDefender filters out
@@ -60,6 +62,12 @@ pip install -e .
 ```
 
 ## Quick start
+
+Try it without installing anything: the
+[Colab notebook](https://colab.research.google.com/github/SecAI-Lab/RAGDefender/blob/main/examples/ragdefender_quickstart.ipynb)
+runs this example on a free CPU, and the
+[Hugging Face demo](https://huggingface.co/spaces/DenisKIMEE/ragdefender) lets you paste your
+own query and passages.
 
 ```python
 from ragdefender import RAGDefender

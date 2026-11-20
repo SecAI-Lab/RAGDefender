@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use RAGDefender, please cite the ACSAC 2025 paper listed under preferred-citation."
+title: "RAGDefender"
+type: software
+authors:
+  - family-names: Kim
+    given-names: Minseok
+    affiliation: Sungkyunkwan University
+  - family-names: Lee
+    given-names: Hankook
+    affiliation: Sungkyunkwan University
+  - family-names: Koo
+    given-names: Hyungjoon
+    affiliation: Sungkyunkwan University
+repository-code: "https://github.com/SecAI-Lab/RAGDefender"
+url: "https://pypi.org/project/ragdefender/"
+abstract: "Efficient post-retrieval defense that filters adversarial passages injected by knowledge corruption attacks (PoisonedRAG, GARAG and similar) out of RAG retrieval results, without retraining or extra LLM calls."
+keywords:
+  - retrieval-augmented generation
+  - knowledge corruption
+  - data poisoning
+  - LLM security
+license: MIT
+version: 0.3.0
+date-released: "2026-11-20"
+preferred-citation:
+  type: conference-paper
+  title: "Rescuing the Unpoisoned: Efficient Defense against Knowledge Corruption Attacks on RAG Systems"
+  authors:
+    - family-names: Kim
+      given-names: Minseok
+    - family-names: Lee
+      given-names: Hankook
+    - family-names: Koo
+      given-names: Hyungjoon
+  collection-title: "Annual Computer Security Applications Conference (ACSAC)"
+  year: 2025
+  doi: "10.1109/ACSAC67867.2025.00093"
+  url: "https://arxiv.org/abs/2511.01268"

@@ -4,6 +4,13 @@ All notable changes to RAGDefender are recorded here. Format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); the project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) once 1.0 lands.
 
+## [Unreleased]
+
+### Changed
+- `publish.yml` uploads through PyPI trusted publishing (no API token secret)
+  and builds the `llama-index-postprocessor-ragdefender` distribution alongside
+  `ragdefender`.
+
 ## [0.3.0] — 2026-11-20
 
 ### Added

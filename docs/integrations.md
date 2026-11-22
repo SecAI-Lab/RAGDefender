@@ -202,13 +202,11 @@ repository any more, so "being part of" each one means the following:
   `pip install "ragdefender[guardrails]"` and the `guardrails.hub` shim finds it.
   No separate distribution is needed.
 
-Submissions (opened 2026-11-20):
+Submissions (opened 2026-11-20 to 2026-11-22):
 
 - LlamaIndex docs, community integrations page: [run-llama/llama_index#24352](https://github.com/run-llama/llama_index/pull/24352)
 - Haystack integrations page: [deepset-ai/haystack-integrations#749](https://github.com/deepset-ai/haystack-integrations/pull/749)
-- LangChain: file the *Integration listing* issue from the
-  [issue form](https://github.com/langchain-ai/docs/issues/new?template=06-integration-submission.yml)
-  with the fields above once 0.3.0 is on PyPI.
+- LangChain integration listing: [langchain-ai/docs#7995](https://github.com/langchain-ai/docs/issues/7995).
 - Guardrails AI: nothing to submit; the namespace module above is the whole integration.
 - Guardrails AI catalog: asked for a third-party listing path in
   [guardrails-ai/guardrails#1709](https://github.com/guardrails-ai/guardrails/issues/1709).
@@ -225,3 +223,7 @@ Submissions (opened 2026-11-20):
   AI Exchange references
   [www-project-ai-security-and-privacy-guide#290](https://github.com/OWASP/www-project-ai-security-and-privacy-guide/pull/290).
   The Solutions Landscape (genai.owasp.org) is a web form and is submitted separately.
+- NeMo Guardrails: retrieval rail proposal
+  [NVIDIA-NeMo/Guardrails#2635](https://github.com/NVIDIA-NeMo/Guardrails/issues/2635);
+  the rail PR follows once the issue is triaged (their contributing rules
+  require a triaged, assigned issue first).

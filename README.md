@@ -5,10 +5,24 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SecAI-Lab/RAGDefender/blob/main/examples/ragdefender_quickstart.ipynb)
 
-Efficient post-retrieval defense against knowledge corruption attacks on
-Retrieval-Augmented Generation (RAG) systems. RAGDefender filters out
-adversarial passages injected by PoisonedRAG / GARAG / Tan et al. before they
-reach your generator, without retraining or extra LLM calls.
+Retrieval-augmented generation (RAG) systems can give false answers when their
+retriever surfaces poisoned passages. **RAGDefender** filters suspicious passages
+before they reach the generator, without retraining or extra LLM calls.
+
+- Supports single-hop and multi-hop question answering.
+- Returns the retained passages and, optionally, the original indices of removed passages.
+- Integrates with LangChain, LlamaIndex, Haystack, and Guardrails AI.
+- Runs from Python or the command line.
+
+[Try the interactive RAG Safety Playground](https://rag-vis-playground.vercel.app/)
+to explore document clusters and see which passages RAGDefender keeps in a
+simulated pipeline.
+
+[![Defense Inspection in the playground showing the query and document clusters in a two-dimensional projection](docs/images/playground-defense-inspection.png)](https://rag-vis-playground.vercel.app/)
+
+The purple target marks the query “What is the capital of France?” The green
+cluster contains the two passages kept by the filter. The red cluster contains
+the three poisoned passages it removes in this example.
 
 This repo is the official artifact for the ACSAC 2025 paper:
 
@@ -63,9 +77,14 @@ pip install -e .
 
 ## Quick start
 
-Try it without installing anything: the
-[Colab notebook](https://colab.research.google.com/github/SecAI-Lab/RAGDefender/blob/main/examples/ragdefender_quickstart.ipynb)
-runs this example on a free CPU. For a local point-and-click demo,
+In the playground, select **Active Defense** and look for **Survived Defense
+Filter** to see the passages that reach the generator in the simulated example.
+
+[![Playground showing two passages about Paris that remain after filtering](docs/images/playground-retained-passages.png)](https://rag-vis-playground.vercel.app/)
+
+Run the Python example below on a free CPU in the
+[Colab notebook](https://colab.research.google.com/github/SecAI-Lab/RAGDefender/blob/main/examples/ragdefender_quickstart.ipynb).
+For a local point-and-click demo,
 `pip install gradio && python demo/app.py` opens a page where you paste a query and
 passages and see what gets dropped.
 
